@@ -58,8 +58,6 @@ shinyUI(
                                                                                 no = icon("remove",lib = "glyphicon"))),
                                              br(),
                                              uiOutput("selectID_card"),
-                                             
-                                             
                                              br(),
                                              h5(strong('LIST of MOTIFS'), class = "text-primary"),
                                              br(),

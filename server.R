@@ -2,7 +2,6 @@ library(ggplot2)
 library(ggthemes)
 library(shiny)
 library(plotly)
-#library(R4RNA)
 library(DT)
 
 shinyServer(function(input, output, session) {
