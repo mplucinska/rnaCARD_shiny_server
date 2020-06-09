@@ -1,4 +1,3 @@
-
 # wersja 10.01.2018
 # funkcje: wyszukiwanie pasujacych spinek, zamykajacych motywy stemow oraz nakladajacch sie stemow
 
@@ -210,16 +209,6 @@ class Transcript:
 		self.matched_motifs = {}
 
 	def input_a(self):
-		out_file = open("matched_motifs_out.txt", 'w')
-		out_file_2 = open("matched_whole_transcripts.txt", 'w')
-		out_file.close()
-		out_file_2.close()
-
-		out_file_3 = open("mismatched_motifs_out.txt", 'w')
-		out_file_4 = open("mismatched_whole_transcripts.txt", 'w')
-		out_file_3.close()
-		out_file_4.close()
-
 		with open(arg.i) as input_f:
 			for i in input_f:
 				if i.startswith(">"):
@@ -339,7 +328,7 @@ class Transcript:
 			self.matched_motifs[self.motifs_count] = [[pos_start, pos_end], s1.domains[new_shape_start : shape_end + 1], [new_shape_start, shape_end], dif]
 
 	def matched_motifs_output(self, s1, s2):
-		out_file = open("matched_motifs_out.txt", 'a')
+		out_file = open("www/working_dir/matched_motifs_out.txt", 'a')
 		for i in self.matched_motifs:
 			pos = self.matched_motifs[i][0]
 			shape_pos = self.matched_motifs[i][2]
@@ -348,7 +337,7 @@ class Transcript:
 			shape = " ".join(self.matched_motifs[i][1])
 			#print shape
 			if len(pos) == 2:
-				line_out = self.id + "\t" + str(i) + "\t" + str(pos[0]) + "\t" + str(pos[1]) + '\t' + shape + "\t" + self.sequence[pos[0] : pos[1] + 1] + "\t" + s1.bracket[pos[0] : pos[1] + 1] + "\t" + s2.bracket[pos[0] : pos[1] + 1] + "\t" + str(s1.domains_position[shape_pos[0]][0]) + "\t" + str(s1.domains_position[shape_pos[1]][1]) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif][0]) + "\t" + str(s2.domains_position[shape_pos[1] + shape_dif][1]) + "\t" + "\n"
+				line_out = self.id + "\t" + str(i) + "\t" + str(pos[0]) + "\t" + str(pos[1]) + '\t' + shape + "\t" + self.sequence[pos[0] : pos[1] + 1] + "\t" + s1.bracket[pos[0] : pos[1] + 1] + "\t" + s2.bracket[pos[0] : pos[1] + 1] + "\t" + str(s1.domains_position[shape_pos[0]][0]) + "\t" + str(s1.domains_position[shape_pos[1]][1]) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif][0]) + "\t" + str(s2.domains_position[shape_pos[1] + shape_dif][1]) + "\n"
 				for k in range(pos[0], pos[1] + 1):
 					self.match_string[int(k)] = str(i)
 			else:
@@ -362,7 +351,7 @@ class Transcript:
 			out_file.write(line_out)
 		out_file.close()
 		
-		out_file_2 = open("matched_whole_transcripts.txt", 'a')
+		out_file_2 = open("www/working_dir/matched_whole_transcripts.txt", 'a')
 		out_file_2.write(self.id + "\t" + self.sequence + "\t" + s1.bracket + "\t" + s2.bracket + "\t" + " ".join(self.match_string) + "\n")
 
 
@@ -450,10 +439,9 @@ class Transcript:
 	def add_mismatching_motif(self, motifs_count, s1, s2, pos_start, pos_end, shape_start, shape_end, out_file_1):
 		line_out = "\t".join([self.id, str(motifs_count), str(pos_start), str(pos_end), s1.bracket[pos_start : pos_end + 1], s2.bracket[pos_start : pos_end + 1]]) + "\n"
 		out_file_1.write(line_out)
-		print(line_out)
-	def print_mismatch(self, s1, s2):
 
-		out_file_1 = open("mismatched_motifs_out.txt", 'a')
+	def print_mismatch(self, s1, s2):
+		out_file_1 = open("www/working_dir/mismatched_motifs_out.txt", 'a')
 		mismatch_string = list("0" * len(self.sequence))
 		start = False
 		self.mismatch_positions = []
@@ -519,7 +507,7 @@ class Transcript:
 			self.mismatch_positions.append([pos_start, pos_end])
 			for k in range(pos_start, pos_end + 1):
 				mismatch_string[int(k)] = str(motifs_count)
-		out_file_2 = open("mismatched_whole_transcripts.txt", 'a')
+		out_file_2 = open("www/working_dir/mismatched_whole_transcripts.txt", 'a')
 		out_file_2.write(self.id + "\t" + self.sequence + "\t" + s1.bracket + "\t" + s2.bracket + "\t" + " ".join(mismatch_string) + "\n")
 
 
