@@ -25,7 +25,7 @@ shinyUI(
                             h3(strong("rnaCARD"), class = "text-muted"),
                             hr(),
                             # rnaCARD input panel
-                            conditionalPanel(condition = "input.submit == '0' & input.load_example == '0'",
+                            conditionalPanel(condition = "input.submit == '0'",
                                              splitLayout(
                                                #paste input
                                                div(style = "margin: 30px; background-color: #ffffff; border-width: 0px; border-color: #ffffff;",
@@ -51,7 +51,7 @@ shinyUI(
                             ), #rnaCARD input panel end
                             
                             #rnaCARD results panel
-                            conditionalPanel(condition = "input.submit == '1' || input.load_example == '1'",
+                            conditionalPanel(condition = "input.submit == '1'",
                                              h5(strong('What are you looking for?'), class = "text-muted"),
                                              radioGroupButtons(inputId = "mode", 
                                                                label = " ",

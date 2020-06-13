@@ -6,8 +6,20 @@ library(DT)
 
 shinyServer(function(input, output, session) {
   
-  observeEvent(c(input$submit, input$load_example), {
-    results <- parseResults(example = TRUE)
+  observeEvent(input$load_example, {
+    shinyjs::enable("submit")
+    shinyjs::click("submit")
+  })
+  
+  observe({
+    if (is.null(input$file1) || (is.null(input$sequence) & is.null(input$str1) & is.null(input$str2))) {
+      shinyjs::disable("submit")
+    } else {
+      shinyjs::enable("submit")
+    }
+  })
+  
+  observeEvent(input$submit, {
     if (input$submit){
       if (!is.null(input$file1)) {
         df <- read.csv(input$file1$datapath, sep = "\t", header = F)
@@ -48,14 +60,7 @@ shinyServer(function(input, output, session) {
       }
       results <- parseResults()
     } else {
-      system(
-        'python rnaCARD.py -i www/working_dir/input_file_rnaCARD_example.txt --match --os --prefix "www/working_dir/output"'
-      )
-      
-      system(
-        'python rnaCARD.py -i www/working_dir/input_file_rnaCARD_example.txt --mismatch --os --prefix "www/working_dir/output"'
-      )
-      results <- parseResults()
+      results <- parseResults(example = TRUE)
     }
     
     card_out <- results$card_out
@@ -95,6 +100,7 @@ shinyServer(function(input, output, session) {
         selected_motifs <-
           subset(card_motifs, card_motifs$ID == state$val)
         
+        print(selected_motifs)
         create_table(selected_motifs)
         
         if (input$mode == 'similar motifs') {
@@ -147,6 +153,20 @@ shinyServer(function(input, output, session) {
       if (length(s)) {
         cat('MOTIF #')
         cat(s, sep = ', ')
+      }
+    })
+    
+    observeEvent(input$mode, {
+      if (input$mode == "similar motifs") {
+        shinyjs::show(id = 'rna_m')
+        shinyjs::show(id = 'rna_m2')
+        shinyjs::show(id = 'motif_header')
+        shinyjs::show(id = 'motif_count_header')
+      } else{
+        shinyjs::hide(id = 'rna_m')
+        shinyjs::hide(id = 'rna_m2')
+        shinyjs::hide(id = 'motif_header')
+        shinyjs::hide(id = 'motif_count')
       }
     })
   })
@@ -268,10 +288,15 @@ shinyServer(function(input, output, session) {
                                ))
    }
   create_table <- function(selected_motifs) {
+    if (input$mode == 'similar motifs') {
+      table <- as.data.frame(selected_motifs)[c(2,3,4,5)]
+    } else {
+      table <- as.data.frame(selected_motifs)[c(2,3,4)]
+    }
     output$table_motifs <-
       renderDT(
         datatable(
-          as.data.frame(selected_motifs)[c(2,3,4,5)],
+          table,
           class = 'table-light',
           options = list(pageLength = 15) ,
           selection = list(mode = 'single', selected = c(1)),
@@ -451,5 +476,4 @@ shinyServer(function(input, output, session) {
       )
     return(results)
   }
-
-  })
+})
