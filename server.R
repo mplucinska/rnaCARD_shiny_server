@@ -46,7 +46,9 @@ shinyServer(function(input, output, session) {
       }
       results <- parseResults()
       
-    } else if (input$load_example) {
+    }
+    
+    if (input$load_example) {
       results <- parseResults(example = TRUE)
     }
     
@@ -56,6 +58,7 @@ shinyServer(function(input, output, session) {
     card_mismatch_motifs <- results$card_mismatch_motifs
     
     state = reactiveValues(choice = unique(card_out$X1))
+    
     output$selectID_card <- renderUI({
       selectInput("selected_tr", strong(h5("Select transcript ID:")), state$choice, selected = 1)
     })
@@ -76,7 +79,7 @@ shinyServer(function(input, output, session) {
         state$val <- input$selected_tr
         selected_transcript <-
           subset(card_out, card_out$X1 == state$val)
-        print(selected_transcript)
+        
         draw_overview_structure(
           selected_transcript$X3,
           selected_transcript$X4,
@@ -85,12 +88,11 @@ shinyServer(function(input, output, session) {
         )
         selected_motifs <-
           subset(card_motifs, card_motifs$ID == state$val)
-        print(selected_motifs)
+        
         create_table(selected_motifs)
         
         if (input$mode == 'similar motifs') {
           observeEvent(input$table_motifs_rows_selected, {
-            print(input$table_motifs_rows_selected)
             if (!is.null(input$table_motifs_rows_selected)) {
               draw_motif(selected_motifs[input$table_motifs_rows_selected,], selected_transcript)
             }
