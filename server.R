@@ -5,71 +5,96 @@ library(plotly)
 library(DT)
 
 shinyServer(function(input, output, session) {
-  observeEvent(input$submit, {
-    output$sequence <- renderText({
-      input$sequence
-    })
+  
+  observeEvent(c(input$submit, input$load_example), {
+    results <- parseResults(example = TRUE)
+    if (input$submit){
+      if (!is.null(input$file1)) {
+        df <- read.csv(input$file1$datapath, sep = "\t", header = F)
+        write.table(df, "www/working_dir/input_file_rnaCARD.txt", row.names = FALSE, col.names = FALSE, quote = FALSE, sep="\t")
+        system(
+          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --mismatch --os'
+        )
+        system(
+          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --match --mismatch --os'
+        )
+      } else if (input$sequence != "") {
+        write(">transcript1", file = "card_input_file.txt")
+        write(input$sequence, file = "card_input_file.txt", append = TRUE)
+        
+        write("seq", file = "card_input_file.txt")
+        write(paste("seq", input$sequence, sep = "\t") ,
+              file = "card_input_file.txt",
+              append = TRUE)
+        
+        write("str1", file = "card_input_file.txt")
+        write(paste("str1", input$str1, sep = "\t") ,
+              file = "card_input_file.txt",
+              append = TRUE)
+        
+        write("str2", file = "card_input_file.txt")
+        write(paste("str2", input$str2, sep = "\t") ,
+              file = "card_input_file.txt",
+              append = TRUE)
+        
+        system(
+          'python rnaCARD.py -i www/working_dir/card_input_file.txt --mismatch --os'
+        )
+        system(
+          'python rnaCARD.py -i www/working_dir/card_input_file.txt --match --os'
+        )
+      }
+      results <- parseResults()
+      
+    } else if (input$load_example) {
+      results <- parseResults(example = TRUE)
+    }
     
-    system(
-      'python rnaCARD.py -i www/working_dir/structures_2mfe_Fold_homosap_100_500.txt --match --os'
-    )
-    
-    
-    card_out <-
-      read_delim(
-        "www/working_dir/matched_whole_transcript.txt",
-        "\t",
-        escape_double = FALSE,
-        col_names = FALSE,
-        trim_ws = TRUE
-      )
-    card_motifs <-
-      read_delim(
-        "www/working_dir/matched_motifs_out.txt",
-        "\t",
-        escape_double = FALSE,
-        col_names = FALSE,
-        trim_ws = TRUE
-      )
-    View(card_motifs)
-    colnames(card_motifs) <-
-      c(
-        "ID",
-        "motif_number",
-        "start position(s)",
-        "end position(s)" ,
-        "shape",
-        "sequence",
-        "structure 1",
-        "structure 2",
-        "s1",
-        "e1",
-        "s2",
-        "e2"
-      )
+    card_out <- results$card_out
+    card_motifs <- results$card_motifs
+    card_mismatch_out <- results$card_mismatch_out
+    card_mismatch_motifs <- results$card_mismatch_motifs
     
     state = reactiveValues(choice = unique(card_out$X1))
     output$selectID_card <- renderUI({
       selectInput("selected_tr", strong(h5("Select transcript ID:")), state$choice, selected = 1)
     })
-    observeEvent(input$selected_tr, {
-      state$val <- input$selected_tr
-      selected_transcript <-
-        subset(card_out, card_out$X1 == state$val)
+    
+    observeEvent(input$mode, {
+      # assign dataframes
+      if (input$mode == 'similar motifs') {
+        card_out <- card_out
+        card_motifs <- card_motifs
+      }
+      else {
+        card_out <- card_mismatch_out
+        card_motifs <- card_mismatch_motifs
+      }
       
-      draw_overview_structure(
-        selected_transcript$X3,
-        selected_transcript$X4,
-        selected_transcript$X5,
-        selected_transcript$X2
-      )
-      selected_motifs <-
-        subset(card_motifs, card_motifs$ID == state$val)
-      create_table(selected_motifs)
-      observeEvent(input$table_motifs_rows_selected, {
-        print(input$table_motifs_rows_selected)
-        if (!is.null(input$table_motifs_rows_selected)) {
-          draw_motif(selected_motifs[input$table_motifs_rows_selected, ], selected_transcript)
+      observeEvent(input$selected_tr, {
+        print(input$selected_tr)
+        state$val <- input$selected_tr
+        selected_transcript <-
+          subset(card_out, card_out$X1 == state$val)
+        print(selected_transcript)
+        draw_overview_structure(
+          selected_transcript$X3,
+          selected_transcript$X4,
+          selected_transcript$X5,
+          selected_transcript$X2
+        )
+        selected_motifs <-
+          subset(card_motifs, card_motifs$ID == state$val)
+        print(selected_motifs)
+        create_table(selected_motifs)
+        
+        if (input$mode == 'similar motifs') {
+          observeEvent(input$table_motifs_rows_selected, {
+            print(input$table_motifs_rows_selected)
+            if (!is.null(input$table_motifs_rows_selected)) {
+              draw_motif(selected_motifs[input$table_motifs_rows_selected,], selected_transcript)
+            }
+          })
         }
       })
     })
@@ -117,7 +142,8 @@ shinyServer(function(input, output, session) {
       }
     })
   })
-  colors <-
+ 
+   colors <-
     c(
       "#ef9a9a",
       "#F48FB1",
@@ -307,302 +333,118 @@ shinyServer(function(input, output, session) {
       'hoverClosestCartesian',
       'hoverCompareCartesian'
     )
-  
-  observeEvent(input$submit_norm, {
-    if (!is.null(input$file2)) {
-      df <- read.csv(input$file2$datapath,
-                     sep = "\t",
-                     header = F)
-      download_all(df)
-      state = reactiveValues(choice = unique(df$V1))
-      output$selectID <- renderUI({
-        selectInput("selected", strong(h5("Select transcript ID:")), state$choice  , selected = 1)
-      })
-    } else{
-      dfp <-
-        as.data.frame(matrix(unlist(strsplit(
-          input$counts, "\n"
-        )[[1]])))
-      df <-
-        data.frame(do.call('rbind', strsplit(as.character(dfp$V1), '\t', fixed =
-                                               TRUE)))
-      state = reactiveValues(choice = unique(df$X1))
-      download_all(df)
-      output$selectID <- renderUI({
-        selectInput("selected", strong(h5("Select transcript ID:")), state$choice  , selected = 1)
-      })
-    }
-    
-    observeEvent(input$selected, {
-      state$val <- input$selected
-      data_selected_1 <- subset(df, df$V1 == state$val)
-      #print(as.numeric(input$ID_col))
-      data_selected <-
-        cbind(data_selected_1[input$ID_col],
-              data_selected_1[input$position_col],
-              data_selected_1[input$control_col],
-              data_selected_1[input$treated_col])
-      #if (sum(data_selected$V3) > 0){
-      res <- rnaPRE_results(data_selected)
-      normalized_all_data <- res[1]
-      table_res <- res[2]
-      draw_plots(normalized_all_data, table_res)
-      #}
-    })
-  })
-  
-  download_all_button <- function() {
-    output$download <- downloadHandler(
-      filename <- function() {
-        paste("aaaa", "csv", sep = ".")
-      },
-      content = function(file) {
-        file.copy("www/working_dir/output_all_rnaPRE.txt", file)
-      }
-    )
-  }
-  
-  download_all <- function(df) {
-    #promise for download all data
-    d_all <- future({
-      write.table(
-        df,
-        "www/working_dir/input_all_rnaPRE",
-        row.names = FALSE,
-        col.names = FALSE,
-        quote = FALSE
-      )
-      system(
-        'python new_normalization.py -i www/working_dir/input_all_rnaPRE -o www/working_dir/output_all_rnaPRE.txt '
-      )
-      normalized_all_data <-
+
+  parseResults <- function(example = FALSE){
+    # parse and display CARD results (column names etc.)
+    if (example == FALSE){
+      card_out <-
         read_delim(
-          "www/working_dir/output_all_rnaPRE.txt",
+          "www/working_dir/matched_whole_transcript.txt",
           "\t",
           escape_double = FALSE,
           col_names = FALSE,
           trim_ws = TRUE
         )
-    }) %plan% multiprocess
-    
-    observeEvent(input$calculate, {
-      disable("calculate")
-      while (!resolved(d_all)) {
-        Sys.sleep(1)
-      }
-      download_all_button()
-      output$done <- renderText(1)
-    })
-  }
-  
-  observeEvent(input$load_example, {
-    output$done <- renderText(0)
-    df <- read.csv("test_multiple" , sep = "\t", header = F)
-    df <- df[which(df$V1 %in% c('RDN18-1', 'RDN25-1')), ]
-    
-    
-    download_all(df)
-    
-    state = reactiveValues(choice = unique(df$V1))
-    output$selectID <- renderUI({
-      selectInput("selected", h6(strong("Select transcript ID:")), state$choice, selected = 1)
-    })
-    
-    observeEvent(input$selected, {
-      state$val <- input$selected
-      data_selected_1 <- subset(df, df$V1 == state$val)
-      data_selected <-
-        cbind(data_selected_1[input$ID_col],
-              data_selected_1[input$position_col],
-              data_selected_1[input$control_col],
-              data_selected_1[input$treated_col])
-      res <- rnaPRE_results(data_selected)
-      normalized_all_data <- res[1]
-      table_res <- res[2]
-      draw_plots(normalized_all_data, table_res)
-      #}
       
-    })
-  })
-  
-  observeEvent(input$new_analysis, {
-    session$reload()
-  })
-  
-  
-  rnaPRE_results <- function(df) {
-    write.table(
-      df,
-      "www/working_dir/input_file_rnaPRE",
-      row.names = FALSE,
-      col.names = FALSE,
-      quote = FALSE
-    )
-    system(
-      'python new_normalization.py -i www/working_dir/input_file_rnaPRE -o www/working_dir/output_file_rnaPRE.txt '
-    )
-    normalized_all_data <-
-      read_delim(
-        "www/working_dir/output_file_rnaPRE.txt",
-        "\t",
-        escape_double = FALSE,
-        col_names = FALSE,
-        trim_ws = TRUE
-      )
-    system('rm www/working_dir/output_file_rnaPRE.txt')
-    maxy <-
-      read_delim(
-        "www/working_dir/maxy_output_file_rnaPRE.txt",
-        "\t",
-        escape_double = FALSE,
-        col_names = FALSE,
-        trim_ws = TRUE
-      )
-    output$maxy2 <- renderText(as.numeric(maxy[1, 1]))
-    system('rm www/working_dir/maxy_output_file_rnaPRE.txt')
-    output$maxy <- renderText(as.numeric(maxy[1, 1]))
-    if (maxy == '0') {
-      createAlert(
-        session,
-        "alert",
-        "exampleAlert",
-        title = "Oops",
-        content = "Choose another transcript. Not enough positions with stops to calculate reactivity.",
-        append = FALSE,
-        style = 'danger'
-      )
-    }
-    print(as.numeric(maxy[1, 1]))
-    normalized_all_data$X7[normalized_all_data$X8 == "F"] <- 0
-    normalized_all_data$colour[normalized_all_data$X7 < 1.2] <-
-      "0.9 - 1.2"
-    normalized_all_data$colour[normalized_all_data$X7 < 0.9] <-
-      "0.6 - 0.9"
-    normalized_all_data$colour[normalized_all_data$X7 < 0.6] <-
-      "< 0.6"
-    normalized_all_data$colour[normalized_all_data$X7 > 1.2] <-
-      "> 1.2"
-    write.csv(normalized_all_data[, c(1, 2, 5, 7)],
-              "www/working_dir/output_rnaPRE.csv",
-              row.names = FALSE)
-    table_res <-
-      as.data.frame(
-        cbind(
-          df,
-          normalized_all_data$X5 ,
-          normalized_all_data$X6 ,
-          normalized_all_data$X8
+      card_motifs <-
+        read_delim(
+          "www/working_dir/matched_motifs_out.txt",
+          "\t",
+          escape_double = FALSE,
+          col_names = FALSE,
+          trim_ws = TRUE
         )
-      )
-    colnames(table_res) <-
+      
+      card_mismatch_out <-
+        read_delim(
+          "www/working_dir/mismatched_whole_transcripts.txt",
+          "\t",
+          escape_double = FALSE,
+          col_names = FALSE,
+          trim_ws = TRUE
+        )
+      
+      card_mismatch_motifs <-
+        read_delim(
+          "www/working_dir/mismatched_motifs_out.txt",
+          "\t",
+          escape_double = FALSE,
+          col_names = FALSE,
+          trim_ws = TRUE
+        )
+    } else {
+      card_out <-
+        read_delim(
+          "www/working_dir/example_matched_whole_transcripts.txt",
+          "\t",
+          escape_double = FALSE,
+          col_names = FALSE,
+          trim_ws = TRUE
+        )
+      
+      card_motifs <-
+        read_delim(
+          "www/working_dir/example_matched_motifs_out.txt",
+          "\t",
+          escape_double = FALSE,
+          col_names = FALSE,
+          trim_ws = TRUE
+        )
+      
+      card_mismatch_out <-
+        read_delim(
+          "www/working_dir/example_mismatched_whole_transcripts.txt",
+          "\t",
+          escape_double = FALSE,
+          col_names = FALSE,
+          trim_ws = TRUE
+        )
+      
+      card_mismatch_motifs <-
+        read_delim(
+          "www/working_dir/example_mismatched_motifs_out.txt",
+          "\t",
+          escape_double = FALSE,
+          col_names = FALSE,
+          trim_ws = TRUE
+        )
+    }
+    
+    
+    colnames(card_mismatch_motifs) <-
       c(
         "ID",
-        "position",
-        "counts in control",
-        "counts in modified",
-        "normalized count in control" ,
-        "reactivity",
-        "passed filter"
+        "motif_number",
+        "start position(s)",
+        "end position(s)" ,
+        "structure 1",
+        "structure 2"
       )
-    return(list(normalized_all_data, table_res))
-  }
-  
-  draw_plots <- function(ndata, table_res) {
-    ndata <- as.data.frame(ndata)
-    #download selscted transcript
-    print(unique(ndata$X1))
-    output$downloadData <- downloadHandler(filename <- function() {
-      paste(unique(ndata$X1), "csv", sep = ".")
-    },
-    content <- function(file) {
-      file.copy("www/working_dir/output_rnaPRE.csv", file)
-    })
     
-    output$plot_scatter1 <- renderPlotly({
-      p <- plot_ly(ndata, x = ~ X3, y = ~ X4)
-      ggplotly(p) %>% config(displayModeBar = T,
-                             modeBarButtonsToRemove = list_buttons) %>% layout(
-                               margin = m,
-                               yaxis = list(title = "stops control"),
-                               xaxis = list(title = "stops treated", range = c(0, max(
-                                 ndata$X3, ndata$X4
-                               ))),
-                               xaxis = list(title = "")
-                             )
-    })
-    
-    output$plot_scatter2 <- renderPlotly({
-      p <- plot_ly(ndata,
-                   x = ~ X3,
-                   y = ~ X5,
-                   color = ~ X8)
-      ggplotly(p) %>% config(displayModeBar = T,
-                             modeBarButtonsToRemove = list_buttons) %>% layout(
-                               showlegend = FALSE,
-                               margin = m,
-                               yaxis = list(title = "normalized stops control"),
-                               xaxis = list(title = "stops treated", range = c(0, max(
-                                 ndata$X3, ndata$X5
-                               )))
-                             )
-    })
-    
-    output$plot_histogram <- renderPlotly({
-      p <- plot_ly(ndata, x = ~ log)
-      ggplotly(p) %>% config(displayModeBar = T,
-                             modeBarButtonsToRemove = list_buttons) %>% layout(
-                               showlegend = FALSE,
-                               margin = m,
-                               xaxis = list(title = "log2(FC)")
-                             )
-    })
-    
-    output$plot_histogram2 <- renderPlotly({
-      p <- plot_ly(ndata, x = ~ X7)
-      ggplotly(p) %>% config(displayModeBar = T,
-                             modeBarButtonsToRemove = list_buttons) %>% layout(
-                               showlegend = FALSE,
-                               margin = m,
-                               xaxis = list(title = "log2(FC)")
-                             )
-    })
-    
-    output$table_results <-
-      renderDT(
-        as.data.frame(table_res)[-1],
-        filter = list(position = 'bottom', clear = FALSE),
-        options = list(pageLength = 15),
-        rownames = FALSE
-      ) #%>% formatStyle(1:5, 'text-align' = 'left')
-    
-    output$plot <- renderPlotly({
-      colour_map = c(
-        `0.9 - 1.2` = "#AD4C41",
-        `0.6 - 0.9` = "#F2C05C",
-        `< 0.6 ` = "#C1BAB6",
-        `> 1.2` = "#D0864E"
+    colnames(card_motifs) <-
+      c(
+        "ID",
+        "motif_number",
+        "start position(s)",
+        "end position(s)" ,
+        "shape",
+        "sequence",
+        "structure 1",
+        "structure 2",
+        "s1",
+        "e1",
+        "s2",
+        "e2"
       )
-      #p <- ggplot(normalized_all_data, aes(X2, as.character(X7), fill = colour)) + geom_bar()
-      p <-
-        plot_ly(
-          ndata,
-          x = ~ X2,
-          y = ~ X7,
-          color = ~ colour,
-          colors = c("#C1BAB6", "#AD4C41", "#D0864E", "#F2C05C"),
-          type = 'bar'
-        ) #+ scale_fill_manual(breaks = c("0.9 - 1.2", "0.6 - 0.9", "< 0.6", "> 1.2"), values=c("#AD4C41", "#F2C05C", "#C1BAB6", "#D0864E"))
-      ggplotly(p) %>% config(displayModeBar = T,
-                             modeBarButtonsToRemove = list_buttons) %>% layout(
-                               yaxis = list(fixedrange = T, title = "reactivity"),
-                               legend = list(orientation = 'h', y = -0.2),
-                               xaxis = list(title = "")
-                             )
-    })
     
-    m <- list(l = 50,
-              r = 50,
-              b = 50,
-              t = 50)
+    results <-
+      list(
+        card_out = card_out,
+        card_motifs = card_motifs,
+        card_mismatch_out = card_mismatch_out,
+        card_mismatch_motifs = card_mismatch_motifs
+      )
+    return(results)
   }
-})
+
+  })
