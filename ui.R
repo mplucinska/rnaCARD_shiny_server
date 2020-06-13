@@ -22,8 +22,6 @@ shinyUI(
                #tab rnaCARD
                tabPanel("rnaCARD",
                         div(class = "container-fluid main-container",
-                            h3(strong("rnaCARD"), class = "text-muted"),
-                            hr(),
                             # rnaCARD input panel
                             conditionalPanel(condition = "input.submit == '0'",
                                              splitLayout(
@@ -52,6 +50,14 @@ shinyUI(
                             
                             #rnaCARD results panel
                             conditionalPanel(condition = "input.submit == '1'",
+                                             fluidRow(
+                                               column(8,h3(strong("rnaCARD"), class = "text-muted"), span(textOutput("done"),style="color:white")),
+                                               column(2, actionButton( "new_analysis", "Start new analysis", class="btn-info")),
+                                               column(2,
+                                                      downloadButton("downloadData", "Download results", style='font-size:90%')),
+                                               column(1, "")
+                                             ),
+                                             hr(),
                                              h5(strong('What are you looking for?'), class = "text-muted"),
                                              radioGroupButtons(inputId = "mode", 
                                                                label = " ",

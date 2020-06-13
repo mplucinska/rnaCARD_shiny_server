@@ -5,62 +5,123 @@ library(plotly)
 library(DT)
 
 shinyServer(function(input, output, session) {
-  
   observeEvent(input$load_example, {
     shinyjs::enable("submit")
     shinyjs::click("submit")
   })
   
   observe({
-    if (is.null(input$file1) || (is.null(input$sequence) & is.null(input$str1) & is.null(input$str2))) {
+    if (is.null(input$file1) ||
+        (is.null(input$sequence) &
+         is.null(input$str1) & is.null(input$str2))) {
       shinyjs::disable("submit")
     } else {
       shinyjs::enable("submit")
     }
   })
   
+  observeEvent(input$new_analysis, {
+    session$reload()
+  })
+  
   observeEvent(input$submit, {
-    if (input$submit){
-      if (!is.null(input$file1)) {
-        df <- read.csv(input$file1$datapath, sep = "\t", header = F)
-        
-        write.table(df, "www/working_dir/input_file_rnaCARD.txt", row.names = FALSE, col.names = FALSE, quote = FALSE, sep="\t")
-        system(
-          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --match --os --prefix "www/working_dir/output"'
+    sessions_id <- stringi::stri_rand_strings(1, 5)
+    if (!is.null(input$file1)) {
+      df <- read.csv(input$file1$datapath,
+                     sep = "\t",
+                     header = F)
+      
+      write.table(
+        df,
+        "www/working_dir/input_file_rnaCARD.txt",
+        row.names = FALSE,
+        col.names = FALSE,
+        quote = FALSE,
+        sep = "\t"
+      )
+      system(
+        paste(
+          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --match --os --prefix "www/working_dir/rnaCARD_"',
+          sessions_id,
+          sep = ""
         )
-        
-        system(
-          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --mismatch --os --prefix "www/working_dir/output"'
+      )
+      
+      system(
+        paste(
+          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --mismatch --os --prefix "www/working_dir/rnaCARD_"',
+          sessions_id,
+          sep = ""
         )
-      } else if (input$sequence != "") {
-        write(">transcript1", file = "card_input_file.txt")
-        write(input$sequence, file = "card_input_file.txt", append = TRUE)
-        
-        write("seq", file = "card_input_file.txt")
-        write(paste("seq", input$sequence, sep = "\t") ,
-              file = "card_input_file.txt",
-              append = TRUE)
-        
-        write("str1", file = "card_input_file.txt")
-        write(paste("str1", input$str1, sep = "\t") ,
-              file = "card_input_file.txt",
-              append = TRUE)
-        
-        write("str2", file = "card_input_file.txt")
-        write(paste("str2", input$str2, sep = "\t") ,
-              file = "card_input_file.txt",
-              append = TRUE)
-        
-        system(
-          'python rnaCARD.py -i www/working_dir/card_input_file.txt --mismatch --os --prefix "www/working_dir/output"'
+      )
+      results <- parseResults(session_id = sessions_id)
+      zip_results(sessions_id)
+      
+      output$downloadData <- downloadHandler(filename <- function() {
+        paste("rnaCARD_", sessions_id,".zip", sep = "")
+      },
+      content <- function(file) {
+        output_file_name <-
+          paste("www/working_dir/rnaCARD_", sessions_id, ".zip", sep = "")
+        file.copy(output_file_name, file)
+      })
+      
+    } else if (input$sequence != "") {
+      write(">transcript1", file = "card_input_file.txt")
+      write(input$sequence, file = "card_input_file.txt", append = TRUE)
+      
+      write("seq", file = "card_input_file.txt")
+      write(paste("seq", input$sequence, sep = "\t") ,
+            file = "card_input_file.txt",
+            append = TRUE)
+      
+      write("str1", file = "card_input_file.txt")
+      write(paste("str1", input$str1, sep = "\t") ,
+            file = "card_input_file.txt",
+            append = TRUE)
+      
+      write("str2", file = "card_input_file.txt")
+      write(paste("str2", input$str2, sep = "\t") ,
+            file = "card_input_file.txt",
+            append = TRUE)
+      
+      system(
+        paste(
+          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --match --os --prefix "www/working_dir/rnaCARD_"',
+          sessions_id,
+          sep = ""
         )
-        system(
-          'python rnaCARD.py -i www/working_dir/card_input_file.txt --match --os --prefix "www/working_dir/output"'
+      )
+      system(
+        paste(
+          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --match --os --prefix "www/working_dir/rnaCARD_"',
+          sessions_id,
+          sep = ""
         )
-      }
-      results <- parseResults()
+      )
+      
+      results <- parseResults(session_id = sessions_id)
+      zip_results(sessions_id)
+      
+      output$downloadData <- downloadHandler(filename <- function() {
+        paste("rnaCARD_", sessions_id, ".zip", sep = "")
+      },
+      content <- function(file) {
+        output_file_name <-
+          paste("www/working_dir/rnaCARD_", sessions_id, ".zip", sep = "")
+        file.copy(output_file_name, file)
+      })
+      
     } else {
       results <- parseResults(example = TRUE)
+      output$downloadData <- downloadHandler(filename <- function() {
+        paste("rnaCARD_example", ".zip", sep = "")
+      },
+      content <- function(file) {
+        output_file_name <-
+          paste("www/working_dir/rnaCARD_example", ".zip", sep = "")
+        file.copy(output_file_name, file)
+      })
     }
     
     card_out <- results$card_out
@@ -106,7 +167,7 @@ shinyServer(function(input, output, session) {
         if (input$mode == 'similar motifs') {
           observeEvent(input$table_motifs_rows_selected, {
             if (!is.null(input$table_motifs_rows_selected)) {
-              draw_motif(selected_motifs[input$table_motifs_rows_selected,], selected_transcript)
+              draw_motif(selected_motifs[input$table_motifs_rows_selected, ], selected_transcript)
             }
           })
         }
@@ -170,8 +231,8 @@ shinyServer(function(input, output, session) {
       }
     })
   })
- 
-   colors <-
+  
+  colors <-
     c(
       "#ef9a9a",
       "#F48FB1",
@@ -193,105 +254,119 @@ shinyServer(function(input, output, session) {
       "#B0BEC5"
     )
   
-   draw_motif <- function(motif, transcript) {
-     if (grepl(" ", motif$s1, fixed = TRUE)) {
-       seq_m1 <-
-         paste(
-           substr(
-             transcript$X2,
-             strsplit(motif$s1, " ")[[1]][1],
-             strsplit(motif$e1, " ")[[1]][1]
-           ),
-           "&",
-           substr(
-             transcript$X2,
-             strsplit(motif$s1, " ")[[1]][2],
-             strsplit(motif$e1, " ")[[1]][2]
-           ),
-           sep = ""
-         )
-       seq_m2 <-
-         paste(
-           substr(
-             transcript$X2,
-             strsplit(motif$s2, " ")[[1]][1],
-             strsplit(motif$e2, " ")[[1]][1]
-           ),
-           "&",
-           substr(
-             transcript$X2,
-             strsplit(motif$s2, " ")[[1]][2],
-             strsplit(motif$e2, " ")[[1]][2]
-           ),
-           sep = ""
-         )
-       col_m1 <-
-         changeColors(paste(strsplit(transcript$X5, " ")[[1]][strsplit(motif$s1, " ")[[1]][1]:strsplit(motif$e1, " ")[[1]][1]], collapse = " "))
-       print(col_m1)
-       col_m2 <-
-         changeColors(paste(strsplit(transcript$X5, " ")[[1]][strsplit(motif$s2, " ")[[1]][1]:strsplit(motif$e2, " ")[[1]][1]], collapse = " "))
-       str_m1 <-
-         paste(
-           substr(
-             transcript$X3,
-             strsplit(motif$s1, " ")[[1]][1],
-             strsplit(motif$e1, " ")[[1]][1]
-           ),
-           "&",
-           substr(
-             transcript$X3,
-             strsplit(motif$s1, " ")[[1]][2],
-             strsplit(motif$e1, " ")[[1]][2]
-           ),
-           sep = ""
-         )
-       str_m2 <-
-         paste(
-           substr(
-             transcript$X4,
-             strsplit(motif$s2, " ")[[1]][1],
-             strsplit(motif$e2, " ")[[1]][1]
-           ),
-           "&",
-           substr(
-             transcript$X4,
-             strsplit(motif$s2, " ")[[1]][2],
-             strsplit(motif$e2, " ")[[1]][2]
-           ),
-           sep = ""
-         )
-     } else {
-       seq_m1 <- substr(transcript$X2, as.numeric(motif$s1) + 1, as.numeric(motif$e1) + 1)
-       seq_m2 <- substr(transcript$X2, as.numeric(motif$s2) + 1, as.numeric(motif$e2) + 1)
-       col_m1 <-
-         changeColors(paste(strsplit(transcript$X5, " ")[[1]][as.numeric(motif$s1):as.numeric(motif$e1)+1], collapse = " "))
-       col_m2 <-
-         changeColors(paste(strsplit(transcript$X5, " ")[[1]][as.numeric(motif$s2):as.numeric(motif$e2)+1], collapse = " "))
-       str_m1 <- substr(transcript$X3, as.numeric(motif$s1) + 1, as.numeric(motif$e1) + 1)
-       str_m2 <- substr(transcript$X4, as.numeric(motif$s2) + 1, as.numeric(motif$e2) + 1)
-     }
-     
-     session$sendCustomMessage("position_message",
-                               list(pos = 1))
-     
-     session$sendCustomMessage("message_motif",
-                               list(
-                                 seq_m = seq_m1,
-                                 str_m = str_m1,
-                                 col = col_m1
-                               ))
-     session$sendCustomMessage("message_motif2",
-                               list(
-                                 seq_m = seq_m2,
-                                 str_m = str_m2,
-                                 col = col_m2
-                               ))
-   }
+  draw_motif <- function(motif, transcript) {
+    if (grepl(" ", motif$s1, fixed = TRUE)) {
+      seq_m1 <-
+        paste(
+          substr(
+            transcript$X2,
+            strsplit(motif$s1, " ")[[1]][1],
+            strsplit(motif$e1, " ")[[1]][1]
+          ),
+          "&",
+          substr(
+            transcript$X2,
+            strsplit(motif$s1, " ")[[1]][2],
+            strsplit(motif$e1, " ")[[1]][2]
+          ),
+          sep = ""
+        )
+      seq_m2 <-
+        paste(
+          substr(
+            transcript$X2,
+            strsplit(motif$s2, " ")[[1]][1],
+            strsplit(motif$e2, " ")[[1]][1]
+          ),
+          "&",
+          substr(
+            transcript$X2,
+            strsplit(motif$s2, " ")[[1]][2],
+            strsplit(motif$e2, " ")[[1]][2]
+          ),
+          sep = ""
+        )
+      col_m1 <-
+        changeColors(paste(strsplit(transcript$X5, " ")[[1]][strsplit(motif$s1, " ")[[1]][1]:strsplit(motif$e1, " ")[[1]][1]], collapse = " "))
+      print(col_m1)
+      col_m2 <-
+        changeColors(paste(strsplit(transcript$X5, " ")[[1]][strsplit(motif$s2, " ")[[1]][1]:strsplit(motif$e2, " ")[[1]][1]], collapse = " "))
+      str_m1 <-
+        paste(
+          substr(
+            transcript$X3,
+            strsplit(motif$s1, " ")[[1]][1],
+            strsplit(motif$e1, " ")[[1]][1]
+          ),
+          "&",
+          substr(
+            transcript$X3,
+            strsplit(motif$s1, " ")[[1]][2],
+            strsplit(motif$e1, " ")[[1]][2]
+          ),
+          sep = ""
+        )
+      str_m2 <-
+        paste(
+          substr(
+            transcript$X4,
+            strsplit(motif$s2, " ")[[1]][1],
+            strsplit(motif$e2, " ")[[1]][1]
+          ),
+          "&",
+          substr(
+            transcript$X4,
+            strsplit(motif$s2, " ")[[1]][2],
+            strsplit(motif$e2, " ")[[1]][2]
+          ),
+          sep = ""
+        )
+    } else {
+      seq_m1 <-
+        substr(transcript$X2,
+               as.numeric(motif$s1) + 1,
+               as.numeric(motif$e1) + 1)
+      seq_m2 <-
+        substr(transcript$X2,
+               as.numeric(motif$s2) + 1,
+               as.numeric(motif$e2) + 1)
+      col_m1 <-
+        changeColors(paste(strsplit(transcript$X5, " ")[[1]][as.numeric(motif$s1):as.numeric(motif$e1) +
+                                                               1], collapse = " "))
+      col_m2 <-
+        changeColors(paste(strsplit(transcript$X5, " ")[[1]][as.numeric(motif$s2):as.numeric(motif$e2) +
+                                                               1], collapse = " "))
+      str_m1 <-
+        substr(transcript$X3,
+               as.numeric(motif$s1) + 1,
+               as.numeric(motif$e1) + 1)
+      str_m2 <-
+        substr(transcript$X4,
+               as.numeric(motif$s2) + 1,
+               as.numeric(motif$e2) + 1)
+    }
+    
+    session$sendCustomMessage("position_message",
+                              list(pos = 1))
+    
+    session$sendCustomMessage("message_motif",
+                              list(
+                                seq_m = seq_m1,
+                                str_m = str_m1,
+                                col = col_m1
+                              ))
+    session$sendCustomMessage("message_motif2",
+                              list(
+                                seq_m = seq_m2,
+                                str_m = str_m2,
+                                col = col_m2
+                              ))
+  }
   create_table <- function(selected_motifs) {
     if (input$mode == 'similar motifs') {
-      table <- as.data.frame(selected_motifs)[c(2,3,4,5)]
+      table <- as.data.frame(selected_motifs)[c(2, 3, 4, 5)]
     } else {
-      table <- as.data.frame(selected_motifs)[c(2,3,4)]
+      table <- as.data.frame(selected_motifs)[c(2, 3, 4)]
     }
     output$table_motifs <-
       renderDT(
@@ -363,13 +438,18 @@ shinyServer(function(input, output, session) {
       'hoverClosestCartesian',
       'hoverCompareCartesian'
     )
-
-  parseResults <- function(example = FALSE){
+  
+  parseResults <- function(example = FALSE, session_id) {
     # parse and display CARD results (column names etc.)
-    if (example == FALSE){
+    if (example == FALSE) {
       card_out <-
         read_delim(
-          "www/working_dir/output_matched_whole_transcripts.txt",
+          paste(
+            "www/working_dir/rnaCARD_",
+            session_id,
+            "_matched_whole_transcripts.txt",
+            sep = ""
+          ),
           "\t",
           escape_double = FALSE,
           col_names = FALSE,
@@ -378,7 +458,12 @@ shinyServer(function(input, output, session) {
       
       card_motifs <-
         read_delim(
-          "www/working_dir/output_matched_motifs_out.txt",
+          paste(
+            "www/working_dir/rnaCARD_",
+            session_id,
+            "_matched_motifs_out.txt",
+            sep = ""
+          ),
           "\t",
           escape_double = FALSE,
           col_names = FALSE,
@@ -387,7 +472,12 @@ shinyServer(function(input, output, session) {
       
       card_mismatch_out <-
         read_delim(
-          "www/working_dir/output_mismatched_whole_transcripts.txt",
+          paste(
+            "www/working_dir/rnaCARD_",
+            session_id,
+            "_mismatched_whole_transcripts.txt",
+            sep = ""
+          ),
           "\t",
           escape_double = FALSE,
           col_names = FALSE,
@@ -396,7 +486,12 @@ shinyServer(function(input, output, session) {
       
       card_mismatch_motifs <-
         read_delim(
-          "www/working_dir/output_mismatched_motifs_out.txt",
+          paste(
+            "www/working_dir/rnaCARD_",
+            session_id,
+            "_mismatched_motifs_out.txt",
+            sep = ""
+          ),
           "\t",
           escape_double = FALSE,
           col_names = FALSE,
@@ -476,4 +571,15 @@ shinyServer(function(input, output, session) {
       )
     return(results)
   }
+  
+  zip_results <- function(sessions_id) {
+    files <- list.files(path = "www/working_dir", pattern = paste("rnaCARD_", sessions_id, sep=""), full.names = TRUE)
+    zip(
+      zipfile = paste("www/working_dir/rnaCARD_", sessions_id, ".zip", sep = ""),
+      files = files
+    )
+   file.remove(files)
+  }
+  
 })
+    
