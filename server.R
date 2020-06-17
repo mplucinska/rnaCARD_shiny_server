@@ -11,7 +11,7 @@ shinyServer(function(input, output, session) {
   })
   
   observe({
-    if (is.null(input$file1) ||
+    if (is.null(input$file1) &
         (is.null(input$sequence) &
          is.null(input$str1) & is.null(input$str2))) {
       shinyjs::disable("submit")
