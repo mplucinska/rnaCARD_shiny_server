@@ -67,34 +67,35 @@ shinyServer(function(input, output, session) {
       })
       
     } else if (input$sequence != "") {
-      write(">transcript1", file = "card_input_file.txt")
-      write(input$sequence, file = "card_input_file.txt", append = TRUE)
       
-      write("seq", file = "card_input_file.txt")
+      file.name <- paste("www/working_dir/", sessions_id, "input_file_rnaCARD.txt", sep = "")
+      write(">transcript1", file = file.name)
       write(paste("seq", input$sequence, sep = "\t") ,
-            file = "card_input_file.txt",
+            file = file.name,
             append = TRUE)
       
-      write("str1", file = "card_input_file.txt")
       write(paste("str1", input$str1, sep = "\t") ,
-            file = "card_input_file.txt",
+            file = file.name,
             append = TRUE)
       
-      write("str2", file = "card_input_file.txt")
       write(paste("str2", input$str2, sep = "\t") ,
-            file = "card_input_file.txt",
+            file = file.name,
             append = TRUE)
       
       system(
         paste(
-          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --match --os --prefix "www/working_dir/rnaCARD_"',
+          'python rnaCARD.py -i ',
+          file.name,
+          ' --match --os --prefix "www/working_dir/rnaCARD_"',
           sessions_id,
           sep = ""
         )
       )
       system(
         paste(
-          'python rnaCARD.py -i www/working_dir/input_file_rnaCARD.txt --match --os --prefix "www/working_dir/rnaCARD_"',
+          'python rnaCARD.py -i ',
+          file.name,
+          ' --mismatch --os --prefix "www/working_dir/rnaCARD_"',
           sessions_id,
           sep = ""
         )
@@ -576,7 +577,8 @@ shinyServer(function(input, output, session) {
     files <- list.files(path = "www/working_dir", pattern = paste("rnaCARD_", sessions_id, sep=""), full.names = TRUE)
     zip(
       zipfile = paste("www/working_dir/rnaCARD_", sessions_id, ".zip", sep = ""),
-      files = files
+      files = files,
+      extras = '-j'
     )
    file.remove(files)
   }
