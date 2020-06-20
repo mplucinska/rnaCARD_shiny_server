@@ -401,6 +401,10 @@ shinyServer(function(input, output, session) {
   draw_overview_structure <- function(str1_, str2_, col, seq)
   {
     #FORNA view
+    print(str1_)
+    print(str2_)
+    print(col)
+    print(seq)
     new_colors <- changeColors(col)
     session$sendCustomMessage(
       "mymessage",
