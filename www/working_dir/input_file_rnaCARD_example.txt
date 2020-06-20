@@ -1,0 +1,688 @@
+>ENST00000054668|420	
+seq	ATGGAAACCAACGTATTTCATCTTATGCTCTGCGTCACTTCTGCTCGGACTCATAAATCCACGTCTCTTTGCTTTGGCCACTTCAACTCATATCCAAGCCTTCCTTTAATTCATGATTTATTGCTGGAAATATCCTTTCAACTCTCAGCACCTCATGAAGACGCGCGCTTAACTCCGGAGGAGCTAGAAAGAGCTTCCCTTCTACAGATACTGCCAGAGATGCTGGGTGCAGAAAGAGGGGATATTCTCAGGAAAGCAGACTCAAGTACCAACATTTTTAACCCAAGAGGAAATTTGAGAAAGTTTCAGGATTTCTCTGGACAAGATCCTAACATTTTACTGAGTCATCTTTTGGCCAGAATCTGGAAACCATACAAGAAACGTGAGACTCCTGATTGCTTCTGGAAATACTGTGTCTGA
+str1	.(((((....(((((...(((...)))...)))))...))))).((((((.((....(((((((.((((.((((.((................))))))..........(((((((.....(((((((..............)).)))))..))))))).................((.((((((......)))))))).....(((((.((((((((((((((.((((......(((((....))))).((...((........)).))............(((.((((((.(((((((...))))))).))))))))).................)))).)).)))).))))).))).)))))..........)))).))))).)).(((.((.....)).))).....)).))))))
+str2	.(((((....(((((...(((...)))...)))))...))))).((((((.((....(((((((.((.(((.((((((((.................((.(((((....(((((((.....(((((((..............)).)))))..)))))))...((((..........((.((((((......)))))))).....(((...)))((((.....)))))))).....(((((....)))))))))).)).((((((.(((........(((...(((.((((((.(((((((...))))))).)))))))))...)))...........)))))))))......))))))))...(((...)))..))))).))))).)).(((.((.....)).))).....)).))))))
+>ENST00000165086|464	
+seq	TGGAAAGAGGAAGACCGCCAGAAAACAGATCAACCACATCCTTCAAAAGGACTATGCCTGTTTATAAGCCCAGCTGTTTCTGCCCTGTGAAACACGGAAAATGTTTCAACGTGCGCAAGAGTTGCGGCGGCGAGCAGAGGACTACCACAAATGCAAAATCCCCCCTTCTGCAAGAAAGGCTCTTTGCAACTGGGTCAGAATGGCGGCAGCGGAGCATCGTCATTCTTCAGGATTGCCCTACTGGCCCTACCTCACAGCTGAAACTTTAAAAAACAGGATGGGCCACCAGCCACCTCCTCCAACTCAACAACATTCTATAACTGATAACTCCCTGAGCCTCAAGACACCTCCCGAGTGTCTGCTCACTCCCCTTCCACCCTCAGCGGATGATAATCTCAAGACACCTCCCGAGTGTGTGCTCACTCCCCTTCCACCCTCAGCGGATGATAATCTCAAGACACCTC
+str1	(((((.((((.((...(((((.((((((..((......(((((...)))))...)).))))))....((((((.(((....(((.(.(((((((.......))))))).(((((((((...)))).)).))).(((((((........................))))))).....)))).....))).)))))).(((((((((((......))..)))))))))..(((.....))).))))).)).))))...(((((.............((((..(((.....)))...))))..................................(((((....((((((.......)))))))))))..............))))).(((....)))..............(((((......)))))...))))).((.....)).....................
+str2	(((.(((.(((...(((((...((((((..((......(((((...)))))...)).)))))).......(((((.((..(((....(((((((.......)))))))....))).)).))))).))))).(((..(((((..(((.((..((((((.....((.((((...)))).))...))))))..))))).(((((((((((......))..)))))))))...((....))((..((((((..(((......(((....)))......)))..))))))..)).....)))))...)))...........................(((((......(((((((..((((((((............(((.........)))...........))))).)))..))).))))))))).))).)))))).((.....)).....................
+>ENST00000176195|366	
+seq	ATGGCCCCCCGGCCCCTCCTGCTGCTGCTGCTGCTCCTCGGGGGCTCCGCCGCGCGCCCCGCGCCCCCCAGGGCCCGGCGACACTCAGACGGGACGTTCACCAGCGAGCTCAGCCGCCTGCGGGAGGGCGCGCGGCTCCAGCGGCTGCTACAGGGCCTGGTGGGGAAGCGCAGCGAGCAGGACGCAGAGAACAGCATGGCCTGGACCAGGCTCAGCGCGGGTCTGCTCTGCCCGTCAGGGTCCAACATGCCCATCCTGCAGGCCTGGATGCCCCTGGACGGGACCTGGTCTCCCTGGCTGCCCCCTGGGCCTATGGTTTCAGAACCAGCTGGCGCTGCTGCAGAAGGAACCTTGCGGCCCAGATGA
+str1	..(((..((.((((..((((((((((((.(((..((((((.((((((.(((((..(((.((((((((((.((((..(((....(((....((........))...)))....)))))))..))).))))))).)))....))))).......))))))..)))))))))))))).))))))).((((.((...(((((...((((((.(((.(((.(((....))).)))...)))..)))))).)))))...)))))).)))).))..)))((.((..(((((...))))))).)).......(((((((((.((((((.....((((.......)))).....)))))).)).)))))))....
+str2	..((((....)))).(((.((((((((((((.((((((((.((((((.(((((..(((.((((((((((.((((..(((....(((....((........))...)))....)))))))..))).))))))).)))....))))).......))))))..))))).)))))))).))))....))))))..((((..((...((((((((..(((.(((....))).)))((((((((((((((...(((.......)))....))))...)))).)))))).)))))))).))..))))....(((((((((.((((((.....((((.......)))).....)))))).)).)))))))....
+>ENST00000165524|264	
+seq	ATGAAGGTGCTGAGGGCCTGGCTCCTGTGCCTGCTGATGCTGGGCCTGGCCCTGCGGGGAGCTGCAAGTCGTACCCATCGGCACTCCATGGAGATCCGCACCCCTGACATCAATCCTGCCTGGTACGCCAGTCGCGGGATCAGGCCTGTGGGCCGCTTCGGTCGGAGGAGGGCAACCCTGGGGGACGTCCCCAAGCCTGGCCTGCGACCCCGGCTGACCTGCTTCCCCCTGGAAGGCGGTGCTATGTCGTCCCAGGATGGCTGA
+str1	.....(((((...(((((.(((.((.(((........))).))))).))))).((((....)))).....))).)).(((((..(((..((((((..((((((((..((...(((((((((((....))))..))))))).((((..((.(((((....(((((.(((.((((.....((((((...)))))).))))..))).))))).))))).))..)))).....))..))).)))))...))).)))..)))..)))))
+str2	.....(((((((((((..(((((....(((..(((..(((.((((...)))).)))...))).))))))))..))).)))))))).(((((....(((((..(((((......((((((((((....))))..)))))))))))..)))))((((....(((((.(((.((((.....((((((...)))))).))))..))).))))).))))..(((..(((((....)))))..))).))))).((((....)))).....
+>ENST00000216155|497	
+seq	CGCGCACGCGCACGGGCCGGCGGCGCGCGCCGAGCGGGGGGCACCGCGCGGGTGCAGCCACGATGGAAGGGGGTGCGTACGGAGCGGGCAAAGCCGGGGGCGCCTTCGACCCCTACACCCTGGTCCGGCAGCCGCACACCATCCTGCGCGTCGTGTCTTGGCTGTTCTCCATAGTGGTGTTCGGCTCCATCGTGAACGAGGGCTACCTCAACAGCGCCTCCGAGGGGGAGGAGTTCTGCATCTACAACCGCAACCCCAACGCCTGCAGCTATGGCGTGGCCGTGGGCGTGCTCGCCTTCCTCACCTGCCTGCTGTACCTGGCCCTGGACGTGTACTTCCCGCAGATCAGCAGCGTCAAGGACCGCAAGAAAGCCGTCCTGTCCGACATCGGTGTCTCGGCATGGGAGATGCACTCTTGAATGTCCCTCTGTTCCTCGGCTTCCCCATTTTCTCCCCACTCACCCTCTCCCCCATGTGTGGCACTGCCTATTCTGCCC
+str1	.(((....)))..((((.(((((.((((.(((.((((......)))).))))))).((((((((((.((((((((.((..((((.(((..(((((((((((((....((((..........)))).((.(((((.(((((((..((.((((((.....)))).))....))..))))))).))))))).........((((....))))....)))))))).((((((((((((...((((((...........((((((((((((.(((((...))))).)))))))).((.((..((((....(((.(((((...(((.(...(((........))).))))..))))))))...))))..)).))...((((......(((....))).....)))).)))))))))))))))......))))))).......))))).))).....))))..)).))))))))...)))).)))))).)))))......))))
+str2	.(((....)))..((((.(((((.((((.(((.((((......)))).))))))).((((((((((.((((((((.((..((((.(((..(((((((((((((....((((..........)))).((.(((((.(((((((..((.((((((.....)))).))....))..))))))).))))))).........((((....))))....)))))))).((((((((((((...((((((...........((((((((((((.(((((...))))).))))))))....(((.....((((.((.(((((...(((.(...(((........))).))))..)))))))(((.(((((.((......)).)))))....)))...))))....))).)))))))))))))))......))))))).......))))).))).....))))..)).))))))))...)))).)))))).)))))......))))
+>ENST00000339867|399	
+seq	ATGAACCACACTGTCCAAACCTTCTCCTCTCCTGTCAACAGCGGCCATCCCCCCCAACTATGAGATGCTCAAGGAGGAGCACGAGGTGGCTGTGCTGAGGGCACCCCACAACCCTGCTCCCCGACATCCACCATGATCCACAGCCGCAGCGAGACCTCCGTGCCCGACCGTGTCGTCTGATCCCTGTTCAACACCCTCTTCGTGAACCCCTGCTGCCTGGGCTTCATAGCATTTGCTTATTCCGTGAAGTCTAGGGACAGGAAGATGGTTGGTGACCTGACTGGGGCCCAGGCGTATGCCTCCACCGCCAAGTGCCTGAACATCTGAGCCCTGATTGTGGACATCCTCATGACCATTCTGCTCATCATCATCCGGGTGTTGATCTTCCAAGCCTATCGA
+str1	...............................(((....))).(((.........((...((.(((((..((.((.((.(((((((((.(((((((((.(((...................................))).))).))))))...)))).)))))))..)).)).))))).))...)).(((((((((.....((((...((((...(((((((((((((((....)))......))))))))))))..)))).(((((...(((.((.((..(((((...((((....)))))).))).)).)))))....)))))((((...((..((((.(((....))).)))))).)))).)))).....)))))))))........)))......
+str2	....((.((((.(((.....((((((((...(((....))).(((.(((..............))))))..))))))))((((((((.(((((((((.(((...................................))).))).))))))...)))).))))...))).)))).)).((((..((..(((((((((.....((((...((((...(((((((((((((((....)))......))))))))))))..)))).(((((...(((.((.((..(((((...((((....)))))).))).)).)))))....)))))((((...((..((((.(((....))).)))))).)))).)))).....))))))))).......))...)))).
+>ENST00000334680|296	
+seq	CTGCTATACAACTGAGCCTACCTTTCTTGAAACCATGAGCTTTGATAACAACTACCATGGTGGCCAGGGCTATGCCAAAGGAGGCCTGGGCTGCAGCTATGGCTGTGGTCTTAGCGGCTATGGCTATGCCTGCTACTGCCCATGGTGTTATGAAAGATCTTGGTTTTCTGGCTGCTTCTGAGAAATTAGAGATTGCTGATCTGTTTAGGCCATTCTCTTATGAGCTATGTTTTCTTCCCGTGTTTTTTTCTGTTCAAAGAGTGACAACTAAAATTTAGCCCACATTGCCAAGTCAG
+str1	..(((.........)))............((((((.((.((((.(((((....(((((((.((((.(((((...((...)).))))).))))((((.(((((((((((((.....))))))))))))).))))......)))))))))))).)))).)).)))))).((((((((.(((((....)))))....(((((....(((((......(((((.(((((..........................))))))))))......)))))..))))).......))..))))))
+str2	..(((.........)))............((((((.((.((((.(((((....((((((((((...((((...((((.((...((..((((((((((....))))))))))..))..)).))))...))))....))))).)))))))))).)))).)).)))))).((((((((.(((((....)))))....(((((....(((((......(((((.(((((..........................))))))))))......)))))..))))).......))..))))))
+>ENST00000314140|393	
+seq	ATGAAGCTGGCATTCCTCTTCCTTGGCCCCATGGCCCTCCTCCTTCTGGCTGGCTATGGCTGTGTCCTCGGTGCCTCCAGTGGGAACCTGCGCACCTTTGTGGGCTGTGCCGTGAGGGAGTTTACTTTCCTGGCCAAGAAGCCAGGCTGCAGGGGCCTTCGGATCACCACGGATGCCTGCTGGGGTCGCTGTGAGACCTGGGAGAAACCCATTCTGGAACCCCCCTATATTGAAGCCCATCATCGAGTCTGTACCTACAACGAGACCAAACAGGTGACTGTCAAGCTGCCCAACTGTGCCCCGGGAGTCGACCCCTTCTACACCTATCCCGTGGCCATCCGCTGTGACTGCGGAGCCTGCTCCACTGCCACCACGGAGTGTGAGACCATCTGA
+str1	....((.(((.......((((.((((((((((((((..((.......))..))))))))..........(((.(((.....))).))).((((((((....))).))))).....(((((......))))))))))))))).((((((((((..((...(((((..(((((((((..((..(((((((((......((((((((((.....))))((......)).....(((......)))....((((((.......)).))))...((((....))))...((...........)))))))))).))))))).....))..))).))))))..)))))..))..))))..))))))(((((((.((.....)))))).))).))).))..
+str2	....((.(((.......((((.((((((((((((((..((.......))..))))))))..........(((.(((.....))).))).((((((((....))).))))).....(((((......))))))))))))))).((((((((((..((...(((((..(((((((((..((..(((((((((......((((((......(((...)))........(((((((.(((.(((((((..((((((.......)).))))......))))).))....)))...))).)))).)))))))).))))))).....))..))))).))))..)))))..))..))))..))))))(((((((.((.....)))))).))).))).))..
+>ENST00000324799|376	
+seq	GGATGAACTAGTGAAGGCCCCAAACATTGACCAACTGGCATCCCACAGCCTCCTCTTCCAGAATGCCTTTGCGCAGCAAGCAGTGTGCGCCCCGAGCCGCGTTTCTTTCCTCACTGGCAGGAGACCTGACACCACCCGCCTGTACGACTTCAACTCCTACTGGAGGGTGCACGCTGGAAACTTCTCCACCATCCCCCAGTACTTCAAGGAGAATGGCTATGTGACCATGTCGGTGGGAAAAGTCTTTCACCCTGGTACTGCTCCACGTCCAGAGTCTGGGTTCTCTTGGTTTGTGGTGTCTGAATCCAGCATTCCCATCCTGGGGATGGGGCTGTCTTTGCAGAGCCCTCTTCTGGCTGGGCGAGTCCTTCGCTAG
+str1	.......((((((((((.................(((........))).((((((..((((((.((.((((((((((...((((((((((((.....((.(((((((.((.....)).))))))).))..........((.(((.((.......)).))).)).))))))))))))((......))..(((((((((((((((....((.(((.((((......((((....))))....)))).))).))..)))))))..(((((.((((((........))).)))..))))).(.(((....))))...........)))))))).)))))....)))))))....))))))..))).))).))))))))))
+str2	.......((((((((((......((((((.....((((((.....((..((........))..))....))).)))....)))))).(((((..(((((.(((((((.((.....)).)))))))..((((((((..(((.....(((((..((((.((((((.(((((.....((((......)))).))))).))))))......(((...(((....(((.(((....((((((........)))))).))))))....)))..))).))))..))))).....)))..)))))))).........((((((((...))))))))(((((..........))))).....))))))))))...))))))))))
+>ENST00000339144|484	
+seq	GCCCACAGCCCTGCTGATAAAAGCAAAGCTCATCTCTGCCGTGCTGCAGGGAACCCTATTTCCTTCCCCTGCAGCTCAGCCACCTCCTCCTCTCAGGTCTGCCAGCCATGAAACTTCTTTACCTGTTTCTTGCCATCCTTCTGGCCATAGAAGAACCAGTGATATCAGCTCTGGTGAGGACAGTGGGATGCTGCCTGGATACTGCCAGGCAAACGCCACATCCTTCGATGCATGGGTAACAGTGGAATTTGTAGGGCCTCTTGCAAAAAGAACGAACAGCCCTACCTCTATTGCAGAAATTGTCAGTCCTGCTGCCTCCAGTCCTACATGAGGATAAGCATTTCTGGCAAAGAGGAAAATACCGACTGGTCTTATGAGAAGCAGTGGCCAAGACTACCTTGAGTGCTGGTGATTACCATTCTCAAGCTCTCTGGGCACAGAGACCTGCTGTCAACCCCCCTCATTAAAATTCATGTGCCTGCTA
+str1	......(((..((((......))))..))).......((...(((((((((((..........)).)))))))))...)).((((.........))))..((.(((((((((.............(((((.((((......))))...))))).(((((...........)))))(((((..((((.....(((((((......)))))))....)))).))))).((((...((((.(((((((.....(((((((.((((.....)))).......)))))))((((.((((((((((.((..(((((((((....))))........)))))..)))))))).))))))))...((.(((....))).)).((((((..(((.((((..(((......)))..)))).)))....))))))...((((((....)))))).)))))))..))))....))))....)))))).).))))..
+str2	......(((..((((......))))..))).......((...(((((((((((..........)).)))))))))...)).((((.........))))..(.((((((((((.((...((((.((.(((((((((......)))).....))))).))))))....))...((((((((((((((((....(((((((......)))))))...(((((...((((....((((((...((((((.((((.((((((.((((.....)))).......))))))(((((.((((((((((.((..(((((((((....))))........)))))..)))))))).))))))))).)))).)).))))..)))))).))))..))))).........((((((...((((....))))..)))))).((((((....)))))))))))))).......))))))))...)))))).)).)))..
+>ENST00000335123|422	
+seq	ATGTCCTGCCAGCAGAGCCAGCAGCAGTGCCAGCCCCCTCCCAAGTGCACCCCCAAGTGCCCTCCCAAGTGCCCCACTCCTAAGTGCCCCCCAAAGTGTCCCCCTAAGTGCCCTCCAGTCTCTTCCTGCTGCAGTGTCAGCTCCGGAGGCTGCTGTGGCTCCAGCTCTGGGGGCGGCTGCAGCTCTGGGGGAGGTGGCTGCTGCCTGAGCCACCACAGGCGCCACAGGTCCCACCGTCACAGACTCCAGAGCTCTGGCTGCTGCAGCCAGCCCTCGGGAGGCTCCAGCTGCTGTGGAGGGGACAGCGGCCAGCACTCTGGAGGCTGCTGCTGAAGCGGACTCTGCACCTAGAAGAGCAGACTCGGGTGAAATGAGTGATCAAACATTTCCTCCTCACCTGTCTCCTCCTGGGCCTGCAAGAG
+str1	.....((((((((((((((..(((.(((((..(((...((((....((((......))))((((((.((.((..((((....)))).((((((.(((............(((...((((((((....((((......))))...))))))))....)))....))).)))))).(((((((((..(((((...(((((....(((((........))))))))))...)))))..(((...))).((((....))))..))))))))).)).)).))))))(((((.......)))))))))....)))..))))))))..)))).))))))..)))).((((((((((((..(((.((((..((((((...(((.((.........))))).)))))))))).))))))))..))).))))
+str2	.....((((((((((((((..(((.(((((..(((...((((....((((......))))((((((..(((((.((((....)))).((((((.((((((((((((((((((...((((((((....((((......))))...))))))))....)))....))).)))))).)))....))).)))))).(((((((........)))))))...)))))....((((...........))))...(((..(((((((...)))))))..)))))))))(((((.......)))))))))....)))..))))))))..)))).))))))..)))).((((((((((((..(((.((((..((((((...(((.((.........))))).)))))))))).))))))))..))).))))
+>ENST00000335535|388	
+seq	TCATTCAGGTTTATCGAAATCCCACCAAGATGTCCTGCCAGCAGAACCAACAGCAGTGCCAGCCCCCTCCCAAGTGTCCTATCCCCAAGTATCCCCCAAAATGTCCCTCAAAGTGTGCATCCTCATGCCCACCTCCAATCTCTTCCTGCTGTGGCTCCAGCTCTGGGGGCTGTGGTTGCTGCAGCTCTGAGGGAGGTGGCTGCTGCCTGAGCCACCACAGACACCATAGGTCCCACTGCCACAGACCCAAGAGCTCCAATTGCTATGGCAGTGGCAGTGGCCAGCAGTCTGGGGGTTCTGGCTGCTGCTCTGGAGGGGGCTGTTGCTGACCTGGACCAGGAGCAGCACCAAAGGAATTAGTGGGCGAAGGACCCATTGCAGCCTGGTG
+str1	.......(((((....))))).........(((((((((((.........((((((...(((((((((((..(((.........................................((((....))))((((((((...(((...((((.((((((.((((((...)))))).)))))).))))....)))))))))))..((.(((.(((((.((.(((((......((.((.((((((((....(((..(((.......))).)))..))))))))))))....)))))))))))).))).)).)))..)))))))))))))))))..))))..))))).)).(((((..((...(((((((.......)))))))...)))))))
+str2	.((.(((((((........(((........(((((((((((.........((((((...(((((((((((..(((.........................................((((....))))((((((((...(((...((((.((((((.((((((...)))))).)))))).))))....)))))))))))..((.(((.(((((.((.(((((......((.((.((((((((....(((..(((.......))).)))..))))))))))))....)))))))))))).))).)).)))..)))))))))))))))))..))))..))))).))........)))..(((((((.......))))))).)))))))))
+>ENST00000333650|415	
+seq	ATGGTGTTCAGGCACTTTGTGGAGGTTGGCCAAGTGGCTTACATCTCTGGACCTCATGCTGGAAAGCTGGTTGCGATTATAGATGTTGTTGATGAGAACAGGGCTTTGGTTGGTGGAGCTTGCACTCAGGTAAGGAGACAGGCCATGCCATTTAAATGCATGCAGCTCACTGACTTTATCCTCAAGTTCCCACCCAGTGCCCACCCCAGAGGCATGGCCAAGAAGCCTGGCAGAAGGCAACCATCAATACAAAATGGACAGGCACACAATGGGCCAAGAAGAGTGAAGCCAAAGAAGGGGAAGCCAAAATGATAGATTTTGATCATTTTAGTCATGAAGGCAAAGAAAATGAGGAACAGAATGATCAAGAATTAAATTAAGAAGCTTCAAAAGGCTGCTGTCCTGAAAGCTTCTC
+str1	..(((((..((.(((((.((........)).))))).)).)))))((((..((((((........(((..(((.(((((.(((((.((((......))))((((.((((...((((((((((.....((((.(((((....((.((((.((....))))))))..))).)).))))......)))))).)))))))).)))).((((...(((.(((((.....(((((((.....))..((((.........)))).)))))........)))))...........)))......))))....((((((.....))))))..)))))))))).))).))).......))))))..))))...................((((((((((...(((....))).)).)))))))).
+str2	..(((((....))))).......((((..((...((((((((.(((((((.((.((((((....)))..(((((.....((..(((.(((((((......((((.((((...((((((((((.....((((.(((((....((.((((.((....))))))))..))).)).))))......)))))).)))))))).))))........(((...))).....((((......))))...))))))))))...)).....))).)).))))))).)).)))))).)))))......))..))))..(((..(((.(((((((((((((..((((.............)))).....))))))))))))).))).))).((((((((((...(((....))).)).)))))))).
+>ENST00000321777|325	
+seq	GCTTAAAAAGCTGCACGCAAGTGTTAAACTTCTGTAGGAGGAATACTGTTGGCGTTCAAAAGCATTGCTGTTTCAACAATGGCCAAGAACAAATTAAGAGGGCCGAAGTCCAGGAATGTATTTCACATAGCCAGCCAAAAAAACTTTAAGGCTAAAAACAAAGCAAAACCAGTTACCACTAATCTTAAGAAGGTTCTTCATTTTTCCTAGAAAGGTAAGGATGGTTTCAAGCATTTGTCTAAAAAAATATAAAAAAAAAGGAAGAAAAATAACCTCCCTTTCTTGAAAACAAATGTTGAAAAGAAATAAACATTTTAACTACAAA
+str1	((((...)))).((((....))))........(((((..(((((...((((((....(((.(((((.(((((((......((((................))))))))..))).))))).)))......)))))).......(((.....(((........)))......))).(((..............)))....((((((((((....))).))))))).(((((.((((((((...................(((((((.............)))))))....)))))))))))))..........)))))..)))))..
+str2	((((...)))).((((....))))....(((((.(((((((......((((((....(((.(((((.(((((((......((((................))))))))..))).))))).)))......))))))......((((.....(((........)))......)))).)).....))))))))))......((((((((((....))).))))))).(((((.((((((((...................(((((((.............)))))))....)))))))))))))........................
+>ENST00000330798|384	
+seq	CTCAACCAAATCCTCCACTCTTGAAACCATGTGCTACTACAGCAACTACTATGGTGGTCTGCGTTATGGCTATGGAGTCCTGGGCGGTGGCTATGGCTGTGGCTGTGGTTATGGCCATGGCTATGGAGGCCTGGGCTGTGGCTATGGCCGTGGCTATGGTGGCTATGGATATGGCTGCTGCCGCCCATCTTGCTATGGAAGATACTGGTCCTGTGGCTTCTACTGAGAAATATCTGGCAACTCAACCTCGTGGTCTCTTCCACATGGACTTCCTAAATTTGCCTTCATAATTCTTCATATGAGTAATTCATTTTTCTGTTGTAAAATGTCAACATCATCCTTAAGTATCTGGAAGAAAAAATAGGTCAGATGCTGCAAGCCTCA
+str1	....((((.(((.((((.....((..(((((.((((..((.((((((((....))))).)))))..)))))))))..)).((((((((((((((((((((((((((((((((((((..((((.....))))..)))))))))))))))))))))))))).((((((....)))))).))))))))))........)))).)))..))))...(.(((((....((((((.(((..(((((.....((..((((......))))..))...........)))))...))).))).))).((((......((((((........))))))......)))).....(((((((((.............)))))))))..))))).).
+str2	....((((.(((.((((.....((..(((((.((((..((.((((((((....))))).)))))..)))))))))..)).((((((((((((((((((((((((((((((((((((..((((.....))))..)))))))))))))))))))))))))).((((((....)))))).))))))))))........)))).)))..))))..((.(((((.....(((((((....(((((.....((..((((......))))..))...........))))).(((((........))))).......))))))).((((........))))..........(((((((((.............)))))))))..))))).))
+>ENST00000335021|389	
+seq	TCAGGGCAGTAGAACATATTTTAATCAATGCCCCTTGATAAAAGAGCTTGATTCCAGCTACTGCACTTCCTTCATCAGCTCTCCACTGATGCCTGGAGCCATGAAAATATTTGTCTTTATTTTGGCTGCTCTCATTCTTCTTGCTCAAATTTTCCAAGCCAGGACAGCAATTCATAGAGCACTAATTAGTAAGAGAATGGAAGGTCACTGTGAAGCCGAATGTCTTACCTTTGAAGTAAAGATTGGGGGCTGTAGAGCTGAATTAGCACCATTTTGCTGCAAAAACAGAAAGAAACATTAAAAACTAAGCACCAGCTGCAAGAAACAAAGAGGTGAAGATTCTCTGGCTGCGATATCAGTGGGATAAATCTCTCTGGACCATCTCTCTT
+str1	...(((((....................)))))((((........(((.(((((.((((.((((((((((.((.(((...(((((........)))))...)))..(((((((.((((((..(((((..((.((((((.((((((..((((.(((......)))..((..........))...)))))))))))))))))).)))))..)))))).))))))).((((.......)))).))..))))).)))))))))))))))))....((((.(((......))).))))..............(((....))).))))......(((((((.(((((.(((.((((......)))).)))..)))))........)))))))...
+str2	.....(((((((((....((((.(((((......))))).)))).(((.(((((.((((.((((((((((.((.(((...(((((........)))))...)))..(((((((.((((((..(((((..((.((((((.((((((..((((.(((......)))..((..........))...)))))))))))))))))).)))))..)))))).))))))).((((.......)))).))..))))).)))))))))))))))))....)))))))))...........................(((....)))...........(((((((.(((((.(((.((((......)))).)))..)))))........)))))))...
+>ENST00000334566|481	
+seq	GGACAGGCGATGGAGACGGGGATCAGATGGGAGGGTGACCTGGTGAGAGATTTTCCAGCTGGCAGAAATGTCCTCTACCTTGAGGGAGGCGTGTGACATGGGAGTTCTGTTTAAAGAGGAGAATGGATGGTTACACATCCTGCTTGGGATCCAATCACTGAACCAGAGGGGAACACCGTGCATGATGGGCTGCCCTACCCACTTTACGGATGAGGAAATGGAGGCTCGGGAGATGAAGCTGGCAGACTTCCTCTGGAACTTCCTCTGGACATCTGGAGGGACGTCCTGTCAGCAGAGCAGGCTGGACTGCTTCACAAAGAGGATGCAGCCCCACCTCCCAGCGGGAGTCAGTTCTGCTCTGAGACGTGAGGCTCAGAATCAGATGAAGACTCCTGCTGCTGCATCTTGAAGATAATGATGCTGTTGCTCCCGGCTGGAACCACAGCAGTGGCGATGAGTGAACAGCCAGCAGAGTGGAGCG
+str1	(((...(((((((((..((((.(((((.(((((..((.((.(((.....(((((((((((..((......(((((..((.(((((..((.(((((((......(((((.(((...))).))))).....))))))).((.(((.(((..(((..((.........))..)))...))).))).)).(((...)))..))..))))).))..)))))..))..)))).)))))))...)))))))..))))))))))....((((((((....)))))))).((((((.......((((((......)))))).......))))))...))))..))))(((((((((((...((((.((((((........))))))..))))....)))))))))))..(((((...........))))).)))))))).(((((..((((..((....))..)).))...))))).((........)).
+str2	(((...(((((((((..((((.(((((.(((((..((.((.(((.....(((((((((((..((......(((((..((.(((((..((.(((((((......(((((.(((...))).))))).....)))))))(((((....))))).......(((...))).((((....((((.....))))....)))).))..))))).))..)))))..))..)))).)))))))...)))))))..))))))))))....((((((((....)))))))).((((((.......((((((......)))))).......))))))...))))..))))(((((((((((...((((.((((((........))))))..))))....)))))))))))..(((((...........))))).)))))))).(((((..((((..((....))..)).))...))))).((........)).
+>ENST00000333151|387	
+seq	ATGTCTGGGCGTGGTAAGCAGGGAGGCAAAGCTCGCGCCAAGGCCAAGACCCGCTCTTCTCGGGCCGGGCTTCAGTTTCCCGTAGGCCGAGTGCATCGCCTGCTCCGCAAAGGCAACTATGCGGAGCGGGTCGGTGCTGGAGCGCCGGTGTACCTGGCGGCGGTGCTGGAGTACCTGACCGCCGAGATCCTGGAGCTGGCTGGCAACGCGGCCCGCGACAACAAGAAGACTCGCATCATCCCGCGTCACCTCCAGCTGGCCATCCGCAACGATGAGGAGCTCAACAAGCTTCTGGGCAAAGTCACCATCGCACAGGGTGGCGTCCTGCCCAACATCCAGGCCGTGCTGCTGCCAAAGAAAACTGAGAGCCACCACAAGACTAAGTAA
+str1	..((((....(((((...(((((((((.(((((((.(((..((..((((.....))))))..))))))))))..)))))).(((.((((.(((((((((((((((((((.((....)).))))))))))).))))))....))..)))).))).((((((((((((.((.....((........))..(((((((((((((((..((((((...((((............))))......)))))).....)))))))))((((......))))(((((((.....)))))))(((((..((((((.........))))))....)))))....)))))))))))))))))))).......)))...)))))....)))).......
+str2	..(((((((.((((...((((((.(((...((....))....)))......((((((.(((((.(((((........)))....))))))).(((((((((((((((((.((....)).))))))))))).)))))).))))))((((.((...((((((((((((....))))).).))))))..)).))))((((((..((..((((((...((((............))))......))))))..)).)))))).(((((((....(((((..(((((((.........)))))....))..)))))....))))))).))))))))).).))))))).(((.((((..((........))..)).)).)))............
+>ENST00000331128|393	
+seq	ATGTCAGGACGCGGAAAGCAGGGAGGCAAGGCCCGCGCTAAGGCCAAGTCGCGCTCGTCCCGCGCTGGTCTCCAGTTCCCGGTGGGGCGAGTGCACCGCTTGCTGCGCAAAGGCAACTACGCGGAGCGGGTCGGGGCAGGCGCCCCGGTGTACCTGGCGGCGGTCCTCGAGTACCTGACCGCGGAAATTCTGGAGCTGGCGGGCAACGCGGCTCGGGACAACAAGAAGACGCGCATCATCCCTCGCCATCTGCAACTAGCCGTGAGGAATGACGAAGAGCTCAACAAGTTACTCGGGGGTGTCACCATTGCCCAGGGCGGCGTCTTGCCCAATATCCAGGCTGTCCTGTTGCCCAAGAAAACGGAGAGTCACAAGCCTGGCAAGAACAAGTAA
+str1	.(((((((..((.....))..(((((((((((((((.((..(((.(.((.((((((((((((((((((...))))).....))))))))))))))).(((((((.(((..((....))..))).))))))).(((((....)))))(((((((((....((((((.((..((.((((((((((.....((((.......))))...))))).)))))...))..)).))).))).((((.((((((...(((....)))..)))))).))))(((..((((.....))))..))).))))).))))..)))).)).)))).)))))))).....))).((((.(((.(((.........)))))).)))).....)))))))...........
+str2	.(((((((..((.....))..(((((((((((((((.((..((.((.((.((((((((((((((((((...))))).....))))))))))))))).(((((((.(((..((....))..))).)))))))((((((....)))))).......(((.((((..(((((((((.((...((((.....(((.((((((.((.....)))))))).)))...........))))..((((.((((((...(((....)))..)))))).)))).((.....))....)).))))))))).)))).))).)))).)).)))).)))))))).....))).((((.(((.(((.........)))))).)))).....)))))))...........
+>ENST00000320322|358	
+seq	AAGAAGACTGCTTTTGGTGTTTGCTTTAACCTGATGTCCCCATTATAATAATTCAGAAGGAAAGGCCTGCTCATATAATTTCCTACGGCCTCAGGCCAGAGACAGCCATACTTACAGGACTGGAGGCTGCCACCACTGACATGTTCCACCAGATTCTTGTTGGGCTCAAGAAGCATTCAAGCTTCATCCCCCTTCGTATTTATGAAATCCGGAGGTACTGGAGCAGCGCTGTATGTCCAGCATCTGGCATTGTTCAATCAAGATGTTAGCTGGGACAGAAGACATAAGTCAGAACGCTGGAAGAAACTGGGTCCCAATATTATAATAATCAATAAAGACAAAATATATTTATAGTTTA
+str1	....((((((......((((((((((((...((((......(((((((((.(((.....))).(((.(((((..............((((...)))).))).)))))......((((((((((.((..((............)).)).))))..)))))).(((((((.(((((......))))).(((.((((((.((((...)))).))))))....))).(((((((((...((((((...(((((((..........)))))))))))))))))..(((....)))....)))))........)))))))...))))))))).)))).))))).).)))))).....)))))).
+str2	....((((((......((((((((((((...((((......(((((((((.(((.....))).(((((((((........((((..((((...)))))).)).((((......((((((((((.((..((............)).)).))))..))))))..))))...(((((......))))).....((((((.((((...)))).)))))).....)))))).))).....((((((.((((((.(((......))).(((((..(((...)))..)))))..))))))..))))))......(((...))).))))))))).)))).))))).)))).))).....)))))).
+>ENST00000332302|484	
+seq	CTAGTTGTCTGGTGCTGCTATATAGGGGACGTGGGGTCCCCACAGACCTGCAGGTTCCGGCCCCTCTTTTCTCAACCCAGAGCAAATTGAAACGTCCGGGTCTTCCTGTGGAACTTTCTTATCTCTGCATGGTCTCTGGTGCAGTGGGTAGCAAAGGACCATCTTTCTCTCGGGATTTCCAAAGACTCATGTTACGTGAGGAAGCCACCAAGAAGAGCAAAGAAAAGGAGCCAGGGATGGCTCTTCCTCAGATGGAGTCCTACTCTGCAGCCCAAGCTGGAGTGCAATGGCACGATCTTGGCTCACTGCAACATTCGTCTCTTGTTCTCAAGTTATTCTCGTGCATCAGCCTCCCAGGGACGCTTGACTTTCAGGGATGTGGCTATAGAGTTCTCTTTGGAGGAGTGGAAATGCCTGAACCCTGCACAGAGGGCTTTATACAGGGCTGTGATGTTGGAGAACTACAGGAACCTGGAGTTTGTGG
+str1	.((((.((.....)).))))......((((.....))))((((((((.(.((((((((.......(((((((...(((.((.............)).)))(((((.(((((..(((((((((....(((((((((.(((.....((((.((.((((......))))))))))......))).)))).)))))...)))))))))))).)).)))))....)))))))((((((....)))))).(((......))).(((.((((.(((((((.((((.(((.((((.((.((((.....((.....)).....)))))).)))).))).)))).............((((((((.(((..........))).))))...)))).(((((((((((.((.(((.((((.....))...))))).)).)))))))))))....))))))))).)).)))........)))))))).)))))))))
+str2	.((((.((.....)).))))......((((.....))))(((((((.((.((((((((.......(((((((...(((.((.............)).)))(((((.(((((..(((((((((....(((((((((.(((.....((((.((.((((......))))))))))......))).)))).)))))...)))))))))))).)).)))))....)))))))((((((....)))))).(((......))).(((.((((.(((((((......(((.((((.((.((((.....((.....)).....)))))).)))).))).((((((((((.....(((((.(((...))).)).)))......)))).))))))((((((((((((.((.(((.((((.....))...))))).)).))))))))))))...))))))))).)).)))........)))))))).)))))))))
+>ENST00000340697|249	
+seq	AATCCCAAAACATCTTACTGATGATTACTTCAAGAAGAAGCAGCTGAGGAAGCCCAGACACTAGGAAGGTGAGATCTTTGACACAGAAAAAGAGAAATATGAGATTGCAGAGCAGCCCAAGATTGATCAGAAAGCTGTGGACTCACAAATTTTACCAAAAATCAAAAGTATTCCTCAGCTCCAGTGCTACCTGCGATCTGTGTTTGCTCTGACGAATGGAATTTATCCTCACAAATTGGTGTTTTAAAT
+str1	.......((.((((.....)))).)).((((.....))))..(((.....)))..(((((((((....(((((((......((.......((((((((((.(((((((((((((..................(((((.(((.......(((((....))))).........))).)))))....))))..))))))))))))))).))))......))......)).)))))...))))))))).....
+str2	..(((((.....((((..(((........)))..))))......)).))).....(((((((((....(((((((......((.......((((((((((.(((((((((((((..................(((((.(((.......(((((....))))).........))).)))))....))))..))))))))))))))).))))......))......)).)))))...))))))))).....
+>ENST00000327157|424	
+seq	ACCCACCGCCTCACCTCCTTGCCCAGAGAGACAGGCAACGTAGACCATGGGTTCCCGCTGTGCCAAGCTCAACACAGGCCAGAGCCCAGGCCACAGCCCAGGCCACAGCACGGGCCATGGCCGGGGCCACGAATCCTCCATGAAAAAGCTCATGGCCTGTGTGAGTCAGGATAACTTCTCCTTGTCATCAGCGGGCGAGGAAGAGGAGGAAGAGGAGGAGGAGGGGGAAGAGGAGGAGAAAGAAGAGCTGCCGGTGCAGGGCAAGCTGCTGCTGCTGGAGCCTGAGCGGCAGGAGGAGGGCCACAAGGACAACGCCGAGGCCCAGCAGAGCCCCGAGCCCAAGCGGACACCCTCCTGACCCGCAACGAAGGCCCAGGAAGGGACGCCCACTGCTGCTCCGGCGACAGTGTTCAGAGAAGAGTCA
+str1	.((..((.((((.(((((((..((..........(((.((..((((...))))..)).))).((..(((((.(((((((((((((...(((((..((((..((....))..))))..)))))(((........)))...........)))).))))))))))))))..))....((((((((((((.......))))))).))))).))..)))))))..)))).))....))............(((((((.......))).)))).(((.(((((..(((.(((((((((..((.(((((....((......))..))))).((...)).(((........)))...((((((((..((........))..)))).))))...))..))))))))).)))..)))))..)))..........
+str2	.(((.((.((((.(((((((((((...(((((.((((.((..((((...))))..))...))))..(((((.(((((((((((((...(((((..((((..((....))..))))..)))))(((........)))...........)))).)))))))))))))).((((.......)))).))).))...)))))))))............))..)))).)))))..................(((((((.......))).)))).(((.(((((..(((.(((((((((..((.(((((....((......))..))))).((...)).(((........)))...((((((((..((........))..)))).))))...))..))))))))).)))..)))))..)))..........
+>ENST00000321694|390	
+seq	CACCAACTATTATCCCTGAGATGACCTTGGCTGTGGAACCCAGATTCTGTTCAGGGCCGAGAGCGCCACCTGGTGATTCCAGTTTGTAAACGGAGGCTGGTGGGACCTCAACCCCAGCTGGTATCCAGGCTCTTGACACCATCTGGAGAAGGAATTCAAGAGTGTGTCAGAAAATGATGAAAGTACAAAGATTTATTGCAAAGCGAAAAATACACACTCAAGAAAGGGGAGTATGGGTGGACTCAAGACAGAGTCCGATGGGACTTGGGGTTTCTACCTTTTGGGTTTCTTTTTTTTTTTTTTTTGATATGGAGTCTCGCACTCCAGCCTGGGCTACGAAGGAAGACTCTGTCTCAAAATAAAATAAAATAAAAATAAAGCTGCTATCAA
+str1	......((((..(((((........(((((((.((((...(((...))))))).)))))))..((((....)))).((((((..(((....((((.((((((((........))))........)))).))))..)))....))))))......(((..((((((((((........)))..........((((.((((...)))).)))).)))))))..))).)))))..)))).(((((((......)))))))..((((((((((((....)))))..)))))))..((((.((((.((((((.(((((((((.....((((((....))).....)))))))))))).)))))).)))).)))).....................
+str2	.........(((((.....))))).(((((((.((((...(((...))))))).)))))))...(((....)))(((..((((((......((((((((((((((((((((.((((.((((...))))((((((((..((.((....)).))...)))))))).(((((.....)))))...........((((.((((...)))).)))).((.((((.........)))).))...((((((......))))))..))))..)))))))).))))).....))))))).((((.((((.((((((.(((((((((.....((((((....))).....)))))))))))).)))))).)))).))))........))))))..)))..
+>ENST00000344033|333	
+seq	GCCTACGAGCAGGTACAAAAAGGACTTCTAAAGCTGAAAGGCGTCGCAGAGCTCAGAGTGACCAAGCGGAAGAAGAAAAAGAAGGACAAAGACAAAGCTAAACTCCCGGAATCAATGGGAATGAACAAAAAGAATGAGGAGGAGAAGCAGCACGGCCTGGACAAGTGGACCCCGGCCCGCGCAGCCTTTGAGAAAATGCAGGAGAAGCGGCAATGGAAAGGATCCTCAAGAAAGCATCCAGCATCCAAAACCCACAAGCAGAGAGTGGAGGACTTCAACAGACACCTGGACACACTCACGGAGCATTACATTCCCAGAGTCAGCTGGACGAAA
+str1	((((......))))..........(((((...(((.......(((((..........)))))..)))...))))).....................(((....(((((.......)))))..............((((((.........((.(((((.((..........)).)).))).))..(((((.......(((.......))).......))))).))))))....))).((((((.(((.....((((.........)))).)))......(((....))).....((((..((((.......))))..))))..)))))).....
+str2	((((......))))......((((((((((..((((.......(((((...(((((((...((....))...........................(((...((((((.......((........)).......)).))))....))).((.(((((.((..........)).)).))).))...)))))))....))).)).....))))..))))..)).))))..........((((((.(((.....((((.........)))).)))......(((....))).....((((..((((.......))))..))))..)))))).....
+>ENST00000318329|468	
+seq	ATGGTCAACTCCTGTTGTGGCTCCGTGTGCTCTGACCAAGGCTGTGGCCAAGACCTCTGCCAGGAGACCTGCTGCTGCCCCAGCTGCTGTCAGACCACCTGCTGCAGGACCACCTGCTACCGCCCCAGCTACAGTGTGTCCTGCTGCTGCAGACCCCAGTGCTGCCAGTCTGTGTGCTGCCAGCCCACCTGCTGTCGCCCCAGCTGCTGTGTGCCCACCTGCTGCCACCCTAGCTGCTGCATCTCCAGCTGCTGCCGCCCCAGCTGCTGTGTGTCCAGCTGCTGCAAGCCCCAGTGCTGCCAGTCTGTGTGCTGCCAGCCCAACTGCTGCCGCCCCAGCTGCTGCCGCCCCTGCTGCTGCCTGCGTCCAGTCTGTGGCCGAGTCTCCTGCCACACCACTTGCTATCGCCCAGCCTGTGTCATCTCCACCTGCCCCCGCCCCGTGTGCTGCGCCTCCTCTTGCTGCTGA
+str1	.....((((....)))).(((...(((.....((((..((((((.(((((((.....((.((((((((((((.((.((....)).)).).))).......((.((((((((((..(((........)))....))).))))))).)).((((((....)).))))((((...((.((((.((((.(((..((((..((..((((((..(((.((.........)))))..))))))..)).....((((.((((..((..((((.((((......)))).))))...))..)))))))).))))..))).)))).)))).))...)))).((((.(((..((((.(((....((....))..)))..))))))).)).)).)))))))).)).....)))).....)))))))))..))))....)))..)))............((.(((........))).))...
+str2	.....((((....)))).(((...(((.....((((..((((((.(((((((.....((.((((((((..((((......)))).((((.(((((.....((.((((((((((..(((........)))....))).))))))).)).((((((....)).))))((((...((.((((.((((.(((..((((..((..((((((..(((.((.........)))))..))))))..)).....((((.((((..((..((((.((((......)))).))))...))..)))))))).))))..))).)))).)))).))...)))).(((..((((.((..........)).))))...)))....)))))))))...)))))))).)).....)))).....)))))))))..))))....)))..)))............((.(((........))).))...
+>ENST00000335633|288	
+seq	ATGTCCTGCCAGCAGAACCAGCAGCAGTGCCAGCCTCTGCCCAAGTGCCCCTCACCCAAGTGCCCCCCAAAGAGCTCAGCACAGTGTCTGCCTCCAGCCTCCTCCTGCTGTGCTCCAAGACCTGGGTGCTGTGGTGGCCCCAGCTCTGAGGGCGGCTGCTGCCTGAGCCACCACAGGTGCTGCAGGTCCCACCGATGCCGGCGCCAGAGCTCCAACTCCTGTGACAGAGGCAGTGGTCAGCAAGATGGTGCCTCCGACTGTGGCTATGGCTCTGGAGGCTGCTGCTGA
+str1	..((.(((....))).))((((((((((..((((..((((((.((.((...(((((..(((((((......((((.(((((.((.(.(((....))))...))..))))).))))........)))))))..))))).....)).))..))))))..))))((.((((((((((((((((((((((.....))..)).))))))(((((......)).))).....((((((.(.(((.....))).)))))))...))))))...)))))).))..)))))))))).
+str2	..((.(((....))).))((((((((((..((((..((((((.((.((...(((((..(((((((......((((.(((((.((.(.(((....))))...))..))))).))))........)))))))..))))).....)).))..))))))..))))((.((((((((((((..((....((.....))...)).(((((((..((((((.(((((.......))).)))))..)))....))))))).....))))))...)))))).))..)))))))))).
+>ENST00000339545|159	
+seq	TCCCTCTAGGCAAAGATCCAAGACAAGGAAGGCATCCCTCTTGACCAGAAGAGGTTGATCTTTGCTGGGACACAGCTGGAAGATAGATGCACCCTGTCTGACTACAATATCCAGAAAGAGTCCACTCTGCAGTTGGTCCTGCACTTGAGGGGAGGTGTC
+str1	..(((((.(((((((((((((((...(((.....))).)))))(((......))).)))))))))).((((....(((((((((((.......))))))..........))))).....)))).((((((((......)))))...))).)))))....
+str2	((((((.(((((.((.((..(((((.((...(((((((((((......))))))...((((((((((.....))))..)))))).)))))..))))))))))).......((((..((((....))))....))))...))).)).)))))).......
+>ENST00000333432|348	
+seq	ATGAACGCCCCTCCAGCCTTCGAGTCGTTCTTGCTCTTCGAGGGCGAGAAGATCACCATTAACAAGGACACCAAGGTACCCAAGGCCTGCTTATTCACCATCAACAAAGAAGACCACACACTGGGAAACATCATTAAATCACAACTCCTAAAAGACCCGCAAGTGCTATTTGCTGGCTACAAAGTCCCCCACCCCTTGGAGCACAAGATCATCATCCGAGTGCAGACCACGCCGGACTACAGCCCCCAGGAAGCCTTTACCAACGCCATCACCGACCTCATCAGTGAGCTGTCCCTGCTGGAGGAGCGCTTCCGGACGTGCCTGCTTCCCCTTCGCCTTCTGCCGTGA
+str1	..((((((.((((((((......(((.((((((((((...)))))))))))))............((((.....((((...(((((((.(((..............))).))........(((((.................................((((((...)))))).((((....(((((.(((.....))).((((..(((....)))...))))..........)))))..)))))))))...)))))))))...((..((((.((.....)).)))))).))))..)))))))).))).))).(((.((....)).)))...((((........))))
+str2	..((((((.((((((((......(((.((((((((((...)))))))))))))............((((...(((((..((..((.(((................................(((((...................)))))..((.((.((((((...)))))).))))....(((((.(((.....))).((((..(((....)))...))))..........))))).)))))....))..))))).......((..((((.((.....)).)))))).))))..)))))))).))).))).(((.((....)).)))...((((........))))
+>ENST00000316512|456	
+seq	GCCCTGGGGTATTTGGCAAAAGGAATGATCTTCTTATCTCAGATTATAGTTGAATTCCTAGGAAATGTCTTTCTTCTTTAACGTTATAGTTTCCTTTATTTCACCAGGTGCACATTAAGATCCACAGATTTGATTCTCAAACACATGACTGTAGCCAATTCCTTGGTCGTACTCTCTAATCAAGTCCTACAGACAATGGCTGCTTTGAAGTTGAAATATTTCCTCAGTGACACTGGATGAAAACTTGTTTTCTATGTTCACAGAGTGGGCAGAGGTATGTGCATTGCCAGTAGCTGCTTTCTGAATATCTTGCAGGCCAAGATAATCAGCCCCATGAATTTCAAGTGGGCAGAGCTGAAGCTACAAGCTCCTAAATGCACTGGACTCTCCAACACCCTGTGCTGCATCCTGAACATGATGGTAAATAGCATTGTCTCTATGCATGTGACTGGCGAG
+str1	(((((((((((...((((.......)).))....))))))))........((((.....(((((((......................)))))))....)))).((.(((((..............(((((((((.(((......)))..((((((((....)))))..))).....))))))))).((.((((((((.(((.((((..(((......((((.(((((...)))))..))))...(((((...((((.(((((.(((((.((((....(((((((((..((((((((((.((((.(((((((.....))))))).)))).(((((.........)))))..))))...))))))..)).....)))))))....))))))..))).)))))..))))...))))).)))..))))))))))))))).))))))).))...)))...
+str2	..(((((((.(((((((.......(((((((.........))))))).)))))))))))))).(((((............)))))((((......)))).((.((((...(((((...........(((((((((.(((......)))..((((((((....)))))..))).....))))))))).((.((((((((.(((.((((..(((......((((.(((((...)))))..))))...(((((...((((.(((((.(((((.((((....(((((((((..((((((((((.((((.(((((((.....))))))).)))).(((((.........)))))..))))...))))))..)).....)))))))....))))))..))).)))))..))))...))))).)))..))))))))))))))).))...))))).)))).)).
+>ENST00000342990|246	
+seq	GGGACTACAGGCGCCCGCCATCACGCCCGGCTGCTTTTTTTGTTTTAGTAGAGAGGAGGTTTCACCGTGTTAGCCAGGATGGTCTCAATCTCCTGACCTCGTGATCCGCCCGCCTCGGCCTCTCAAAGTGCTGGGATTACACGCGTGAGCCACCGCGCCTGGCCTGAAGAAAGAAGTCATTAAAGAAGCAACCCATGGCAAAACTAGTTATTTTCTTAAAACAGTAGGAAGAAGAAAAGCTTTTTG
+str1	..((((.(((((((......(((((((((((.(((((.............((((((.((..((((.(.(((((...((((.......)))).)))))..))))).))..(((...)))))))))))))))))))........))))))......)))))))..((......)).))))....(((((((.....(((((.......))))).((((((......))))))........))))))).
+str2	..((((.(((((((......(((((((((((.(((((.............((((((........(((.((..((((.((.((((..........)))))).))....))..))..)))))))))))))))))))........))))))......)))))))..((......)).))))....(((((((.....(((((.......))))).((((((......))))))........))))))).
+>ENST00000340052|136	
+seq	AAGCTCCGCCTACTGCCCTTTGCTCCAAGTAATTTTTGGCGATTTTTAAAGTAATTTTTCCGGCGGAGTCATAGTGGCGCTATACTCTTGGATAGGTTATCCTGTCTCTTCCGCTAGATTGATGAGATCAGGTATC
+str1	..((((((((((((..........(((((.....)))))..........))))........)))))))).....((((.((((........)))))))).((((((((.((.........)).)))).))))....
+str2	..((((((((((((..........(((((.....)))))..........))))........))))))))...(((((............(((((((....)))))))...))))).((((.....)))).......
+>ENST00000331342|465	
+seq	GTTAACCAGCGCAGTCCTCCGTGCGTCCCGCCCGCCGCTGCCCTCACTCCCGGCCAGGATGGCATCCTGTCTGGCCCTGCGCATGGCGCTGCTGCTGGTCTCCGGGGTTCTGGCCCCTGCGGTGCTCACAGACGATGTTCCACAGGAGCCCGTGCCCACGCTGTGGAACGAGCCGGCCGAGCTGCCGTCGGGAGAAGGCCCCGTGGAGAGCACCAGCCCCGGCCGGGAGCCCGTGGACACCGGTCCCCCAGCCCCCACCGTCGCGCCAGGACCCGAGGACAGCACCGCGCAGGAGCGGCTGGACCAGGGCGGCGGGTCGCTGGGGCCCGGCGCTATCGCGGCCATCGTGATCGCCGCCCTGCTGGCCACCTGCGTGGTGCTGGCGCTCGTGGTCGTCGCGCTGAGAAAGTTTTCTGCCTCCTGAAGCGAATAAAGGGGCCGCGCCCGGCCGCGGCGCGACTCGGC
+str1	....(((((((((((...((((((((...(((.((((.............))))((((((...))))))...)))...)))))))).))))).))))))....((((..((((...((((((.((((.........(((((((((..((....)).....)))))))))...(((((((.(((((((.((((.......))))))).......))))..)))))))))))))))))...))))..)))).(((......((((((((..((((((((..((((((((((((((...((((((..(((((((((((.((((...((((..(((....)))))))...))))))))))))))))))))).))))))))))))))...)))).)))).((((...(((..((....))..))).....)))).......(((((....)))))..))))))))..)))
+str2	....(((((((((((...((((((((...(((.((((.............))))((((((...))))))...)))...)))))))).))))).))))))...((((.((((((((...(((((((((....(((..(((((((((..((....)).....))))))))).....((((...((.((...)).))..)))).)))...))))))).))...)))))))).)))).((((....))))....(((((.....((((..(((((((((((..((((((((((((((...((((((..(((((((((((.((((...((((..(((....)))))))...))))))))))))))))))))).))))))))))))))...)))).))))........(((..((....))..))))))..)))).....)))))((((((.(....))))))).......
+>ENST00000344085|496	
+seq	GGAAGCAGATTACGTGGAGTGACGGTCATGCTGCGGCGTGGACACTTGGCATTCAGGGACGTGGCCATAGAATTCCCTCAGGAGGAGTGGAAATGTCTGGACCCTGCTCAGAGGACTTTATACAGGGAAGTGATGGTGGAGAACTACAGGAACCTGGTCTTTCTGGGAATCTGTCTTCCTGACCTGAGTGTTATCTCCATGTTGGAGCAAAGGAGAGATCCCCGGAATCTGCAGAGTGAAGTGAAAATAGCAAACAATCCAGGGTCTTGCTCTGTCACCCAGGCTGTCGTAGAGTGGCAATCATCAGTGGCAATCGTGGCTTAACTCATAGCCTCAAACTCCTGGTCTCAAGTGATCCTCCTTCCTCTGCTTCCGAAAGTGGTGGGATTACAAGCATGAGCCACTGTACCCTGCAAAACCACACTTTGAGTTTCTGTTTGGGAGCTCTCTGCAAGTGAGAGAATTCTTTGGGAAAATAAAAGTTTAAATCCTGTGA
+str1	(((((((((......((((.((.(((((.(((.(((((((((....((((((((((((((((..((((....((((....))))..))))..))))).((((....((((((((((......((((....((.((((.....))))))....))))))).))))))).....))))......)))))))))))..))))))))).)))......((((((...(((.(((((..(((...((((....(((((((........)).)))))...))))....)))...)))))((.((........)).))......((((........))))......))).))))))...))))).)).)))))))))))))....((((((((..((((.((....))...)))))))......)))))(((((...(((((....((((.(((((.......)))))..))))...)))))...))))).............
+str2	....(((((((.(((......)))....((((.(((((((((....((((((((((((((((..((((....((((....))))..))))..))))).((((....((((((((((......((((....((.((((.....))))))....))))))).))))))).....))))......)))))))))))..))))))))).))))..(((....))).(((((...((((((.((((.((.....((.......(((((((.(((...((((((...((.(((((.....))))).))....)))))).....((((........)))).))))).)))))......)).....)))))))))))))))))...((((((((..((((.((....))...)))))))......)))))(((((...(((((....((((.(((((.......)))))..))))...)))))...)))))...)))).)))..
+>ENST00000343959|345	
+seq	CACTGTCTGCTGCCACACGATGCTGGGAGGCCTGGGGAAGCTGGCTGCCGAAGGCCTGGCCCACCGCACCGAGAAGGCCACCGAGGGAGCCATTCATGCCGTGGAAGAAGTGGTGAAGGAGGTGGTGGGACACGCCAAGGAGACTGGAGAGAAAGCCATTGCTGAAGCCATAAAGAAAGCCCAAGAGTCAGGGGACAAAAAGATGAAGGAAATCACTGAGACAGTGACCAACACAGTCACAAATGCCATCACCCATGCAGCAGAGAGTCTGGACAAACTTGGACAGTGAGTGCACCTGCTACCACGGCCCTTCCCCAGTCTCAATAAAAAGCCATGACATGTGTA
+str1	(((((((((((.(((........)))(((((.((((((((.(((((.((...((..(((((...((...))....)))))))..)).))))).....(((((((.((..(((((...((.((((((........(((.(....)))).......)))))).))...)))))........(((........)))........(((........((((((...))))))........))).((..(((..(((((((.....((((...))))........)))...))))..)))..)))).))))))).))))))))))))).......)).)).)))).)))..
+str2	(((((((((((.(((........)))((((.(((((((((.(((((.((...((..(((((...((...))....)))))))..)).))))).....(((((((.((..(((((...((.((((((........(((.(....)))).......)))))).))...))))).........(((((.(((....))).....(((........((((((...))))))........))).....(((.((.....))))).((((...))))......))))).(((((....)).))))).))))))).))))))))))))).......))).).)))).)))..
+>ENST00000332361|466	
+seq	AGATGGCGCCGAAAGCGAAGAAGGAAGCTCCTGCCCCTCCTAAAGCCGAAGCCAAAGAGAATGCTTTAAAGGCCAAGAAGGCAGTGTTGAAAGGTGTCCACAGCCACAAAAAAAAAGAAGATCCGCACATCACCCACCTTCCGGCGGTCCAAGACCCTGCGACTCCAGAGACAGCCCAAATATCCTCGGAAGAGCGCCCCCAGGAGAAACAAGCTTGACCACTATGCTATCATCAAGTTTACGCTGACCACTGAGTCGCCATGAAGAAGATGGAAGACAACAACACACTTGTGTTCATTGTGGATGTTAAAGTCAACAAGCACCAGATTAAACAGGCTGTGAAGAAGCTCTATGACAATGATGTGGCCAAGGGCAACACCCTGATTCGGCCTGATGGAGAGAAGAAGGTATATGTTCGACTGGCTCCTGATTATGATGCTTTGGATGTTGCCAACAAAATTGGGAT
+str1	....(((((((((.(((((..((((.((((((....((((...(((((((..((.......((((((...(((((......((.(((((...(((.(((((((((............((.(((((((......(((.((((.((.((((...))))))(((((((.((...((((.......((((.((.........)).)))).....((((((((..............))))))))..))))....)))))))))......)))).)))........(((((....)))))...))))))).))..((((...........)))).....)))))))..)).)))...))))).))...))))).))))))......)).))))).))...))))......))).............)))))))..))....)))))))).)))).((((.....))))...
+str2	....(((((((.(((((((..(((.(((((((....((((...(((((((.....((((....))))...(((((......((.(((((...(((.(((((((((............((.(((((((......(((.((((.((.((((...))))))(((((((.((...((((.......((((.((.........)).)))).....((((((((..............))))))))..))))....)))))))))......)))).)))........(((((....)))))...))))))).))..((((...........)))).....)))))))..)).)))...))))).))...))))).((((.....))))..)))))).)...))))......))).............)))))))..))....)))))))).)))).((((.....))))...
+>ENST00000330692|486	
+seq	ACTTCCTGTCCCCGCGGCTCTGTGTCCCCTGCTAGCCGTAGGTCGTGTGACCCGCAGGCACCGGGAGATCCAGAAGTGAAACGCCAGGCTCTCTGGAGGCCAGGAGATGGTGTGATTTGTCCAGAGAATCTTTCCTAAGAGGAAATCCCAGAGAAGCAGGAGAAAGAGAAAGAAATGGCTGGTGCTCAGACTCTGTTGACGTTCAGGGATGTGGCCATAGAATTCTCCCTGGAGGAGTGGAAATGCCTGGACCTCGCTCAGCAGAATTTGTACAGGGATGTGATGTTGGAGAACTACAGAAACTTGTTCTCCGTTGGTCTCACTGTCTGTAAGCCAGGCCTGATCACCTGCCTGGAGCAACGAAAAGAGCCCTGGAATGTGAAGAGACAGGAGGCAGCAGACGGACATCCAGGTGGCCTATCCTAGAGAATGTTTTCTGAGCTCTTGGGAAGAGTGTGTCTCCTGCTGTGTTGTGTGGAGTGTTCT
+str1	(((((.((((((((..((.(((((((.(((((.....)))))......)))..))))))..)))).))..)))))))...((((((..(((.((((...))))))).))))))(((((.......))))).(((((...))))).(((((.((.(((((((((..............(((....(((((((((....(((((((.((((((.((((((.(((((((..(((((((..(((......)))..))))...))).)))))))......((((((..(((.(((((((...........)))))))((((.((((.((((((.....((((((((..((...(((.....)))..))..)).).))))).........))))))))))))))..))).))))))..))))))))))))...)))))))....))).)).))))...)))...)))))))))...)).)).))).......
+str2	....((((.....(((((((((.(((.((((...(((((.((((....)))).)).)))..)))).))).))).)))....))))))).((((((((.((((.....))))........))))))))....(((((...))))).(((((.((.(((((((((..............(((....(((((((((....(((((((.((((((.((((((.(((((((..(((((((..(((......)))..))))...))).)))))))......((((((..(((.(((((((...........)))))))((((.((((.((((((.....((((((((..((...(((.....)))..))..)).).))))).........))))))))))))))..))).))))))..))))))))))))...)))))))....))).)).))))...)))...)))))))))...)).)).))).......
+>ENST00000327857|498	
+seq	GGCTGCTCCTTGCTATAGAAGACCTGGGACAGAGGACTGCTGTCTGCCCTCTCTGGTCACCCTGCCTAGCTAGAGGATCTGTGACCCCAGCCATGAGGACCCTCGCCATCCTTGCTGCCATTCTCCTGGTGGCCCTGCAGGCCCAGGCTGAGCCACTCCAGGCAAGAGCTGATGAGGTTGCTGCAGCCCCGGAGCAGATTGCAGCGGACATCCCAGAAGTGGTTGTTTCCCTTGCATGGGACGAAAGCTTGGCTCCAAAGCATCCAGGCTCAAGGAAAAACATGGACTGCTATTGCAGAATACCAGCGTGCATTGCAGGAGAACGTCGCTATGGAACCTGCATCTACCAGGGAAGACTCTGGGCATTCTGCTGCTGAGCTTGCAGAAAAAGAAAAATGAGCTCAAAATTTGCTTTGAGAGCTACAGGGAATTGCTATTACTCCTGTACCTTCTGCTCAATTTCCTTTCCTCATCTCAAATAAATGCCTTGTTACAAGA
+str1	(((((.((((..((.....))....)))).(((((...((.....)))))))..((((((....(((......)))....)))))).)))))(((((((.....(((......(((((((......)))))))......)))...((((((((..(((..(((....)))...)))...))).))))).((((((((((.((((((((...((((((.((.....(((((((((((((.......(((((((...........)))))))............(((.((((....))))....))).)))))).((((((....(((....)))...))))))......)))))))))))))))...))))))))(((((((................)))))))..)))))))))).(((((((((((............)))))))......)))).........))))))).........................
+str2	(((((.((((..((.....))....)))).(((((...((.....)))))))..((((((....(((......)))....)))))).)))))..(((((.....(((......(((((((......)))))))......)))...((((((((..(((..(((....)))...)))...))).))))).((((((((((.((((((((...((((((.((.....(((((((((((((.......(((((((...........)))))))............(((.((((....))))....))).)))))).((((((....(((....)))...))))))......)))))))))))))))...))))))))(((((((................)))))))..)))))))))).(((((((((((............)))))))......)))).........))))).(((..(((((.....)))))...)))
+>ENST00000322792|252	
+seq	GCTCTCGCGAGTGGTTTATGTGGCACTTGAGGCTACAAGTCCAAGTATCTTCAGCTCAAGAAGAAGTTAGAAGATGAGCTCTGGACTTTGGACATCTGCAGCAAGGGAACTCCCCAGGCCACCGGGTTCTTTGACGTAATGGTAGCTGGGAAGTTGATTCACTCTAAGAAGAAAGGTGATGGCTATGTGGACACAGAAAACAAGTTTCTGAAGCTGGTGGCTGCCATCAAAGCTGCCTTGGCTCAGGGCTAA
+str1	((((....)))).(((((((((((.((((..((..((((((((((((((((((((((.....).)))).))))))..))).))))).))).......))..))))..((((.(((((((((....(((....)))....))))..))))).))))...((((.((........))))))..)))))))))))..........((((.((((.((((((((((........)))))))..)))))))))))..
+str2	((((....)))).(((((((((((.((((..((.....(((((((..(((..((((((................))))))..))).)))))))....))..))))..((((.(((((((((....(((....)))....))))..))))).))))...((((.((........))))))..)))))))))))..........((((.((((.((((((((((........)))))))..)))))))))))..
+>ENST00000343986|344	
+seq	CGCGCGGTGTGGTGGCAGCAGGCGCAGCCCAGCCTCGAAATGCAGAACGACGCCGGCGAGTTCGTGGACCTGTACGTGCCGCGGAAATGCTCCGCTAGCAATCGCATCATCGGTGCCAAGGACCACGCATCCATCCAGATGAACGTGGCCGAGGTTGACAAGGTCACAGGCAGGTTTAATGGCCAGTTTAAAACTTATGCTATCTGCGGGGCCATTCGTAGGATGGGTGAGTCAGATGATTCCATTCTCCGATTGGCCAAGGCCGATGGCATCGTCTCAAAGAACTTTTGACTGGAGAGAATCACAGATGTGGAATATTTGTCATAAATAAATAATGAAAACCT
+str1	(((.((((((.((.(((..((((........)))).....)))...)).)))))))))....(((((((((((....((.(((((.....)))))..)).((((......))))(((..((.(((((((((......))))..)))))))..))).(((...)))....)))))))).))).((((((.(((.(((((((((((.((..(((((.(((.((((((((.............)))))))).))).)))))...)).)))))))).......)))...))).))))))........((((((((...))))))))......................
+str2	(((.((((((.((.(((..((((........)))).....)))...)).)))))))))(((((.(((((........((.(((((.....)))))..)).((((......))))(((..((.(((((((((......))))..)))))))..))).(((...)))..((((.((((....)))).)))).......((((((((.((..(((((.(((.((((((((.............)))))))).))).)))))...)).)))))))).))).))..))))).....(((((.....)).))).(((((........)))))..................
+>ENST00000338912|353	
+seq	ATGGGCTGGACTTGGAGGATCCTGTTTTTGGTGGTCATAGCTGCAGGTGCCCAGTCCCAGGTACAGCTGATGCAGTCTGGGGCTGAGGTGAAGAAGCCTGGGGCCTCAGTGAGGATCTCCTGCAAGGCTTCTGGATACACCTTCACCAGCTACTGTATGCACTGGGTGTGCCAGGCCCATGCACAAGGGCTTGAGTGGATGGGATTGGTGTGCCCTAGTGATGGCAGCACAAGCTATGCACAGAAGTTCCAGGGCAGAGTCACCATAACCAGGGACACATCCATGGGCACAGCCTACATGGAGCTAAGCAGCCTGAGATCTGAGGACACGGCCATGTATTACTGTGTGAGAGA
+str1	((.(((((.(((((((((..(((((....(((.......))))))))..))...).)))))).))))).)).((((((.((((((.(((((((...((.((((((((((.(((...))))))..))))))).))......)))))))((((.((((...((((((((((((((..(((((.(((..........))).)))))..)))))))))).))))...))))....)))).........(((((((((((...((..((((.....(((.....)))))))..)).))))...)))))))...)))))).))).)))...((((((..........))))))......
+str2	((.(((((.(((((((((..(((((....(((.......))))))))..))...).)))))).))))).)).((((((.((((((.(((((((...((.((((((((((.(((...))))))..))))))).))......)))))))...........((((.....))))(((((((........))))))).(((..(((...(((((((((((.((((((((.......))))).))).........))))))....)))))...)))....))).(((((((((...)))..))))))......)))))).))).)))...((((((..........))))))......
+>ENST00000334151|461	
+seq	GCATACCAACTCACCACTCCTGACACCATGAACTACTACGGCAACTACTATGGAGGCCTGGGCTACGGCTACGGAGGCTTCGATGACCTGGGCTATGGCTATGGCTGTGGATGTGGCAGCTTCCGCAGACTGGGCTATGGCGGTGGCTACGGAGGCTACGGATACGGCTCTGGCTTCGGAGGCTATGGATACCGCAGCTGCCGTCCATCATGCTATGGAGGATATGGATTCTCTGGATTTTATTGAAATCCTTCCCTGACAACCTAACATGAGGGGACATAAGAAGATCACCCAAACCTGACTGCAATAACAAACAAACGAGGTCACCCTGGATCAAGCCAAGATCAAGAGCAGTTAGCATCTAAGAGGTTTAAGAATACCTATCATTCCATAATTCTTTGCTTTATGTCTCTGGATGTGTCTTACTTGTACCTTTATAACTGTGGGGTTTCTCTGTTCCT
+str1	..............((((((.((.((.((((........((((((((.(((.(((((((.(((....)))....))))))).)))...)))(((((((((..(((((((((.((....)).))))))).)).)))))))))(((((..((((.((((.(((((..(((((((....)))).)))....)).))).)))).)))))))))....(((((((((((.(((((((..(((((((...))))))).(((((..((........)).))))).......(((((........((((((((...............(((....))).((((.......))))....)))))))).........))))).))))).)))))).))))))).....))))))))))).)).))).))).((((((((((....)))))..)))))..............
+str2	.....................((..(((((..((.(((.((((.(((.(((.(((((((.(((....)))....))))))).)))...)))(((((((((..(((((((((.((....)).))))))).)).)))))))))(((((..((((.((((.(((((..(((((((....)))).)))....)).))).)))).))))))))).)))).)))))..)))))..))...(((((((...))))))).(((((..((........)).)))))....(((.((..((((..((((((((((...............(((....))).((((.......))))....))))))))......((((((.((((((.((.((((....(((((.........)))))......)))).)).)).)))).))))))......)).)))).)))))......
+>ENST00000340347|328	
+seq	CAGGGGGGTACCGCCCGCCTCCCAGAACCAAAGAAGTCATCATCAATGGCCAGACCGTGAAACTTAAATACTGTTTCACCTGCAAGATTTTCCGGCCCCCTCGCGCCTCCCATTGCAGCCTTTGTGATAACTGCGTAGTCTTTATATTTGCATTCGTTATCACCCACGTCATTCTTCGTTCACAGCAAACAGGATTCCTAAATGCCCTTAAGGACAGTCCTGCAAGCGTCCTGGAGGCTGTGGTGTGCTTCTTCTCTGTCTGGTCCATCGTTGGCCTCTCAGGATTCCACACCTACTTGATCAGCTCCAACCAGACAACAAATGAGGA
+str1	...(((((((.(((((((((((.((..........(((((.....)))))......(((((((.........)))))))((((((........(((........))).....)))))).....((((((((((((.............))))...))))))))..(((........)))..((.((...((((((((((...........))))..))))))...)))).)))))))).).))))))))))).(((((((((((.....(((((....(((((............))))))))))....))))))))......)))..
+str2	..(((((((.......)))))))........(((((.((.(((((.(((((.....(((((((.........)))))))((((((........(((........))).....)))))).....((((((((((((.............))))...))))))))..(((........))).((..((...((((((((((...........))))..))))))...))....))..))))))))))))))))).(((((((((((.....(((((....(((((............))))))))))....))))))))......)))..
+>ENST00000323689|331	
+seq	CTTTACCATTTCAGGCTGATCCAAACTCATAATATGAATAGATGGACATTGACCAAAGAGACCAGCAGCAGAACAAAAGCATAAACAAACATGAGAGTAGGCTAATTTTACCAACCTGAGGTCAAAAAGTTCTCATGAGATCTGGTCGTTTGAAAGCATGTACCACTTCCCTCTTCGCTCACTCTCTCCCTCCCGCTCCACCATGTGAAGATTGTGCCTGCTTCTCCTTCACCTTCTGCCATGATTGTAAATTTCCTGAGGCCTCCCCAGCCATGCCTCCTGTACAGAGACTGTGGAACTGTGAGTCAATTAAACCTCTTTTCTTTATGAA
+str1	.....((......))...........((((((...(((.(((.((..((((((....((((..(((((((.(.................(((((((....(((..(((((((.......))).)))))))))))))).((..(((((((........))).))))..))..(((((((..........................))))))).).)).)))))))))..((((.((((((.....(((((........(((((............)))))...))))).....))))))..))))))))))....))))).))).)))))).
+str2	.....((......))...........((((((...(((.(((.((..((((((((((..((((((..((.........)).........(((((((....(((..(((((((.......))).))))))))))))))....)))))).)))).(((((.((((........(((((((..........................)))))))..)))).)))))......(((.((((((.....(((((........(((((............)))))...))))).....))))))..))).))))))....))))).))).)))))).
+>ENST00000341653|330	
+seq	TTCCCCTCCCCGCCGCCGCTGCAGTGGCCGCTCCCTGGGCCGTAGGAAATGAGCGATAACGATGACATCGAGGTGGAGAGCGACGAAGAGCAACCGAGGTTTCAATCTGCGGCTGACAAACGGGCTCATCATAATGCACTGGAACGAAAACGTAGGGACCACATCAAAGACAGCTTTCACAGTTTGCGGGACTCAGTCCCATCACTCCAAGGAGAGAAGGGAACAAAGATGAAGTTAACCCTCCCACCTGTCTTTCCTTATGAACACTTGCCTTTTCCAACTGTTTTCTGCCATGGCTAATCAGAAAAAGTTTCTTAAGGAAATGGTGGC
+str1	.........((((((((((....)))))(((((((((.....))))....))))).....(((....(((.(((((((((((..((((((((.(((((((....)))).)))........(((((..........)).))).........((((((((........(((((((..............(((((...))))).((.(((....))).)).((((...................))))..)))))))))))))))......)).))))))....))))))))))).)))...)))........(((((...))))).))))).
+str2	((((.(((.((((((((((....)))))(((((((((.....))))....)))))....((((...)))).))))).)))....((.((((..(((((((....)))).)))(((.....))))))).))..........))))......((((((((........(((((((..............(((((...))))).((.(((....))).)).((((...................))))..)))))))))))))))..((((..((((....((((.(((((((...........)))))))))))....))))....))))..
+>ENST00000330955|222	
+seq	ATGGGCTGCGGCGGGAGCCGGGCGGATGCCATCGAGCCCCGCTACTACGAGAGCTGGACCCGGGAGACAGAATCCACCTGGCTCACCTACACCGACTCGGACGCGCCGCCCAGCGCCGCCGCCCCGGACAGCGGCCCCGAAGCGGGCGGCCTGCACTCGGGGTGCCTTGAGGAACATTACCATCTGACTGCCCTACAGAAAGTTGGGCATCCCAACCATTGA
+str1	.((((..(((((((..((.((((((.(((..(((((.((.(((........))).))....(((((.(((.......))).))).))........)))))..))))))))).)).))))))).((.....(((.((((((.(((((...)))))..))))))))).....))................(((((.((.....)).))))).))))........
+str2	.((((..(((((((..((.((((((.(((..(((((.((.(((........))).))....(((((.(((.......))).))).))........)))))..))))))))).)).)))))))))))....(((.((((((.(((((...)))))..))))))))).(((.(((...............(((((.((.....)).))))))))))).......
+>ENST00000334055|380	
+seq	GCAAACCCAACTCACTATCTCTGACACCGTGAGCTACTAGGGCAGCTACTGTGGAGGTCTGGGCTATGGCTGTGGAGGCTTTGGTGGCATGTGCTATGGCTACGGCTGTGGATGTGGCAGCTTCTGCAGACTGGGCTATGGCTGCGGCTATGAAGGATGCAGATATGGTTGTGGCCACAGAGGCTGTGGAGATGGCTGCTGCTGCCCATCATGCTACAGAAGATATAGATTCACTGGCTTCTACTAAGCTGCTGCTCTAGTGATGCAGCATCTGTTATTTTGAAGGGATTTAAAAACAAGTTACTTACTTCTAAGATACAATGGGGGTAAAGGTGTAAATGTGTAAATGCTCCCATTCCAAAGGGAGAAATTGACCAAAA
+str1	..........(((((.............))))).((((((((((((..((((((((((((((((((((.((((((.......(((((((.(((((((..((((((((.....((((((((((((((((..((....((((((....)))))).))..))))))...))))...))))))..))))))))..))))).))))))))).......))))))....))))).))))..)))))))))..))..))))))))))))(((((((((((....(((((((....)))))))..........((((((((........)))))))).))))))...))))).(((.(((((........)))))..)))........
+str2	(((.((((..(((((.............))))).((((((((((((..((((((((((((((((((((.((((((.......(((((((.(((((((..((((((((.....((((((((((((((((..((....((((((....)))))).))..))))))...))))...))))))..))))))))..))))).))))))))).......))))))....))))).))))..)))))))))..))..))))))))))))..((((...))))..(((((((....))))))).........(((((((((........))))))))).)).))...))).(((...(((((........)))))...))).......
+>ENST00000335422|378	
+seq	ATGTGGCCCCTGGCCCTAGTGATCGCCTCCCTGACCTTGGCCTTGTCAGGAGTGAATTACCCCAAAACTCTACAATGTGCCAACATCCAACTTCGCTCAGATGAGGAGTGTCGTCAAGTCTACCCAGGAAAGATCACTGACAACATGTTGTGTGCCGGCACAAAAGAGGGTGGCAAAGACTCCTGTGAGGGTGACTCTGGGGGCCCCCTGGTCTGTAACAGAACACTGTATGGCATCGTCTCCTGGGGAGACTTCCCATGTGGGCAACCTGACCGGCCTGGTGTCTACACCCGTGTCTCAAGATACGTCCTGTGGATCCGTGAAACAATCCGAAAATATGAAACCCAGCAGCAAAAATGGTTGAAGGGCCCACAATAA
+str1	.(((((.((((.(((.(((((...(((.(((.((..(((.(((((.(((((((......((((....((((....((((((..(((.((((..(.(((....)))).((((.((((.((((.........))))...)))).)))))))).)))..))))))..)))))).)).....)))))))))))).))).)).))))))((...))((((...)))).)))))...)))...((((((...))))))..(((....)))(((((......((((((.(((((((..((((((....))))))...))))))).((.((.....))))............))))..))......))))).)))).)))))....
+str2	.((((((((.(((.....((((((((.(((.((((.........))))))))))).)))).)))..........((((....))))...((..(((((.......)))))..)).((((((.(((((((..(((...((.(((((((((.(((((.(((.((.....(((.(((.....((((...(((.....))).))))))))))))))).)).))).)))).))).)).))..)))))))))).))))))(((....)))(((((......((((((.(((((((..((((((....))))))...))))))).((.((.....))))............))))..))......)))))..))))).)))....
+>ENST00000335674|270	
+seq	ATGTCCTGCCAGCAGAACCAGCAGCAGTGCCAGCCTCCGCCCAAGTGCCCTGCAAAGAGCCCAGCACAGTGTCTGCCTCCAGCTTCCTCCAGCTGTGCCCCAAGCTCTGGGGGCTGTGGGCCCAGCTCCGAGCGCAGCTGCTGCCTGAGTCACCACAGATGCCGCAGGTCTCACCGTTGCCGTTGCCAGAGCTCCAACTCCTGTGACAGGGGAAGTGGTCAGCAAGGCGGGAGCTCCAGCTGTGGCCACAGTTCTGCGGGCTGCTGCTGA
+str1	.......(.((((((...(((((((.((((.(((.(..((((((((.(((.....(((((...(((((((....((.....))........))))))).....)))))))).))).)))))..))))....)))).))))))).(((........)))...(((((((....((.((.((((..((..(((((((..((((((...)))))).....(((.....))).)))))))..))..)))).)).))))))))).)))))))...
+str2	.......(.((((((...(((((((.((((.(((.(..((((((((.(((.....(((((...(((((((....((.....))........))))))).....)))))))).))).)))))..))))....)))).))))))).(((........)))...(((((((....((.((.((((..((..(((((((....((((((((..........)))).)).))..)))))))..))..)))).)).))))))))).)))))))...
+>ENST00000334118|313	
+seq	ATGAGGTGCCAAGGAAGATCAACATATAGGCCTATACCAAGATGAAGTTTATGACCTTCTGAGCTGACTGTGCCTCTGCTTGAGCCCAGTCATGAAGAGTCTCAAGAAGAGGAACCACCAACTGAAAGTCGGGATCCTACACCTGGTCAGGAAAGAGAAGAAGATCAGGGTGCAGCTGAGATTCAAGTGTCTGACCTGGAAGCTGATCTCCAGGAATTGTCTCAGTCAAAGACTGGGAATGAATGCAGAGATGATCCTGATGTCAAGGGGAAGATTCTGCCAAAACTAGAGCATTTTAAAATGCCAGACGCAG
+str1	.......((...(((((.(((.(((...((......))...))).......))).)))))..)).(((((.((.((.....)))).))))).....((((((((.....((((....((.(((...))).))..)))).(((((((((..............))))).))))....))))))))..(((((((.((((((........)))))).....((((((((...))))))))......((((((....((((.......)))).....))))))..........(((((....))))))))))))..
+str2	....((((...(((...((......))...))).)))).............(((...(((.((((((((.(((((((.((((((.....((.....))..)))))).))))).........((((...(((((........)))))))))...............)).))).))))).))).))).(((((((.((((((........)))))).....((((((((...))))))))......((((((....((((.......)))).....))))))..........(((((....))))))))))))..
+>ENST00000331096|364	
+seq	CCATGTGAAGAAGGTGCTTGTTTCCCCTTTGCCTTCCGCCATGAGTGTAAGTTTCCTGAGGTCTCCCAGTCATACTGCTGGTTAAGCCTGCAGAACGGTGTACTTGTTTGAAATGTATCTGGCCCAATCGCTGAGCGTCCGCGCTGCATTTCTCCAAACTGCCCAGCAGGGGGCGGTGCTACCTCGGCTCCGCGCAGCCACGGCTTCCCGCTGGCGAACCAAGGGCGCGGAATCTGGAGAGGGCGAGGAACATCTTTCCTCCCACCTGTCCCCCGCCAAGCCTGCCAGACCCGTCTCATCCGTGCTGCTGCTTCTGAAAATCAGAAGAGTGAGGATGAAATAAAGTCTTCATAAAGGAAAACCA
+str1	.((((((..((((((...............)))))))).))))........((((((.((((...(((((......)))))....))))((((.((((..........(((.(((..((((((......(((..((((((((((.(((((.((((...((((...)))))))).)))))..(((.((.((.((.((((...((...)).)))))))).)).))))))))))....(((.(((..((((((.....))))))...))).)))..)))..)))..))))))..))).))).)))).))))..(((((((...))))))).((((((((........))))))))..))))))....
+str2	.((((((..((((((...............)))))))).))))........((((((.((((...(((((......)))))....))))((((.((((..........(((.(((..((((((......(((..(((((((((((....(((........(((.(((.((((((.(((((....((....))...)).))).)))))).))))))))).....))))))))....(((.(((..((((((.....))))))...))).)))..)))..)))..))))))..))).))).)))).))))..(((((((...))))))).((((((((........))))))))..))))))....
+>ENST00000319701|259	
+seq	ATGGTCAGGCCCTCTGGGCTGTTATATAATTTTCCAGGAGACAGTGGAGTGAAGCAGACCTCAGCGTCCCAGAGGTGTGCTGCCACGACAGTGTGCTTTCCTTGCTTGGAAGTCTTGGAAGCTTCTTACCTCCTCTAAGAAGATTTTCCAGGCAAAACCCAGATCTGCTTTAGTGACTTCAGAAGAAAAAGATCTGAGGGAGGATGAGAAGCCGATAGCCAATGGTTATGAGGATGAGGGTCGCTATCCAAAGGATTGA
+str1	(((((..(((((((..(((((((.........(((((((.(((.((..(((.((((.(((((.........))))).))))..)))..)).)))...((((......)))).))))))).((((((((((((((....(((....)))...........(((((((..(((..((....))..)))...))))))).)))))).)))))))).)))))))...............)))))))))))).(((....))).
+str2	(((((..(((((((....((............(((((((.(((.((..(((.((((.(((((.........))))).))))..)))..)).)))...((((......)))).))))))).((((((((((((((....(((....)))...........(((((((..(((..((....))..)))...))))))).)))))).))))))))..((((((...)))))).))...)))))))))))).(((....))).
+>ENST00000329402|470	
+seq	AGAGCAGAGACCTGAGAGGCACCAGGCCCAGCCGTGGCACCACACACCTCCCAGCTCTGCAGACGAGATGCAGCGACTGTGTGTGTATGTGCTGATCTTTGCACTGGCTCTGGCCGCCTTCTCTGAAGCTTCTTGGAAGCCCCGCTCCCAGCAGCCAGATGCACCCTTAGGTACAGGGGCCAACAGGGACCTGGAGCTACCCTGGCTGGAGCAGCAGGGCCCAGCCTCTCATCATCGAAGGCAGCTGGGACCCCAGGGTCCCCCACACCTCGTGGCAGACCCGTCCAAGAAGCAGGGACCATGGCTGGAGGAAGAAGAAGAAGCCTATGGATGGATGGACTTCGGCCGCCGCAGTGCTGAGGATGAGAACTAACAATCCTAGAACCAAGCTTCAGAGCCTAGCCACCTCCCACCCCACTCCAGCCCTGTCCCCTGAAAAACTGATCAAAAATAAACTAGTTTCCAGTGGA
+str1	....((((((......((((.(((((((.((..(((((((.((((((....(((..(((((.......)))))...))).))))))..))))).......)).))))).))))..))))))))))..((((((((((.((...(((((....((((((....(((....))).((((..((....))..))))........))))))))))).)).(((((((((((.((......)).))..)))))).)))..(((((..((((.....))))..))))).)))))))))).(((((.(.((((((((........((....)).(((..((.(((.((..(((....((.((.((.(((((...........))))))).))...))......))).)))))))..))).....)))))))).))))))(((..((((((.............)))))).)))....
+str2	....((((((......((((.(((((((.((..(((((((.((((((....(((..(((((.......)))))...))).))))))..))))).......)).))))).))))..))))))))))..((((((((((.((...(((((....((((((....(((....))).((((..((....))..))))........))))))))))).)).(((((((((((.((......)).))..)))))).)))..(((((..((((.....))))..))))).)))))))))).((((.((.((((((((.........(((((...(((..((((...(((((((.((....))))))))).............)))).....))).))))).(((.........)))........)))))))).))))))(((..((((((.............)))))).)))....
+>ENST00000334849|440	
+seq	ACAACAGCTAACCACTTCTGACAACATGAGCTACTCCGGCAGCTACTATGGAGGCCTAGGCTACGGCTGTGGAGGATTCGGTGGCCTGGGCTATGGCTATAGCTGTGGATGTGGCAGCTTCCGCAGACTGGGCTATGGCTGTGGCTATGGAGGCTACAGATACAGCTGCTGCCACCCATCATGCTATGGGGGATACTGGTCTTCTGGATTCTATTGAATAAATACTTGAAATATAGTCTTCTGTGAGATTCCCAATTCTTCCAAGAAACTTTATTCCATAACCATATGGAATTCCATATTCCATAACAAAACAGCTGCTTGGATCACCTGCCTTTTGACAATAGTGTGAAGAAAACTTGATCAACTAGATATTGGCATTTGATTAGTGATGTTCTCCAGATATTCACTTTTTTATTGGCTGGAGAGCCATTATACTCTAA
+str1	.....((((...................))))...(((((((((.(((.(((((((..(((..((((((((..((..((.((((((..((((((((((.((((((((((.((....)).))))))).)))))))))))))..)))))).))..)).....))))))))..))).(((((......))))).......))))))))))((((....)))).......((.((((.(((.(((((.((((........)))).).))))))).)))).))......((((((((.....)))))))).......)))))).))).(((..((((.........((((((.(((....))).))..))))......))))..)))...((((((((((((((...................)))))))).)))))).......
+str2	....(((((((.....(((((.(((((..((((.((((((((((.(((.(((((((..(((..((((((((..((..((.((((((..((((((((((.((((((((((.((....)).))))))).)))))))))))))..)))))).))..)).....))))))))..))).(((((......))))).......))))))))))((((....)))).......((.((((.(((.(((((.((((........)))).).))))))).)))).))......((((((((.....)))))))).......)))))).))))(((..((((.........((((((.(((....))).))..))))......))))..))).)))).))))).).))))..............))))))).((((........))))..
+>ENST00000329743|339	
+seq	CGGGCGCCTATGGAACTCGACCCGCAGGCCAAAGGGGCTCCGTTGCAAGGAAGAAGTGCGGGGTCCCGCCGCCTCCTAGACCGAGATCGCGGTGAGCTGGCCGCGGCGCACAATGGGCACGGCCTGGGCGGCGGCGTCCGTACTATCGCCCTGTGCCTGCGGATCCCGGAGCCAGCTGGTCCACCAGAAGTCTGTGTTCTGCCTGTCCCTGCAGCACGGAGGGCTGGGCTTTATACCTGTGCCAAGGACACCAACGGCAGCATCAGCAAGTCCGTGTTGTCTCCCAAATAAGTGGTGTTCTCCAACAAGCTTTTAGCAGTAATAAAGCTGACATTTTTA
+str1	..(((((.((((((....((((.((.(((....((((.(((((.((((((..((((((((((....(((((((.(((((.(((....((((((......))))))((.((...)).)).))).))))).))))))))))))))).))..))).)))..)))))))))...))).)).))))..((((...((((((..((((........))))))))))...))))..))))))...))))).(((((((((..((((((((..........))))))))...........)))))))))......((((((..........))))))..........
+str2	..(((((.(((((.....((((.((.(((....((((.(((((.((((((..((((((((((....(((((((.(((((.(((....((((((......))))))((.((...)).)).))).))))).))))))))))))))).))..))).)))..)))))))))...))).)).))))(((.((....)))))....(((((((((((.....))).)))).)))).)))))...))))).(((((((((..((((((((..........))))))))...........)))))))))......((((((..........))))))..........
+>ENST00000315626|450	
+seq	ATGAACCTGTGGCTCCTGGCCTGCCTGGTGGCCGGCTTCCTGGGAGCCTGGGCCCCCGCTGTCCACACCCAAGGTGTCTTTGAGGACTGCTGCCTGGCCTACCACTACCCCATTGGGTGGGCTGTGCTCCGGCGCGCCTGGACTTACCGGATCCAGGAGGTGAGCGGGAGCTGCAATCTGCCTGCTGCGATATTCTACCTCCCCAAGAGACACAGGAAGGTGTGTGGGAACCCCAAAAGCAGGGAGGTGCAGAGAGCCATGAAGCTCCTGGATGCTCGAAATAAGGTTTTTGCAAAGCTCCACCACAACACGCAGACCTTCCAAGCAGGCCCTCATGCTGTAAAGAAGTTGAGTTCTGGAAACTCCAAGTTATCATCGTCCAAGTTTAGCAATCCCATCAGCAGCAGTAAGAGGAATGTCTCCCTCCTGATATCAGCTAATTCAGGTAAG
+str1	....(((((.(((((((((((.(((....))).))))....))))))).((((.......))))...(((((((...))))).))((((((((.(((((((((............)))))))((((((((.((((.((((((((....)).))))))..))..)).))))).)))....(((((((............(((.....))).....(((((((.((((.....(((.......))).(((((((.((((......)))))))...((((((((......)))))...)))..))))......)))).))))))).))))))).((((.(((.......)))))))...((((...)))).((((..............))))........))))))))))..((((........))))(((....)))......)))))...
+str2	....(((((.(((((((((((.(((....))).))))....))))))).((((.......))))...(((((((...))))).))(((((((.(((((.((((.((((((....))))))...((((....)))).((((((((....)).)))))).)))).))((((..(((.....(((((((............(((.....))).....(((((((.((((.....(((.......))).(((((((.((((......)))))))...((((((((......)))))...)))..))))......)))).))))))).))))))).((((.(((.......)))))))...((((...)))).....................))).))))..))))))))))..((((........))))(((....)))......)))))...
+>ENST00000321418|438	
+seq	ATGCCGACCAAGGGCCCGCTGCAGTCGGTGCAGGTCTTCGGACGCAAGAAGACAGCCACAGCTGTGGCGCACTGCAAACGCGGCAATGGTCTCATCAAGGTGAACGGGTGGCCCCTGGAGATGATTGAGCTGCGCATGCTACAATACAAGCTGCTGGAGCCAGTTCTGCTTCTCGGCAAGGAGCGGTTTGCTGGTGTGGACATCTGTGTCCGTATGAAGGGTGGTGGTCACGTGGCCCAGATTTATGCTATCCATCAGTCCATCTCCAAAGCCCTGGTGGCCTACTACCAGAAATATGTGGATGAGGCTTCCAAGAAGGAGATCAAAGACATCCTCATCCAGTATGACCAGACCCTGCTGGTAGCTGATCCTCGTTGCCGGGAGTCCAAAAAGTTTGGAGGCCCTGGTGCCCATGCTCGCTACCAGAAATCCTACCGA
+str1	..((((((((...(((.((....(.((((((..((((((........)))))).(((((....))))))))))))....)))))..))))).......(((.....((((((...((((((((((((((((.((((.(((........)))))).).)))((((.((((((((.....))))))))...))))(((((((((....)))))))))...(((((((((((....)))).........))))))).))))).))))))))..)))(((((((....)))))))..((((.(((((((((.((((.....))))...........))))))))))))).)))..)))((.((((((((........)))))))).))((((((...))))))))).(((((((........)).)))))............
+str2	.(((((......((..(((((((((..((((..((((((........)))))).).))).)))))))))..)).......))))).(((.(((.....(((.((((((.(((...((((((((((((((((.((((.(((........)))))).).)))((((.((((((((.....))))))))...))))(((((((((....)))))))))...(((((((((((....)))).........))))))).))))).))))))))..)))(((((((....)))))))..((((.(((((((((.((((.....))))...........))))))))))))).(((((......)))))........)))))))))..))).)))......(((((((..(((((((........)).)))))....))).))))
+>ENST00000331828|367	
+seq	ACGATTTCTGTCTGAGCCAACCAGGTGCCTCAGACTTCTCTGCTGTGTGGCCCTTTCTTTCTGGGGAGCAGCCTCCATGGACACCAAGGTCACCCAGAGACCTAGATTTCTGGTCAAAGCAAATGAACAGAAAGCAAAGATGGACTGTGTTCCTATAAAAAGACATAGTTATGTTTACTGGTATCATAAGACGCTGGAAGAAGAGCTCAAGTTTTTTATTTACTTTCAGAATGAAGAAATTATTCAGAAAGCAGAAATAATCAATGAGCGATTTTCAGCCCAATGCCCCCAAAACTCACCCTGTACCTTGGAGATCCAGTCCACGGAGTCAGGAGACACAGCACGGTATTTCTGTGCCAACAGCAAA
+str1	.........(((((((.((......)).))))))).....((((((((..((((((((....))))))....((((.(((((.(((((((((.(((((((......))))))).....(((.((((.(((.(((((......(((((((((..........))))))))).))))).)))...)))).....((((((((....(((((......((((((.(((((.((((((.....)))))).)))))...))))))....)))))..))))))))....)))...............)).))))))).......))))).))))...))..)))))))).(((((....))))).........
+str2	.........(((((((.((......)).))))))).((((((((.(((((..((((((.((((((.....((((...(((...)))))))..))))))((((.((....)))))).............)))))).(((.(((.((((((((..........))))))))))).)))(((((.(((.......((((((((....(((((......((((((.(((((.((((((.....)))))).)))))...))))))....)))))..)))))))).........((((.((.......))...)))).))))))))))))).)))..)))))....((((((.....))))))..........
+>ENST00000326586|421	
+seq	TTTTCGCCATCTTTTGTCTTTCTGTGGAGCTGTCGCCATGAAGGTCGAGCTGTGCAGTTTTAGCGGGTACAAGATCTACCCCGGACACGGGAGGCGCTACGCCAGGACCGACGGGAAGGTTTTCCAGTTTCTTAATGCGAAATGCGAGTTGGCGTTCCTTTCCAAGAGGAATCCTCGGCAGATAAACTGGACTGTCCTCTACAGAAGGAAGCACAAAAAGGGGCAGTCGGAAGAAATTCAAAAGAAAAGAACCCGCCGAGCAGTCAAATTCCAGAGGGCCATTACTGGTGCATCTCTTGCTGATATAACGGCCAAGAGGAATCAGAAACCTGAAGTTAGAAAGACTCGACGAGAACAAGCTATCAGGGCTGCTAAGGAAGCAAAAAAGGCTAAGCAAGCATCTAAAAAGACTGCAATGGCT
+str1	.....(((.((((((((((((((((((((...(((((.....)).))).((((((.((....))..)))).))......((((....)))).((((...))))..((((........)))).((((((((.....(((......(((...((.((((((((...))))))))))))))))...)))))))).....)))))))))))))....).)))))))))....((......(((....))).....)).((((.((((((...((((..((((((....(((((((.((((((((((......))).)))))))...(((....))).((((.....))))............)).))))))))).))..)))).........(((.....))).........))))))..)))).
+str2	..(((....(((((((..(((((...((.(((((.((......((.((.((((((.((....))..)))).)).)).))((((....)))).((((...)))).(((((........)))))((..(((((.......)))))..)).(((((.(((((((...((((((....((((........))))....))))))...))))))))).)))...)))))))))...)))))..)))))))...)))...((((.((((((...((((..((((((....(((((((.((((((((((......))).)))))))...(((....))).((((.....))))............)).))))))))).))..)))).........(((.....))).........))))))..)))).
+>ENST00000332473|296	
+seq	ATATCATGGAAATCAGGACAGTGGCAGTTGGGATTGTGGCAATCAAAGGGGTGGAAAGTGAATTCTATCTTGCAATGAATGAGGAAGGAAAACTCTATGCAAAGAAAGAATGCAATGAAGATTGTAACTTCAAAGGACTAATTCTGGAAAACCATTACAACACATATGCCTCAGCTAAATGGACACACAATGGAGGGGAAATGTTTGTTGCCTTAAATCAAAAGGGGATTCCTGTAAGGAAAAAAAATGAAGAAAGAACAAAAACAGCCCACTTTGTTCCTATGGCAATAACTTAA
+str1	...(((((((..........((.(((((....))))).))...(((((((((......((.(((((.(((((((......(((.........)))..))).)))).)))))(((((....)))))..(((((.((((....))))((....))....(((((.((((..(((..(((..((......)).)))..)))..)))).)))))((((........))))..(((((...)))))......)))))......))......)))).))))).))).))))...........
+str2	...(((((((..........((.(((((....))))).))...(((((((((......((.(((((.(((((((......(((.........)))..))).)))).)))))(((((....)))))..(((((.((((....))))((....))....(((((.((((..(((..(((..((......)).)))..)))..)))).)))))(((((.......((((...)))).)))))........)))))......))......)))).))))).))).))))...........
+>ENST00000335282|488	
+seq	ATGGCGGGACACCCAAAAGAGAAGGTGATTCCAGATGAGGTCCATCAGAACCAGATCTTGCGGGAACTGTACCTCAAGGAGCTACGAACCCAGAAACTCTACACGCAGTATCACGTGAATCCCCTCCGCAAGATTCATACAGTCACCAGGAAGCCCATGTCTTGGCATGATAACCTGGAGGAACCTGCAGATGCCAGGTTTCTGAATCTCATTCACCATGCTGCCCAGGGACCAAGGAAGAAGTACCCAGAGACACAGACTGAAAACCAGGAAGTTGGATGGGACTTAGAGCCCTTGATCAACCCAGAACGCCATGACCGCAGGCTGAATCACTTCAGGGTCTGCAGTGACATCACTCTGTACAAGGCTAAAACGTGGGGCTTAGGAGATGATCACCACAAGTAGCATCCCAGCGGATGAGCCCATCTGTGGATCTAATGCCTTAAGTGTGCACAGCCCAGAGAAATAAAATACTACTTTAAAACGAA
+str1	..(((...((((.........((((((((((((((((.(((.((((.......(((((((((((...((((.(((...))).)))).....(((...))).((((........)))).......)))))))))))......((((((((((........))))))..))))..(((((.(((((((((....).))))))))(((((...))))).........)))))((.(((((...((((.((((..(((.....(((.....)))...)))...)))))))).....))))).))..((((....(((.((...(((((.(((.(((((.(((...))).)))))..))).))))).)).))).......))))(((..((.((((..............))))))))).)))).))))))))).)))))....)))))..)))).....)))..............................
+str2	.....(((...))).......((((((((((((((((.(((.((((.......(((((((((((...((((.(((...))).)))).....(((...))).((((........)))).......)))))))))))......((((((((((........))))))..))))..(((((.(((((((((....).))))))))(((((...))))).........)))))((.(((((...((((.((((..(((.....(((.....)))...)))...)))))))).....))))).))..((((....(((.((...(((((.(((.(((((.(((...))).)))))..))).))))).)).))).......))))(((..((.((((..............))))))))).)))).))))))))).)))))....))))).(((((....................))))).............
+>ENST00000343705|366	
+seq	CAACACATCGGAGAGCTTCGTGCTAAACTGGTACCGCATGAGCCCCAGCAACCAGACGGACAAGCTGGCCGCCTTCCCCGAGGACCGCAGCCAGCCCGGCCAGGACTGCCGCTTCCGTGTCACACAACTGCCCAACGGGCGTGACTTCCACATGAGCGTGGTCAGGGCCCGGCGCAATGACAGCGGCACCTACCTCTGTGGGGCCATCTCCCTGGCCCCCAAGGCGCAGATCAAAGAGAGCCTGCGGGCAGAGCTCAGGGTGACAGGGACAATAGGAGCCAGGCGCACCGGCCAGCCCCTGAAGGAGGACCCCTCAGCCGTGCCTGTGTTCTCTGTGGACTATGGGGAGCTGGATTTCCAGTGGCG
+str1	......(((((..(((.....)))...))))).((((..(((..(((((..(((.........((((((.((..(((....)))..)).))))))((((((..((((((.((((..(((((((......((((...)))))))))....))..))))))))))..)).))))(((.......)))((.(((.....((.(((((((......)))))))))))).))((.(((.(((((((..(((((((..(((.(((((..(((((.........((..(((......))).))))))).......).)))).)))..)))))))))))))).))).)).)))...)))))..)))..))))..
+str2	.....(((.((((((((.(((((............)))))))).(((((..(((.........((((((.((..(((....)))..)).))))))((((((..((((((.((((..(((((((......((((...)))))))))....))..))))))))))..)).))))(((.......)))((.(((.....((.(((((((......)))))))))))).))((.(((.(((((((..(((((((..(((.(((((..(((((.........((..(((......))).))))))).......).)))).)))..)))))))))))))).))).)).)))...))))).))))).)))...
+>ENST00000334046|330	
+seq	GCATTGAACTGAATCTCTAGTCCCTGACACCATGAGATACTATGGCAGCTACTACAGAGGCCTGGGATATGGCTGTGGAGGCTTTGGTGGTCTGGGCTATGGCTGTGGCTGTGGAGGCTACAGATATGGCTCTGGCTATGGAGGCTATAGATATGGCTGCTGCCGCCCATCATGCCGTGAAGGATATGGATTCTCTGGATTCTACTAAAAAACTTGCTGATTCTCATACTCTAACTCCAAGATCTTGCCCGTATGCTTCAGCAAGGCGAACACTTTTCTCAATGTAGAGAAAATACCTACCATTTTTTGGCTTCATGCTCCAGAAGGAAC
+str1	((((.(((..((((((...((((.(..((((((((........(((((((((((((...(((........)))))))).((((((.((((((.((((((((.((((((((.....)))))))).)))))))).)))))).)))))).......))))))))........)))))..))).)))))..))))))...................((((((((....(((((.....................)))))..))))))))........(((((((......)))))))......(((.....))).)))))))(((....)))..
+str2	(((.((((....(((((..(((...))).....))))).(((.(((..((.....))..))))))..(((((((((((.((((((.((((((.((((((((.((((((((.....)))))))).)))))))).)))))).))))))........(((....)))..))).)).)))))).(((((..(((...)))..))))).........((((((((....(((((.....................)))))..))))))))........(((((((......)))))))......(((.....))).)))))))(((....)))..
+>ENST00000364032|102	
+seq	CTGCTTTGGCAACATATATACTAAAATTGGAACAATACCGAGAATATTAGCATAGCCCTGTGCAAGGATGACATGCACATTTGTGAAGCATTATATATACAT
+str1	.(((((((.(((....(((.((((..((((.......)))).....)))).)))....((((((.........)))))).))))))))))............
+str2	.(((....))).........((((..((((.......)))).....))))(((((...((((((.........)))))).))))).................
+>ENST00000362511|107	
+seq	GTGCTCATTTCAGCAGCACATATATTCAAATTGGAATGATACAGAGAAAATTAGCATGGTTCCTGCACACGGATGACATACAAAATCATGAAGCATTTTGTTTTCAA
+str1	(((.(((((((((.................)))))))))))).((.(((((...(((((((((.......)))...........))))))....))))).)).....
+str2	(((((.........))))).(((((((......)))).))).(((.(((((...(((((((((.......)))...........))))))....))))).)))....
+>ENST00000363244|119	
+seq	CCCTACAGCCATGCTACTCTCAATGTGCCCGATCTTGTCTGATCTCAGAAGCTAAGCAGTGTTGGGCCTGGTTAGTACTTGGAGTGGAGACTGCCTGGGAATACTGGATGCTGTAGGCT
+str1	.((((((((.((.......(((.(((.((((.....((((...(((....(((((.(((.((...))))).))))).....)))...))))....)))).))).)))))))))))))..
+str2	.(((((((.(((.(((.((((.....(((((((.(((((((....))).......)))).)))))))..(((.(((.(((......))))))))).))))....)))))))))))))..
+>ENST00000363795|107	
+seq	TTGTTCGCTTCAGAAGCATATACACAAAAATTGGAACCCTACAGAAAAGATTAACATGGCCCCTGCACAACGATGACATGCAAATTCATGAAGCAATCCACATTTTT
+str1	......(((((((((((((.............((..((...................))..))..............))))...))).)))))).............
+str2	.(((..((((...))))....))).((((((((((...((.((.....((((..((((..................))))..))))..)).))...)))).))))))
+>ENST00000364251|105	
+seq	GGCTGGCCCGAAGTTAGTTATCTCAATTGACTGTTCACAGTTACAGATCGAACTCCTTGTTCTACTCTTTACCCCCTTCTCACTACTGCACTTGACTAGTGTAAA
+str1	.((((((.....)))))).((((....((((((....)))))).)))).((((.....))))........................((((((.....))))))..
+str2	(((((......((((((((.....)))))))).....))))).......((((.....))))........................((((((.....))))))..
+>ENST00000363509|304	
+seq	GGATGTGAGGGCAATCTGGCTGCAACATCTGTCACCCCATTGATGGCCAGGGTTGATTCGGCTGATCTGGCTGGTAGGCGGGTGTCCCCTTCCTCCCTCACCACTCCATGTGTGTCCCTCCCAAAGCTACATGCTTGGTCAAAGAGGACGACATCCCCAATAGAGGAGGACCGATCTTCAGTCAAGGGCATACGAGTAGCTGTGCTCCCCTGTTAGAACCCCCAAGCAAGCTGTCAAGACACACTGTATTAAAGGATGCAAGAGCAAAGATGCCTATTCTTAGGTCCGGTGACATACTGCTACC
+str1	(((.(((((((......((.....(((((((((((((((..(((((((.(((....))))))).))))))..))).)))))))))..)).....)))))))...)))..(((((((........((((...(((((((.....(((((((...(((((......)).))).)).))))).....((((.....(((((....)))))))))..........))))))))))).....))))))).(((((....)))))............(((((....))))).(((((...))))).....
+str2	(((.(((((((......((.....(((((((((((((((..(((((((.(((....))))))).))))))..))).)))))))))..)).....)))))))...)))..(((((((........((((...(((((((.....(((((((...(((((......)).))).)).))))).....((((.....(((((....)))))))))..........))))))))))).....))))))).........((((..(((((((....)))....))))..))))((((.((...)).))))
+>ENST00000363282|104	
+seq	GTGCTCGCTTCGGCAGCACATATACTAAAATTAGAACGATACAGAGGTTAGCATGGCCCTAGCACAAGGATGACAGGCAAATTCATGAAGCATTCCATTAAAGA
+str1	(((((.((....))))))).......................((.(((((...))))))).((.((.((((.........)))).))..)).............
+str2	(((((.((....)))))))........................(((.....(((((.(((..((......))..)))).....)))).....))).........
+>ENST00000362500|215	
+seq	TAGTAACACTTCCATGCACCATTTCTATAGTTTCTTACCAGAGAAGTTTCTCTGAACATGTGGAGCACCGGAAACCACGAGGAGGCGGCTCAGCATTCACTCCTGAGCATGAAGCTGGCTCTTGGTGGTGCTTCTCTGCAATTGCCTTTTGCTGCTGATGATCACTCTTCTCTTCCTTTGGGAGAGTGAAAGGGAAAGGAAGCCATCTGAAGGGT
+str1	........(((((..........(((...(((((....((((((....)))))).......)))))...))).(((((.(((((.(((((((((..(((....))))).)).))))).))))).)))))..((((((((((.......)))).........((((((((((........)))))))))).)))))).)))))((........)).
+str2	.................(((.((((.((.(((((((..((((((....))))))....(((((((....((..(((((.(((((.(((((((((..(((....))))).)).))))).))))).))))).)).))))))).((.((((.............((((((((((........)))))))))))))).))))))))).))..)))))))
+>ENST00000364390|107	
+seq	ATGCTTGTTTCTGTAGCACATATACTAAAATTGGAATGATACAGAGAAGATTAGCATGGCCCCTGTGCAAGGATGACATGCAAATTCGTGAAGCATTCCGTATTTTT
+str1	.((((.........))))........((((((((((((...((..(((.....(((((...(((.....)))....)))))...))).))...))))))).))))).
+str2	((((((.((((((((...(((...(((....))).))).)))))))).((((.(((((...(((.....)))....))))).))))....))))))...........
+>ENST00000364331|330	
+seq	GGATGTGAGGGTGATCTGGCTGTGACATCTGTCACTCCATTGATTGCCAGGGTTGATTTGGCTGATCTGGCTGTCTAGGCGGGTGTCCCCTTCTTCCCTCAACGCTCCACGTGCGTCCCTCCTGAAGCTGCGTGCTCAGTCAAAGAGGACGACCATCCCCAATAAAGGAGGACCAGTCTTCAGTCAAGGGTATACAAGTATCTGCTCTTCCTAGCTAGAACCTCCAAACAAGTTCTTAAGATCCGTTGTAGGAGAACGTAGGGTAGTCAAGCTTCCAAGACTTCAGACACATCCTAATGAGGCGCTGCATGTGGCAGTCTGCCTTTAAAA
+str1	(((((((..((((((((((..(((((....))))).)))..)))))))((((..((...((...(((((.((....)).)))))...))..))..))))..((((.......))))((((.((((((((((((.(((.......))).)))....(((((......)).))).))).))))))...))))..........((((.((((...((((.((.(..((..((..((((......(((......)))))))))..))..))).))))...))))...)))))))))))....((((((((((.....)))))..))))).....
+str2	(((((((((((.((...((....((((((((((((.(((..((((((((((.....)))))).)))))))..))...))))))))))))..))..))))).((((.......))))((((.((((((((((((.(((.......))).)))....(((((......)).))).))).))))))...))))..........((((.((((...((((.((.(..((..((..((((......(((......)))))))))..))..))).))))...))))...)))).))))))....((((((((((.....)))))..))))).....
+>ENST00000364264|102	
+seq	GGTTGGTCCAAGTGCAGTAGTGTTTACAACTAATTGATCACAACCAATTGCAGATTTCTTTGTTCCATCTCCACTCCCATTGCTTCACTTGACTAGCCTAAA
+str1	((((((((.(((((.(((((((..........((((........)))).(((((....)))))..............))))))).)))))))))))))....
+str2	(((((((.((((((.(((((((........((((((........)))))).((((...........)))).......))))))).)))))))))))))....
+>ENST00000364143|113	
+seq	CGCTGGCCTGAAGGCAGTGAGCTATCTCAAACGATGGTTCACAATCAGTTACAGACTGAACTCCTTGCTCTATTCTCTACCCCATTCTCACTACTTCACTGGACTACTCTAAA
+str1	.....(((....))).((((((((((......))))))))))..((((((...))))))........................................((((....))))..
+str2	...((((((((((...((((((((((......))))))))))..((((((...))))))..................................)))))..)).))).......
+>ENST00000363490|107	
+seq	GCACTCACTTTGGCAGCACATATACTGAAATTAGAATGATACAGAGTAGATTAGCATGGCCCTTGTGCAAGGATGACATGCAAATTCATTACGCATTCCATATTTTT
+str1	((((.......(((.((.....((((..................)))).....))...)))...))))..(((....((((...........)))))))........
+str2	.............(((........)))......(((((......(((.((((.(((((..((((....))))....))))).)))).)))...))))).........
+>ENST00000362764|141	
+seq	AGCTTTGTACCGTGGCAGTCTCATAACCAATGAGGTTTATTCGAGGCGTGATTACTGCTAATTAAAAACTTTTTCCAATACCCCATCATCATGACTTGAAATATAGCTGGCATAGGCAATTTTTGACAGTCTCTATGGAGA
+str1	.((((......(((.(((.(((((.....))))).....((((((.((((((...................................)))))).))))))......))).)))))))............((((....))))
+str2	.........((((((.((.(((((.....))))).....((((((.((((((...................................)))))).)))))).....(((......))).............))))))))...
+>ENST00000363094|102	
+seq	GGCTGGCTGGAATGTAGTGATGTTTACAACTAATTGATCACAAGCAGTTACCGATTCCTTTGTTCCTGCTCCACTCTCACTGCTTCACTTGACTAGCCTTTA
+str1	((((((...(((.(((((((.(((...)))............(((((..((.((.....))))..)))))......))))))))))......))))))....
+str2	((((((...(((.(((((((.((...(((....)))...)).(((((..((.((.....))))..)))))......))))))))))......))))))....
+>ENST00000363598|108	
+seq	GTCTATGGCCATACCACCTTGAACGCTCCCGATCTCATCTGATCTCAGAAGCTAAGCAGGGTCGGGCCTGATTAGTACTTGGATGGGAGGAATCTTGTCTTGGGGCCT
+str1	......((((...(((....((...(((((.((((..((((....)))).(((((.((((......)))).)))))....)))))))))...))......))))))).
+str2	......((((...(((....((...(((((((((......))))((((..(((((.((((......)))).)))))..))))..)))))...))......))))))).
+>ENST00000362918|102	
+seq	CGCTGGTCCAAATGCAGTGGTGTTTACAACTAATTGATCACATCCCGTTATGGATTTCTTTGTTTCCTTTCCACTCCCACTGCTTCACTTGACTAGCCTAAG
+str1	.(((((((.....(((((((.((....(((.....((((.(((......))))))).....)))........))..))))))).......))))))).....
+str2	.(((((((.....(((((((.......(((....((....))....))).((((...............))))...))))))).......))))))).....
+>ENST00000363839|119	
+seq	ATCTACAGCCATATCACCCTGAATGCTTTCAATCTTGTCTAATCTCAGAAGTTAAGCAGAGCTGAGCCTGGTTACTACTTGGATGGAAGACTGCCTGGGAATACTGGGTGCCAGGGGGC
+str1	.......(((......(((((...............((((.((((.((.(((.((.(((.((...))))).))))).)).))))...)))).((((((.....))))))..))))))))
+str2	.......(((......(((((....((((((...........(((.((.(((.((.(((.((...))))).))))).)).)))))))))..(((((((.....))))))).))))))))
+>ENST00000357147|464	
+seq	ATTGCTGTCAGGAATGGCTTCAGGGAAAGATACTTGTCCTACTTTGCCTAAACTCACTAACAACTGCTCTGATGAGAGTCTCTATAAATCTGCTAATAAGTATGAAGAGATTCATTTGCCACGATTTTCATTAAAGCAAGGGATGATCCCAAGACGTTATGTCATGCCTTGGAAAGAAAACATGATATTCAGGAATGTGAATCTGAAGCAAGCAGAAGTGTGTGGGATCCATACTGGCCCTTTAGAAGACTCTCTGTTTTTGAATCACAGTGAAAGGCTTTGCCATGGGGAAGATCGTAAAGTTGTCTTCCAAAAAGGCCCACCAGAAATAAAAATTGCAGATATGCCTTTGCATTCGCCTCTCTCCAGATACCAAAGCACTGTGATTTCCCATGGCTTCAGGAGGCGACTAGTCTAATGAAAGAAGAATAAAATAATAAAGTGTTTCAATCTCTGCTCTCTTA
+str1	...(((.(((((...(((....(((((((...))).)))).....)))................((((.((((((((((((((.....((((((....)))).))))))))))..............)))))).)))).((((...)))).........(((((((..((......))..))))))).(((......))).)))))))).((((((...((((((...)))))).((((.((((((((((.....)))))).........)))).))))..(((((((((((((.((......)))))))).....((....))........(((((((((...(((.((((...((...........))...)))))))))))))))).))))))).(((..((((.....))))..)))...............................))))))......
+str2	...(((.(((((...(((....(((((((...))).)))).....)))................((((.((((((((((((((.....((((((....)))).))))))))))..............)))))).)))).((((...)))).........(((((((..((......))..))))))).(((......))).)))))))).((((((..((((.(((..(((...))))))....((((((.....))))))....)))).(((((.((((.(((((((((((((.((......)))))))).....((....))........(((((((((...(((.((((...((...........))...)))))))))))))))).)))))))((((..((((.....))))..)))).................)))).)))))...))))))......
+>ENST00000363889|107	
+seq	GTGCTCACTTCAGCAGCACATGCGCTAAAATTGGAATGACACAGAGAAGATTAGCATGGCCGCTGAGCAAGGATGACATGCACATTTGTGAACTGTTCCATAAAAAA
+str1	((((((((((((((.((.(((((.......(((........))).........))))))).)))))....)).)))...)))).((((((........))))))...
+str2	.((((((.....((.((.(((((.......(((........))).........))))))).)))))))).(((.......(((....)))......)))........
+>ENST00000363502|116	
+seq	TAACTCTTGTTTCTCTTCAGATCATGTAAATCTTTCGCCTTTTATTAAAGATTTCCATGGGGAGGAACAGTTATGAGTCTTTATCCAATTTCTGAGGCCTCGTGTTTCACCAGGCT
+str1	..((((((((((((((.....(((((.((((((((...........)))))))).)))))))))))))))....)))).......((.....)).(((((.(((...))).)))))
+str2	......((((((((((.....(((((.((((((((...........)))))))).))))))))))))))).((((((((((............)))).))))))............
+>ENST00000363508|111	
+seq	ATACTCTGGTTTCTCTTCAGATCATATAAATCTTTCACCTTTTACTAAAGATTCCTGTGGAGAGTTTTTGAGTTTTTAGCTAATTTTTTGAGCCTTTGCTTTAGCAAGGCT
+str1	..((((....((((((.(((........(((((((...........))))))).))).)))))).....)))).................((((((.((....))))))))
+str2	..((((....((((((.((((((...((((..........)))).....)))..))).)))))).....)))).................((((((.((....))))))))
+>ENST00000362845|102	
+seq	GGCTGGTCTGAGTGCACTGTTGCTTATAACTAATTAATCTCAACCAGTTACAGATCTCTTTGTTCCCTCTCCATTCCCATTGCTTCATTTGACTAGCTTTTA
+str1	((((((((.(((((.(((((((.(((........)))...))).)))).(((((....)))))......................)))))))))))))....
+str2	.((((((.((((......((((....))))........)))))))))).(((((....)))))..................(((((....))..))).....
+>ENST00000362897|107	
+seq	ATGCTCACTTTGGCAGCACATAGACTACAATTGCAATGATACAGAGAAGGTTAGGATGATCCCTGCGCAAGGATGACACACACATTCATGAAGTGTTCTATGTTTTT
+str1	.((((......))))..(((((((.(((....(((..(((.((.............)))))..))).((.(((((.......))))).))..))).)))))))....
+str2	.((((......))))..(((((((.(((.....................(.((((......))))).((.(((((.......))))).))..))).)))))))....
+>ENST00000356667|480	
+seq	TCCACTGCGACTGCAGAACTCAGAGCTGCTCTTCCTCTGTGGCCAGTTGGGGACCAGCATCATGAAGTGGATGGTGGTGGTCTTGGTCTGCCTCCAGCTCTTGGAGGCAGCAGTGGTCAAAGTGCCCCTGAAGAAATTTAAGTCTATCCGTGAGACCATGAAGGAGAAGGGCTTGCTGGGGGAGTTCCTGAGGACCCACAAGTATGATCCTGCTTGGAAGTACCGCTTTGGTGACCTCAGCGTGACCTACGAGCCCATGGCCTACATGGATGTCCAGAGCATCCAGGTCCCCAACCAGGAGTTCGGCTTGAGTGAGAATGAGCCTGGTACCAACTTCGTCTATGCGCAGTTTGATGGCATCATGGGCCTGGCCTACCCTGCTCTGTCCGTGGATGAGGCCACCACAGCTATGCAGGGCATGGTGCAGGAGGGCGCCCTCACCAGCCCCGTCTTCAGCGTCTACCTCAGCAACCAGCAGGG
+str1	..((((((.(((((......(((((.........))))).(((((.....((((((.((((((.......)))))).))))))))))).(((((((.....))))))).))))).))...)))).(((((.(((........)))...((((....)))).........((.(((((((((.((...((((((((...((((((......))))))...(((..(((.(((((.(((((.((((...))))((((...)).)).((((((....(((((((.((((((((...((((((.((((.((....))..))))...)))))).((((((.(((....))).)))....)))......)))))))).......)))))))))))))..))))).))))).)))..))).((((.(((((.(((.......)))))))))))).))))))))...)).)))))))))))..)))))
+str2	.((.((((..(((((((....((((...))))...)))))))(((.....((((((.((((((.......)))))).))))))))).(((((((((.....)))))))))(((.(((......))).)))............(((.((.(((....))))).)))....((.(((((((((.((...((((((((...((((((......))))))...(((..(((.(((((.(((((.((((...))))((((...)).)).((((((....(((((((.((((((((...((((((.((((.((....))..))))...)))))).((((((.(((....))).)))....)))......)))))))).......)))))))))))))..))))).))))).)))..))).((((.(((((.(((.......)))))))))))).))))))))...)).))))))))))).))))))
+>ENST00000363474|103	
+seq	TGCTGGTCGAAGGCAGTGAGTTATCTCAATTGATCGTTCACAGGCAGTTACACCTTGTTCTACTCTTTCTCCTCTTCTCACTACTGTGCTTGACTAATCTAAA
+str1	...(((((((..((((.(((....)))...(((....))).(((........)))............................))))..))))))).......
+str2	...(((((((..((((((((...........((......(((((........)).))).....))...........))))))...))..))))))).......
+>ENST00000363172|216	
+seq	AAAATTATACTTTCAGCAATCATCTCTATAGTTTGTTACTAGAGAAGCTTCTGTGAATGTGTAGAGCACCGGAAACCACAAGGCAAAGGCTCAGCATTCTCTCCTAAGCGCGAAGCTGGCTCCTGGTGTTGGTTGGCCGCAACTGCCATTTGCCATTGATGATCATTCTTCTCTTCCTGTGGTAGAGGAAGAGGGAGAGAATGCAGTTTGAGTGGT
+str1	....((((((.((((.......(((((..(((.....))))))))........)))).))))))..........(((((..(((....)))..(((((((((((...((.....)).(((...((((...(((((....)))))))))...)))................((((((((.......))))))))))))))))))).......)))))
+str2	......................(((((..(((.....)))))))).((((.((((..(((((...))).)).....))))))))....((((((((((((((((...((.....)).(((...((((...(((((....)))))))))...)))................((((((((.......)))))))))))))))))))....)))))...
+>ENST00000362646|102	
+seq	TGCTGGTCCAGGTGCAGTGGTGTTTAAAACTAATTGATCACAACCAGTTACAGATTTCTTTGTTCCTTCTACACGCCCACTGCTTCACTTGACTAGCTTTAA
+str1	.(((((((.((((((((((((((.....(((..(((....)))..))).(((((....))))).........))).)))))))...))))))))))).....
+str2	.((((((.(((((((((((((((.((.(((.....((((.............)))).....))).....)).))))).)))))...))))))))))).....
+>ENST00000364215|104	
+seq	ATGATCGCTTCAGCAGCACATAAACTAAAATTGGAACTATACAGAGATTAGCAAGGCCCCTGTGCGAGGATGACACCCAAATTCGTGAAGCATTCCACGTTTTC
+str1	....((((..(((..((.......((((..(((........)))...))))....))..))).))))(((((.(((........)))...))))).........
+str2	....((((..(((..((.......((((..(((........)))...))))....))..))).))))((.......)).((..((((........))))..)).
+>ENST00000362567|130	
+seq	CCTGGACCTGTTGGCACCACAGACAGTTGCTCTGCTGTGCCTGTGGCCTCGGGGCAAAGAGAAAGTGGCGATTTCTACACTCAGTGCTCGGGAACCAGTGGGCACTGAGAATGGTTTATGGCCTGACATT
+str1	.((...((((..(((..((((((((((......)))))..)))))))).))))....)).......(((.((..(((..(((((((((((........)))))))))))..)))...)).))).......
+str2	........(((((((.(((((((((((......)))))..)))))).(((........)))...((((......)))).(((((((((((........)))))))))))...........))).))))..
+>ENST00000364417|303	
+seq	GGATGTGAGGGCAATCTGGCTGTGACATCTGTCACCCCACTGGTCACCAGGTTTGATTCAGCTGATCTGGCTGGCTAGGCAGGTGTCCCCTTCCTCCCTCACCACTCCATGTGCATCCCTCCCGAAGCTGCATTCTTGGTCAAAGAGGACAGCCATCCCCGACAGAGGAGGACTGGTCTTTGGTCAAGGGTATACGAGTAGCTGTGCTCCCCTGCTGGAACCTCCAAACAAGCTGTTAGAGCAACACAAAACAGTCTAAGACATGGATTATCTATGCTGTGAAATTAAATGTAGTGTCAAAGC
+str1	(((.(((((((......((....(((((((((.......((((((((((((((..........))))))).))))))))))))))))))......)))))))(((.....)))......))).((.(((((((.((((((((((((...(((((.(((........))))).))).)))))))))))).(((...(((((....)))))...))).(((...)))......(((.....)))............((..((.((((((...))))))))..))......))))))).)).....
+str2	(((.(((((((......((....(((((((((.......((((((((((((((..........))))))).))))))))))))))))))......)))))))...))).((.((((.........(((((((((((((((((((((...(((((.(((........))))).))).)))))))))))))))......)))))).(((((....((((((...))).....))).....)))))..(((......((..((.((((((...))))))))..)).......))).))))))....
+>ENST00000363731|107	
+seq	TATGGCCATACCACCCTGAAATGCACTAGATGTCATCTGATCTCGGAAGCTAAGCAGGGTCGGGCCTAGTTAATACTTGGATGGGAGAAAATATGTTCAAACTAAAA
+str1	...((((.....((((((....((....((.(((....))).))....))....))))))..)))).(((....)))((((((..........))))))........
+str2	...((((.....((((((....((....((.(((....))).))....))....))))))..))))(((((......((((((..........)))))))))))...
+>ENST00000362496|106	
+seq	GGCTGGTCCTAAGGTAGTGTGTTATCAATTGATCAAAGTCAGTTACAGATCGAACTCCTTGATCTACTCTTTCCTCCTGCTCACTACTGCACTTGACTAGTCCAAA
+str1	((((((((....(((((((.((....(((((((....)))))))..(((((((.....))))))).............)).)))))))......))))))))....
+str2	((((((((..(((((((((((....((...((..((((..(((...(((((((.....))))))))))))))..)).))..))).))))).)))))))))))....
+>ENST00000363115|107	
+seq	GTCTACGGCCATACCACACTGAACACGCCCGATCTCATCTGATCTCAGAAGCCAAGCAGTACTTGGATGGGAGAAATATACATTCATGAGGGGAATATCCCTAGGCC
+str1	......((((........((((........((((......))))))))...(((((.....))))).((((...........))))..(((((....))))).))))
+str2	......((((.................((((......((((....))))..(((((.....))))).)))).(((.......)))...(((((....))))).))))
+>ENST00000363617|119	
+seq	GTCTGTGGCCCTACCACCCTGAACACGCCTTGTCTCCTCTAATCTTGGAAGTTAAGCAGAGTTAGGCCTGGTTAGTACTTGAATGGGAGACTGCCTGGGAATACCAGGTGCTGTCGGCT
+str1	....((((.....)))).((((.((.((...(((((((((((((..((...((((......)))).)).)))))).........))))))).((((((.....))))))))))))))..
+str2	....((((.....)))).(((.(((.((...(((((((....((....(((((((.(((.((...))))).)))..))))))..))))))).((((((.....))))))))))))))..
+>ENST00000363237|111	
+seq	GTGCTCACTTTTGCAGCACATACACTAAAATTGGAACGATACAGAGAAGATTAGCATGGCCCCTGTCTGTGCAAGGATGATATGCAAATTTGTGAAGTGTTAACTTTATGT
+str1	(((((((....)).))))).............................((((.(((((...(((((....)).)))....))))).)))).(((((((....)))))))..
+str2	(((((((....)).)))))..................(((((.....(((((.(((((...(((((....)).)))....))))).))))).....))))).((.....))
+>ENST00000364285|165	
+seq	GGTCTTACCCGGCAGGGGAGATGGCATGATCATGAAAATGGTTTTTCCCAGGGTGAGCTTACCCATTGCATTCTGATGTGCTGATTTCCGTGATTTCCCCAAATGTGGGAAACTCACTCGGCTGCATAATTGGTGGTAGTGGGGGCTGTGTTATGCTCTCTCCTT
+str1	.(((......))).(((((((.(((((((.((.(((((....)))))........((((..((((((((..((..(((((((((.....((((((((((.......)))))).))))))))).))))....))..)))))))))))).))))))))).)))))))
+str2	.(((((.(((....))))))))((...((((((....))))))...)).((((.((((...((((((((..((..(((((((((.....((((((((((.......)))))).))))))))).))))....))..))))))))...........)))).).))).
+>ENST00000363999|107	
+seq	TTGCTCACTTTGGCAGCACATATACTAACATTGGAATGATACAGAGAAGATTAGCGTGACCCCTGCACAACGATGACATGGGAATTTGTGAAGCGTTTCATATTTTT
+str1	(((((......)))))...............(((((((.((((((..............(((.((((......)).)).)))..))))))...))))))).......
+str2	.((((......)))).(((...........(((........)))...........))).(((.((((......)).)).)))((..((((((....))))))..)).
+>ENST00000363666|124	
+seq	AAGTCATTTCAAAGAGGGCTTGGATGGCTATGAAACCAGAGCTCTTAAGGTTATAATAAGATTGAAATTTTCCATAGGATGCTGTAGTCACACAATAGTGCTGTTTTCTTGAGGAGACAGAAGA
+str1	..(((.((((((.(((((((((..(((((((........((((((((.((.....................)).))))).))))))))))..))).......)))))))))))).)))......
+str2	.(((((((.(((.(....))))))))))).(((......((((((((.((.....................)).))))).)))....)))(((....)))((((((((....))))))))....
+>ENST00000364043|104	
+seq	AAGTAGGGTGATGAAAAAGAATCCTTAGGCGTGGTTGTGGCCGTCTTGGTCACCTGTGTGCCACTTGCCAATGCAAGGACTTGTCATAGTTACACTGACTGTTG
+str1	.(((.(((((((......((.(((((..(((((((.(((((((....((...))..)).)))))..))).))))))))).))......))))).)).)))....
+str2	.(((.(((((((......((.(((((.((((((((.((((((.....))))))......)))))..))).....))))).))......))))).)).)))....
+>ENST00000363377|107	
+seq	ATGCTTGCTTCAGCAACATATATGATAAACTTGGAACAATACAGAGAAAATGAGCATGGCCCCTGCACAAGGATGACATGCAAATTCATGAAGCATTCCATTTCTTT
+str1	(((.((((....)))))))............(((((.....((..(((.....(((((...(((.....)))....)))))...))).)).....))))).......
+str2	.....(((((((..................(((........))).(((.....(((((...(((.....)))....)))))...))).)))))))............
+>ENST00000363717|111	
+seq	ATCTATGGCCATACTACCCTGAACGTGCCTGAACTTGGAAGTTAAGCAGGGTCGGGCCTGGTTAGTACTTGGATGGGAGACCTTGTGGGACCCCTTATAGAGTCTCAGGAA
+str1	........((((.(((..((((.((.((((((.((((.........)))).)))))).)).))))....)))))))(((((.(((((((....))))))).))))).....
+str2	..((((..((((((((.((.......((((((.((((.........)))).))))))..)).)))))..)))))))(((((.(((((((....))))))).))))).....
+>ENST00000362899|217	
+seq	AAGACTATACTTTCAGGGATCATTTCTATAGTTTGTTACTAGAGAAGTTTCTCTGAACGTGTATAGCACTGAAAACCACAAAGAAGAGGTGCAGCATTATCTCCTAAGTGTAAAGCCGGCTCTTGATGTTGCTTTGCTGCAACTGCCATTTGCCATTGATGATCGTTCTTTTCTTCCTTTGGGAGACTGGGAAGGAAAGGATGCAATCTGAGTGGTT
+str1	....((((((.((((((((..((((((.((((.....)))).)))))).))))))))...)))))).......((((((..(((.((((((......))))))......(((((((.(((.......)))))))))).((((.......))))..........(((((((((((((((..((....)))))))))))))))))...)))..))))))
+str2	....((((((.((((((((..((((((.((((.....)))).)))))).))))))))...)))))).................(((((.(((.(((((........)))))...).)).)))))...(((((......))))).((((((((.....(((...(((((((((((((((..((....)))))))))))))))))..))))))))))).
+>ENST00000363424|132	
+seq	TTCCAAAGAATTGAGTTCAGTTCAAGGCAGCTTCCCTGTTCTGTTAACGAAACTTTGGGACATTGAAATGGGCTACGGGAGATGATTGGTTCAAAAGCATTATTCTATTCATTTGCCTTTTTTTTTGGAGAC
+str1	((((((((((...((((((.(((((.......((((.(((.((....)).)))...))))..))))).))))))..((.((((((.(((...............))).)))))).))...))))))))))..
+str2	((((((.((((((....))))))(((....)))(((..(((((((..(((....))).))))..)))..)))....((.((((((.(((...............))).)))))).)).......))))))..
+>ENST00000362639|119	
+seq	TCCTACGGCCATACCACCCTGAACACGCTTGCTCTCATCTGATCTTGAAGGCTAAGCAGGGTTGGGCCGGTTTCATACTTGGATGGGAGACTTCCTGGGAATACCAGGTGCTGTTGTAG
+str1	.(((.(((((.....(((((......(((((((.(((........))).))).)))))))))..)))))..((((....)))).))).(((..(((((.....)))))....)))....
+str2	.....(((((.....(((((......(((((((.(((........))).))).)))))))))..))))).((((((......)))))).....(((((.....))))).((....))..
+>ENST00000362832|104	
+seq	TGCTTGCTTTGGCAGCAGTATACTAGAAGTGGAATGATACAGAGAAGATTAACGTGGCCCTGCACAAAGATGACATGCAAATTCATGAAGCGTTTCATATTTAT
+str1	((((.((....))))))......((((.((((((((...((..(((......((((...((......))....))))....))).))...)))))))).)))).
+str2	((((.((....))))))......((((.((((((((................(((((...((((...........))))...)))))...)))))))).)))).
+>ENST00000362534|119	
+seq	ATCTCCCGCCATACCACCCTGAATGCACCCGATCTAGTCTGATCTGGGAAGCTAAGCAGGGTCAGGCCTGGTTAGTACGTGGATGGGAGACTGCCTGGGAATACTGGGTGCTGTAGGTG
+str1	.((((((((((((((((((((...((.(((((((......)))).)))..))....)))))).......)))......)))).))))))).(((((((.....))))))).........
+str2	.(((((((((((...............(((((((......)))).)))..(((((.((((......)))).)))))..)))).))))))).(((((((.....))))))).........
+>ENST00000363804|340	
+seq	AGATATGAGGGCGATCTGACTGTGACATCTGTCACTCTATTGATCGCCAGGGTTGATTCGGCTGATCTGGCTAGCTAGGCAGGAGTCCCCTTCCTCCCTCACCACTCCATGTGCTTCCCTCTTGAAGCTGTGCACACTCAGTGGAAGAGGACAGCCATCCCCAATAGAGGAAGGCCAGTCTGCAGTCAAGGGTATACAAGTAGCTGCATTCCCCTACTAGAACCTCCAAACAAGCTCTCAAGGTTCATTTGTAAGAGAACGTAGGGTTCTTTGAAGTCAAGCTTCCAAGACTCCAGACACATCCAAGTGAGTTGCTGCATGTGGCAGTCTGCCTTTCTTT
+str1	.........(((((((.....(((((....)))))......))))))).(((..(((..(((((.(((((....))))).(((((.....))))).((((.(((((...(((((.................)))))...)))))..)))).)))))))))))...((((((((((.((.((((...........((((.(((((.((....((((((..((((((...............)))))).(((......))).)))))).((((.(((((...))))).)))).......(((......))).)).))))).)))))))).))))))))))))
+str2	.........(((((((.....(((((....)))))......))))))).(((..(((..(((((...(((..((..(((.(((.....))).)))..))..))).............((((((...((((........))))..)))))).)))))))))))...((((((((((.((.((((...........((((.(((((.((....((((((..((((((...............)))))).(((......))).)))))).((((.(((((...))))).)))).......(((......))).)).))))).)))))))).))))))))))))
+>ENST00000364195|107	
+seq	TTGCTTCATTTGGCAGCAGATATACTAAAATTGGAAGGATACTGAGAAGATTAGCATGGTCCCTGTGCAAGGATGACAGGCAAATTCACAAAGCATTACATATAAAA
+str1	(((((((((((.(((.(((.(((.((((..((...((....))...))..)))).)))....))))))..))))))..)))))........................
+str2	(((((((((((.(((.(((.....(((....)))..((((.((((.....))))....))))))))))..))))))..)))))........................
+>ENST00000363261|353	
+seq	GAATGTGAGGGTGATCTGGCTGTGACATCTGCCACCCACTGATCACCAGGGTTGATTCAGCTGATCTGGCTGTCTGGGCAGATGTCCCCTTCCTCCCTCACCGCTCCATGTGTGTCCTTCCCAAAGCTGCATGCTTGGTTGAAGAGGATGACCATCCCCAATAGAGGAGGGCCAGTCTTCAGTGAAGGGTATACGAGTAGCTGTGCTCCACTGCTAGAACCTCTAAACAAGCTCTCAAAGTCTACATTCTTCATCATCAAGTGATATTACCTCTCTAAAGAGAAAATTGAAAAATTCAGGAAGACTGCTCCTTATGGGTGGCCAGGGCCATATATAGTAAACATTCCTTAACT
+str1	....(((((((.((...((....((((((((((.......(((..(((((((((...)))))...))))..)))..))))))))))))..))..))))))).(((..(((((.(((((..((..(((.....))).((((.........))))...((((...((((((...((((((((.((((((((((.(((((.((((((((......))............)).)))))))...)).)))..))))))).(((....)))......((((....))))....((((...)))).)))))))))))))).)))).))..))))))))))..)))...............
+str2	....(((((((.((...((....((((((((((..((.(((.....)))))......(((((.....)))))....))))))))))))..))..))))))).(((..(((((.(((((..((..(((.....))).((((.........))))...((((...((((((...((((((((.((((((((((.(((((.((((((((......))............)).)))))))...)).)))..))))))).(((....)))......((((....))))....((((...)))).)))))))))))))).)))).))..))))))))))..)))...............
+>ENST00000364044|108	
+seq	GTCTACGGCCATACCACCCTGAATGTGCCCGATCTCGTCTGATCTCCGAAGCTAAGCAGGGTTGGGCCTGGTTAGTACTTGGATGGGAGAAGTCAGCTTTCTCAGATC
+str1	......((((((..........))).))).((((......))))(((((.(((((.((((......)))).)))))..))))).((((((.......)))))).....
+str2	......((((((..........))).))).((((..........(((((.(((((.((((......)))).)))))..))))).((((((.......)))))).))))
+>ENST00000364272|125	
+seq	TCCCTTACCTGGCGGGGGACAGACCGTGGTCAGGAAGGGGGTTCTCCCTGGTTGAGGCTAGTCCACCGCACTCTGGCTGCGCTCACCCCTGCGATTTCCCCACACGCGGGGCCCTAGTCTGCGGT
+str1	...........(((((((...((.((((((((((.(((((....)))))(((.((......)).)))....)))))))))).)).)))))))............((((((.......))))))..
+str2	.(((((.(((((((.((......)).).)))))))))))((....))..((.((((((.((.(((........))))))).)))).))((((((((.((((......))))....)))).)))).
+>ENST00000362467|119	
+seq	GTCTACGGCCATACCACCCTGAACGCGCCCGATCTCGTCTGATCTCGGAAGCTAAGCAGGGTCGGGCCTGGTTAGTACTTGGATGGGAGACCGCCTGGGAATACCGGGTGCTGTAGGCT
+str1	(((((((((....((((((((...((..((((..((....))..))))..))....)))))).)).((((((.....((.((.(((....))))).))....)))))).))))))))).
+str2	(((((((((....((((((((...((..((((..((....))..))))..))....)))))).)).((.(((....))).))..((....)).(((((.....))))).))))))))).
+>ENST00000363163|104	
+seq	TTGCTTCAGCAGTACATATGCTAAAATGGGAATGATACAGAGAAGATTAGCATTGGCCCCTGTGCAAGGATGACATGCAAATTAGTGAAGTGTTCCATATTTTA
+str1	.......((((.......)))).(((((((((((...((.....((((.((((.(...(((.....)))....))))).))))..))...)))))).)))))..
+str2	.(((..(((..((.((.(((((((......................)))))))))))..))).))).(((..((((.((......))..)))))))........
+>ENST00000363217|204	
+seq	CCAACGTGGATACCCTGGGAGGTCACTCTCCCCAGGCTCTGTCCAAGTGGCATAGGGGAGCTTAGGGCTCTGCCCCATGATGTACAGTCCCTTTCCACAACGTTGAAGATGAAGCTGGGCCTCGTGTCTGCGCCTGCATATTCCTACAGCTTCCCAGAGTCCTGTGGACAATGACTGGGGAGACAAACCATGCAGGAAACATAT
+str1	.(((((((((((.(((((((((....))).))))))...)))))..((((...(((((((((((((((...))))..))).))....)))))).)))).))))))........((.((((.....)))))).(((((((..........((((((((.((((...)))).....)))))))).......)))))))........
+str2	......((((((.(((((((((....))).))))))...)))))).((((...(((((((((((((((...))))..))).))....)))))).))))..(((.((..((((.((...)).)))).)).)))(((((((..........((((((((.((((...)))).....)))))))).......)))))))........
+>ENST00000364201|112	
+seq	AGCAGGTCTGAAGGTAGTGAGTTATCTCAATTGACTGTTCACAGTCAGTTACAGATCGAAACCCTTGTTTGATATTTCCCCACTTCTCACTACTGCACTTGACTAGTCTTAA
+str1	(((((((.....(((((((((.......(((((((((....))))))))).((((.(((.....)))))))..............)))))))))..))))).))........
+str2	(((((((.....(((((((((..((((.(((((((((....)))))))))..)))).((((.............)))).......)))))))))..))))).))........
+>ENST00000363171|102	
+seq	TATTGGCCTGAGTGCACTGGTGTTTACAGCTAATTGATCACAACCAGTTATAAATTTATTTGTTTCTTCTCCACTCCCACTGCTTCACTTGACTAGCCTTAA
+str1	...(((...(((((.((((((((...(((....)))...)).)))))).(((((....)))))........))))))))..(((((....))..))).....
+str2	....(((..(((((.((((((((...(((....)))...)).))))))...((((......))))....................))))).....)))....
+>ENST00000363033|104	
+seq	GTGCTCACTTTGGCAGCACATATGCTACAACTGGAATGATACAGAGATTAGCATGGACCCTGTGCAAGGATGACACGCAAATTCATGAAGCATTCCATATATAT
+str1	(((.((((((((((((....(((((((...(((........)))....)))))))....)))).))))).))))))............................
+str2	(((((.........)))))............(((((((...((..((((.((.((...(((.....)))....)).)).))))..))...))))))).......
+>ENST00000362973|117	
+seq	GTCTATGGCAGTGCCCTGAAGATGCCTAATTTCTTCTGGTCTGTGAAGCTAAGCAGGGTGGGGCCTGGTTCAGTGCTTGGAAGGGAGACCGCCTGGGAATACCGGGTGCTGTAGGCT
+str1	(((((((((........(((((.........))))).(((((......(((((((...((((......)))).))))))).....))))).(((((.....))))).))))))))).
+str2	(((((((((........(((((.........))))).(((((......(((((((((((...)))).......))))))).....))))).(((((.....))))).))))))))).
+>ENST00000362750|119	
+seq	ATCTACAGCTATACCAACCTGAATGCATCCGATCTCACCTGGCCTTGGAAGCTAAGCAAGATAAAGCCTGGTTAGTCCTTAGATGGAAGACTGCCTGGGAATACTGGGTGCTGTAGGCT
+str1	.((((((((....(((...((...((.(((((..((....))..))))).))....))........(((((.(((((.((......))))))).))))).....)))..))))))))..
+str2	.((((((((........................((.(((.(((((((.........)))).....))).))).))(((......)))......(((((.....))))).)))))))).
+>ENST00000362981|210	
+seq	AAGACTATACTTTCAGGGATCATTTCTACATTTCCGGGTAATTTCTTTGAACATGTGGAGCACCGGAAACCACCAGGAGGAGGCACAGCATTTTCTCTGGAGCGTGAAGCCAGTTCTTGGTGTTGCTGCATAGCAACTGCCATTTGCCTTTGATGATCATTCTTCTTTTCCTTTAGGAGAATAAGAGGGGGAGAACCCAGTCTGAGGGAT
+str1	.........(((((((.(((((((.(((((((((.(((.....)))..))).))))))....((((......)).)).(((((((..(((.((.((.((.((((....((((.....))))..)))).)).)).)).)))....))))))))))))))..((((.((((((....)))))).)))).(((.....)))...)))))))..
+str2	.........(((((((.(((((((.(((((((((.(((.....)))..))).))))))....((((......)).)).((((((.(((........)))((((.((....)))))).((((((((((....)))))).))))...)))))))))))))..((((.((((((....)))))).)))).(((.....)))...)))))))..
+>ENST00000362835|102	
+seq	GGCTGGTCTGAGTGAAGTGGTGTTTACAACCAATTGATCACAGCTAGTTACAGATTTCTTTCTTCCTTCTCTACTCTCACTGCTTTACTTCACTAGGCTTTT
+str1	(((((((..(((((((((((((............((((........)))).(((......)))..............))))))))))))).)))).)))...
+str2	(((((((..(((((((((((((...................((.(((....(((......))).......)))))..))))))))))))).))))).))...
+>ENST00000359025|275	
+seq	GCCCAAGATCGTCAAAAAGAGAACCAAGAAATTCATCCGGCACCAGTCAGACCGATATGTCAAAATCTTCAGCGTAACTGGTGGAAACCCAGAGGCATTGACAACAGGGTTCATAGAAGGTTCAAGGGCCAGGTCTTGATATGATGCCCAGCATTGGTTATAGGAGCAAAAAAAAAAAAAAAAAAAAAAAACCAGAAAGCACGTGCTGCCCAGTGGCTTCCGGAAGTTCCTGGTCCACAATGTCAAGGAGCTGAGAGTGCTGCTGATATGCAACA
+str1	....................(((((.............(((....))).((((....((((((..(((.........(((((....).)))))))..))))))....)))).......)))))..((((((((.(((.....((.((((((((((((((..............................)))))........))))))......))).))...)))..)))))))).((.(((((.(.(((.......))).)))))))).....
+str2	....................(((((...............(((((((........(((((...........))))))))))))(((.(((................))))))......)))))..((((((((.(((.....((.((((((((((((((..............................)))))........))))))......))).))...)))..)))))))).((.(((((.(.(((.......))).)))))))).....
+>ENST00000362817|144	
+seq	ATGCTTACCTGACAGGGGAGATACCATGATCACAAAGGTGGTTTTCCCAGTGCGAGGCTCACCATTGCACCCCGGAGGTGCAGACCCCTGTGTTTTCCCCAAATGAGAAAAATAAGAAAAGAAAGAAAGAAAGTTTCGTCTTCC
+str1	...........(((((((.(((......))).....(((((((((........))))).)))).(((((((.....))))))).))))))).(((((.......))))).........((((..((((.....)))).))))..
+str2	...........(((((((...((((..((((((....)))))).(((..((((((((....)).))))))...)))))))....))))))).(((((.......))))).........((((..((((.....)))).))))..
+>ENST00000362438|107	
+seq	ATGCTTGCCTCGGCAGCACATATACTAAAATTGGAACGATACAGAGAAAACTAGCATGGCCCCTGCGCAAGAATGACACGCAAATTCGTGAAGTGTTCCATATTTAA
+str1	.((((.((....)))))).......((((..(((((((................(((((....((((...........))))...)))))...)))))))..)))).
+str2	.((((.((....)))))).......((((..((((((.............((.((...((....)))).)).((..((((......))))..))))))))..)))).
+>ENST00000364180|107	
+seq	GTGTTCACTTTGGCAACACATGCACTAAAATTGGAACGACACAGAGAAGATTAGCATTGTCCCTGTGCAAGGATGACATGCAAATTCATGAAGTGTTCAATTAAAAA
+str1	.((..((((((.(((.....))).......(((........))).(((.....((((.((((((.....)))..)))))))...)))..))))))..))........
+str2	..((((..(((((((.....)))..))))....)))).((((......((((.((((.((((((.....)))..))))))).))))......))))...........
+>ENST00000363566|112	
+seq	GACTGGTCTGAAGGTAGTGAGTTGTCTCAATTGATTGTTCACAGTCAGTTATGGATTGAACTTATTGTTCTACTCTTTCCCCGTTCTCACTACTGCACTTGACTAGTCTGTT
+str1	((((((((....(((((((((..((((.(((((((((....)))))))))..)))).((((.....))))...............)))))))))......))))))))....
+str2	((((((((....(((((((((.((....(((((((((....)))))))))..(((..((((.....)))).......))).))..)))))))))......))))))))....
+>ENST00000363193|129	
+seq	TGGGCCCTTTCACAGGCCCTCCCCTCGGCAGTGGGGCCAGGATTGGGTTGCTGGTGCTGAGAGAAAGCCCTTGATTGCATCCTTGCTCTGGGACTGTACCAGTGGCAGCTGTCACTTAGTGGGACAGAG
+str1	.(((((........))))).((((........))))(((....)))(((((((((((........(((((..((..(((....))))).))).)))))))))))))..(((((.((....)))))))..
+str2	.(((((........))))).((((........))))..(((((..(((((..((.(((.......))))).)))))..)))))((((((((.......)))).)))).(((((.((....)))))))..
+>ENST00000363346|106	
+seq	GTGCTCGCATCAGCAGCACACAGACTAAAAAACTGGAACAATACAGAGAAGATTAGCATGGCCCCTGTGCAAGGATGACAAAACTCATGAAGTGTTCCATATAGAT
+str1	(((((.((....)))))))..............(((((((...(((((........(((....(((.....))))))......))).))...))))))).......
+str2	(((((.((....)))))))..............(((((((...(((((...(((.((((((...))))))...))).......))).))...))))))).......
+>ENST00000364151|106	
+seq	GTCCTCACTTCGGCAGTACATATACTAAAATTGGAACGATACAGAGAGGATTAGCATGGCCCTGCACAAGGATGATATGCCAATTCATGAAGCATTATAAAATAAT
+str1	((((((.(((((.((((............))))...)))...)).))))))..(((((..(((.....)))....)))))..........................
+str2	((((((.(((((..((((....))))..........)))...)).))))))..(((((..(((.....)))....)))))..........................
+>ENST00000363605|345	
+seq	GGATGTGAGGGTGATCTGGCTGCGGCATCTGTCACTCCATCGATTGCCAGGGTTGATTCAGCTGATCTGGCTGGCTAGGCGGGTGTCCCCTTCCTCCCTCACTACTCCATGTGCATCCGTCCCTAAGCTGCAGGCTCAGTGGAAGAGGATGACCATTCCCAATAAAGGAGGACCGGTCTTCGGTCAAGGGTATGTGAGTAGCTGGGCTTCCATTCTAGAACCTCCAAACAAGCTCTCAACATATATAAAGGACTTAGAATTCTCCCTATCACAGAGTAAGCATTATGTATTAGTTGTTATTATTATTACCTATTTTTTACATTGCCTGGGTGTCAGGGGAGTTAG
+str1	....(((((((.((...((....((((((((((...(((......((((((((((...)))))...))))))))...))))))))))))..))..))))))).(((((.((..(((((.(((((.((((...)))).)).)))...)))))..)).(((.......))).(((((.....))))).((((((((((((.(((((((.(((.......)))))).......))))))).)))))....................))))....(((.(((((...((.(((.((((.......)))).))).))...))))).)))((((.....)))))))))...
+str2	(((.(((((((.((...((....((((((((((...(((......((((((((((...)))))...))))))))...))))))))))))..))..)))))))...)))(((..(((((.(((((.((((...)))).)).)))...)))))..)))(((.......))).(((((.....)))))....(((((((((.(((((((.(((.......)))))).......))))))).)))))).............(((((.((((..(((..((...(((..(((((............................))))))))))..)))..)))))))))..
+>ENST00000363624|102	
+seq	GGCCGGCTCGAGTGCAGTGGTGTTTACAACTAATTGATCACAACCAGTTACAGATTTCTTTGTTCCTTCTCCACTCCCACTGCTTCACTTGACTAGTCTTTA
+str1	(((.((.(((((((.(((((((......(((..(((....)))..))).(((((....)))))..............))))))).))))))))).)))....
+str2	(((.((.(((((((((((((.((...(((....)))...))....((..(((((....)))))..)).........)))))))...)))))))).)))....
+>ENST00000362698|116	
+seq	ATACTCTGGTTTCTCTTCAGATCGCATAAATCTTTCGCCTTTTACTAAAGATTTCCGTGGAGAGGAACAACTCTGAGTCTTAACCCAATTTTTTGAGGCCTTGCTTTGGCAAGGCT
+str1	..((((..(((((((((((...((...((((((((...........)))))))).)))))))))))))......)))).......(((....))).((((((((....))))))))
+str2	..((((..(((((((((((...((...((((((((...........)))))))).)))))))))))))......))))(((((.........)))))(((((((....))))))).
+>ENST00000363491|102	
+seq	GGCTGGTCCTCGTGCAGTGGTGTTTACAACTAATTGATCATAACCGGTTACAGATTTCTTTGATCCTTTTCCACTCCCACTGCTTTATTTGACTAGCCTTTA
+str1	((((((((.....(((((((..........((((((........)))))).(((((.....))).)).........))))))).......))))))))....
+str2	((((((((.....(((((((...........((..(((((....................)))))..)).......))))))).......))))))))....
+>ENST00000364206|140	
+seq	AGCTTTGTGCATTGGCAGTATAGCCAAGTGAGGTTTATCTTAGGAGTGGTTATTGTTAATTGAAAACTTTTTCCTAATATCCTGCTGTCATGACTTGCAGTATAGTCAGCATTGGCAATTTTTGACAGTCTTTTTGGAGA
+str1	((((((..((.(((((......))))))))))))).((.(((((((.((((.(((.....))).))))..))))))).))...(((((((.((((........)))).((....))......)))))))...........
+str2	((((((..((.(((((......))))))))))))).((.(((((((.((((.(((.....))).))))..))))))).))...(((((((.((.(((((((.........))).)))).)).)))))))...........
+>ENST00000362655|121	
+seq	GTCTACAGCCATACCACCCTGAATGCACCTGATCTCATCTGATCTCAGAAGTTAAGCAGGGTCGGGCCTGGTTAGTACTTGGATGGGAGAAGTAAATGAAAGCACGAGGGTAATGATGGCT
+str1	......((((((...(((((...(((.......((..(((.((((.((...((((.((((......)))).))))..)).)))).)))..)).........)))..)))))....))))))
+str2	......((((((...(((((...(((..((((..((....))..))))....(((.((((......)))).))).(((((.........))))).......)))..)))))....))))))
+>ENST00000362350|114	
+seq	GGCTGGTCAGAAGTTAGTGAGTTATCTCAATTGATTGTTCACAGATCAGTTCCAGACTGAACTCCTTATTCTATTCCTTCTCCTTTTCTCACTACTGTATTTGACTAGTCTTTC
+str1	((((((((((((((.((((((..........(((....))).((.((((((...)))))).))........................)))))))))...)))))))))))....
+str2	(((((((((((((.(((((((...........((..((....((.((((((...)))))).))....)).....))...........)))))))))...)))))))))))....
+>ENST00000362480|116	
+seq	TAGGGCCATACCACCTTGAACGCACCTGATCTCATCTGATCTCAGGAGCTAAGCAGGGTCGGGCGCGATTAGTACTTGGATGGGAGACATTTGATGAAAACGGGCAAATCCCCTCT
+str1	.((((.....((((((((...((.(((((..((....))..))))).))....)))))).))((.((.....((.(((((((.....)))))))))....)).)).....))))..
+str2	..((......))((((((...((.(((((..((....))..))))).))....))))))((((.((.....)).))))((.((((....((((.......))))....)))).)).
+>ENST00000362975|119	
+seq	CTCTATGGCCATATTTCCCTGAACGTCCTTGGTCTCAGCTGATCTTGGAAACTAAGCAGTGCGAGGCTTGGTTAGTACTTGGATGGCAGACCACCTCGGGATACTAGGTGCCATAGGCT
+str1	.((((((((.(......((((...(((((((((((..(((.((((.((.((((((((........))))))))....)).)))))))))))))....)))))..)))))))))))))..
+str2	.(((((((.(((.............(((..((((......))))..))).(((((((........)))))))((((((((((.(((....))).).)))).))))).))))))))))..
+>ENST00000363904|110	
+seq	ATGCTTGCTTTGGTAGCACATACACTAAAATGGGATATGATACAGAGAAGATTAGCATGGCTTCTTCACAAGAGGATGAAATGGAAATCCATGAAGACATCCATATTTTT
+str1	..(((.((....))))).((((..(((...)))..)))).......(((((..(((...))))))))......(((((..((((....)))).....)))))........
+str2	...((((.....(((...((((..(((...)))..)))).)))...(((((..(((...)))))))).)))).(((((..((((....)))).....)))))........
+>ENST00000362775|105	
+seq	GTGCTCACTTCGGCAGCACATATACTAAAATTAGAACAATACAGGGAAAATTAGCATGGCCCCTGTGCAAGGATGACACAAATTCATGAAGCGTTTCCATGTTTA
+str1	(((((.........))))).....................(((.(((((.....(((((....((((((....)).))))...))))).....))))).)))...
+str2	(((((.........)))))..............(((((......(((((.....(((((....((((((....)).))))...))))).....))))).))))).
+>ENST00000362378|107	
+seq	ATGCTTGCTTCGGCAGCACATATACTAAAATTGCAACAATACAGAGAAGATTAGCATGGCCCCTGCGCAAGGATGACACGCAAATTCATGAAGTGTTCCATATTTAA
+str1	.(.(((((..(((..((.(((...((((..((..............))..)))).)))))..))).))))).).(((((.............)))))..........
+str2	.((((.((....)))))).......((((..((.((((...((..(((.....((.((...(((.....)))....)).))...))).))...)))).))..)))).
+>ENST00000362903|159	
+seq	ACACTCACTTAGCAGGGGAGACATCATGATCACAAAGGTGATTTTCCCAGGGCAAAGCTTATCCATTGCACTCCACATGTGCTGACCCGTCATTTTCCCAAATGTGATAAACTCAACTGCATAATTGTGGCAGTAGGGAACTGCATTTACACTTTCCCC
+str1	..............(((((((......((((((....)))))).((((.(((.........))).....((((((((((((((((...(((((..........)))))....)))...)))))..))))).))).))))..((......)).)))))))
+str2	.......(((.((..((((((.(((((..........)))))))))))...)).)))............((((((((((((((((...(((((..........)))))....)))...)))))..))))).))).(((((.((......))..))))).
+>ENST00000363817|110	
+seq	GTCTACGACCATACCACCCTGAATGCGCCCGATCTCGTCTGATCTCAGAAGCTAAGCAGGGTCGGGCCTGGTTAGTACTTGGATGGGAGAAATTTGTGTGCACGTGAATG
+str1	(((...)))(((..(((......(((((.(((.....(((.(((.(((..(((((.((((......)))).)))))..)))))).))).....))).))))).))).)))
+str2	...((((................(((((.(((.....(((.(((.(((..(((((.((((......)))).)))))..)))))).))).....))).)))))))))....
+>ENST00000362429|110	
+seq	GTCTACAGCCATACCACCCTGAACGCACCTGATTTCAGAAGCTAAGCAGGGGTCAAGGCTGATTAGTCCTGGGATGGGAGACCACCTTGGAATACCAGATGCCCTAGGCT
+str1	.(((.(((((......(((((...((..(((....)))..))....))))).....))))).....(((.(((.(((....)))))).))).....))).(((...))).
+str2	..((((((((......(((((...((..(((....)))..))....))))).....)))))..))).((((((.(((....)))..((((....))))....))))))..
+>ENST00000363354|107	
+seq	GTGCTTGGTTGGGCAGCACATATATGAAAATTGGAAAGATACAGAGAAGATTAGCATGGCCCCTGCACAAGGATGAAACACTGAAATATAAATTTGTGAAGCATTCC
+str1	((((..((..((.((((....................................)).)).)))).))))..(((((...(((..............)))...))))).
+str2	((((..((..((((........((((..((((................))))..))))))))))))))..(((((...(((..............)))...))))).
+>ENST00000364025|320	
+seq	GGATGTGAGGGCGATCTGGCTGTGACTTCTATCACCCCATTGATCGCCAGGGCTGATTTGGCTATCTGGCTGGCTAGGCGGGTGTCCCCTTCCTCCCTCACTACTCCACGTGTGTCCCTCCCGAAGATGTGCGCTCGGTTGAAGAAGATGACCATCTCCCATAGATGAGAACCAGTCTTTGGTCAAGGGTATATGAATAGGTGCACTCCCCTGCTAGAACCTCCAAACAAACTCTCAAGAACTAGGGAGAGGAGAGTGAAAATTAACCTAGTTACAATGATTGTATCCTTACATTCTTTTATAAATTTCAAAATACTTCT
+str1	((((((((((((((((.((..((((......)))).)).......(((((((((.....))))..))))).(((((((.(((........)))....(((((.((((.((((((.((((.((((((((.....((((........((((....))))........)))).....))))))))...))))))))))...(((((((......)))....)))).........(((((........))))).))))))))).......))))))).....))))))..))))))))))........................
+str2	((((((((((((((((....(((((((...((((......)))).(((((((((.....))))..)))))......((.(((........))).)).(((((.((((.((((((.((((.((((((((.....((((........((((....))))........)))).....))))))))...))))))))))...(((((((......)))....)))).........(((((........))))).)))))))))..........)))))))..))))))..))))))))))........................
+>ENST00000362979|116	
+seq	TCATTATGGTTTCTCTTCAGAATGAATAAATCTTTTGCCTTTTATTAAAGATTTCCATGAAGAGGAACAGATGGGAGTTAGTAAGAAATGTTTTGAAGTCCTGCTTGAGCAGGGCC
+str1	(((((...(((((((((((...((...((((((((...........)))))))).))))))))))))).))))).......................(((((((....))))))).
+str2	(((((...(((((((((((...((...((((((((...........)))))))).))))))))))))).)))))...((((...........)))).(((((((....))))))).
+>ENST00000363314|162	
+seq	AAAAATCTTGACAGAGGAGCTATCATGAGCAAGAAGGTTGTTTTCCCAGTCAAGGCTTATCAATTGCATTCCAGATGTGCTGACCCCTGCAATTTCCCCATACGTGGGAAACTAGACTGCATAATTTGTGGTAGTGGGGGTCTGTGATCCCACTTTCCCCTG
+str1	......((((((((((.((((.((........)).)))).))))....))))))((.((((............)))).)).(((((((((..((((((.......))))))....((((((.....)))))).))))))))).(((....))).........
+str2	......((((((...(((........((((((.....)))))))))..))))))((.((((............)))).)).(((((((((..((((((.......))))))....((((((.....)))))).))))))))).(((....))).........
+>ENST00000363686|107	
+seq	GTGCTCGCCCCAGCAGCACATATACCAAAATTGGAATGATACAGAGAAGATGAGCACGACCCCTGTACAAGAATGACCCACATATTCGTGAAGCCTTCCATACTTAA
+str1	(((((.((....))))))).(((.(((....))).))).......((((.....(((((....(((.............)))...)))))....)))).........
+str2	(((((.((....)))))))............((((.((.(((((..................))))))).........(((......)))......)))).......
+>ENST00000362452|119	
+seq	GGCTATGGCCATACCACCCTGAACGTGTCCGATCTCGTCTGATCTTGGAAGCTAAGCAGGGTTGGACCTGGTTAGTACTTGGATGGGAGACTGCCTAGGAATACTAGGTGCTGTAGGTG
+str1	(((....)))...((((((((...((.(((((((......))))..))).))....))))).)))(((((..((((((((((.((((......))))......))))))))))))))).
+str2	(((....)))....((.((((...((.(((.((((..(((......))).(((((.((((......)))).)))))....)))).))).)).((((((.....))))))....))))))
+>ENST00000352271|414	
+seq	GGAAGTCTCAGGAATGGGTAAGTGCTCCTGCTCCCACACAGTCTACAGACCTGGGTGCAATGGTGAGAAAGACCTCAGTAAAGCAAAGGAATTACGAAAGGGAGAGGATTCGGAATCACACCGTCAGTTCTCCTGGTTCTCAACCCTTCAGAGACAGACTGAATTACACCACCAGCTTTCTTGGTTCTCCAGGATGCAGATGGCATTAACATGAGACTCCTTTACCTCCATGACTGTGGAGGCAGCAGCTGAGGCTGTGGTGGGAGAAGAATGACAAGAACTGAGCGTGGGCCACGGGCTCTTACCTTCAGCAACTTCATCAGCTCTTCCAGCTGGACCATCAGCTCCCGCCTGCTCTCCTGCAGGGCCGACATCCTCTGCTCCAGTTCATCCTTCCTTTGCCTATCCAAGACG
+str1	....((((......((((((........(((.((((....(((....))).)))).))).((.((((......)))).))..(((((((((....(((..(((((((((((((..........(((((((((.(((...........)))))))...)))))....((((((.(((((((((((....)))))).((.....)).........((.((.((...(((((((....))))))).)).)))).)))))))))))...(((((.(((.(((..(((((.(((((((...)))))..)).)))))...)))..)))..))))).(((((......)))))....(((((......))))).)))).))))))...)))..)))....))))))))).)))))))))).
+str2	....((((......((((((........(((.((((....(((....))).)))).))).((.((((......)))).))..(((((((((....(((..(((((((((((((.........((((.((((((.((((...)))).(((((.......)))))...((((((.(((((((((((....)))))).((.....)).........((.((.((...(((((((....))))))).)).)))).)))))))))))))))))...))))..((((((((.(((((((...)))))..)).)))))....))).((((((.....))))))..............(((((......))))).)))).))))))...)))..)))....))))))))).)))))))))).
+>ENST00000364106|102	
+seq	GGCTAGTCCAAGTGCAGCAGTGTTGGTGACTAACTGATCACAACCAGATACAGATTTCTTTGTTCCTTCTGCACTCCCACTGCCTCGCTTGACTAGCCTCTA
+str1	((((((((.(((((..((((((..((((.....(((........)))...((((.............))))))))..))))))..)))))))))))))....
+str2	(((((((.((((((..((((((..((((.......((..((((..(((........)))))))))......))))..))))))..)))))))))))))....
+>ENST00000364294|144	
+seq	AGCTTTGTGCAGTGGCAGTATCTTAACCAATGAGGTTTATCTGAGGCACAATTATTGCTAATTGAAAACTTTTCCCAACACTGCCATAATGACTTGAGCTATACTAGGCATTGGCAATTTAATTTTTGACAGTCTCTACGGAGA
+str1	(((((.((.((((((((((............(((((((.((...((((.......))))....))))))))).......))))))))..))))..)))))...........((.(((........))).)).((((....))))
+str2	(((((.((.((((((((((.((((((((.....))).....)))))..((((((....))))))...............))))))))..))))..)))))...........((.(((........))).)).((((....))))
+>ENST00000363188|109	
+seq	GTCTACGGCCATACCACCCTGAACACGCCTGATCTCAGAAGCTAAGCAGGATCGGACCTGGCTGGTACTTGGATGGGAGACTGTTTGGGAATACCAGGTGCTGTAGGCT
+str1	(((((((((.((.....((((((((..(((.(((.(((..((((..((((......))))..))))..)))))))))....))))))))........))))))))))).
+str2	(((((((((....((..((((.....(((((....)))..))....))))...))((((((.((...(((((((((....)))))))))..))))))))))))))))).
+>ENST00000364127|164	
+seq	ATACTTAACTGGCAAGGGAAATAACATGATCATTAAAGGTGGATTTTTCAGGGTGAGGTTTGTCTCTTGCATTGTGGATGTGCTGACCCCTGTGGTTTTCTACAAATGTGGGAAACTTAATTGCATAATTTGTGGTAGTGGGGACTATGTTGGTTCTCTCCCCT
+str1	..........((..((((((.(((((((.(((((...)))))......(((((...(((.(((((..........))))).)))...))))).((((((((((....))))))))))..((((((.....)))))).((....))))))))).))))))..)).
+str2	..........((..((((((.(((((((.(((((...)))))......(((((.(((......)))..((((.......))))....))))).((((((((((....))))))))))..((((((.....)))))).((....))))))))).))))))..)).
+>ENST00000363484|134	
+seq	ACCTGTATTCGAAAGTGATCGTGGGCTGCCTGTGCCCTGGTCATTGATAGTGCAGGGAGAGAAATCGCGGAAAGTGCTTCCCCGTGTTTGGAGGGTCCGCTCCTGTCCCTTTCAAACTCTGGAGCTTTCTCACA
+str1	.((((((((....((((((((.((((.......))))))))))))...))))))))((((((..((.((((..............((((((((((...((....)).))))))))))))))))..))))))...
+str2	.((((((((....((((((((.((((.......))))))))))))...))))))))..(((((...(((.....))).((((((....))).)))...(((((.................))))).)))))...
+>ENST00000364270|303	
+seq	GGATGTGAGGGCAATCTGGCTGTGACATCTGTCACCCCATTGATCACCAGGGTTGATTCAGCTGATCTGGCTGGCTAGATGGGTGTCCTCTTCCTCCCTCAATGCTCCATGTGCATCCCTCCTGAAGCTGCGTGCTCGGTTGAAGAGGATAACCATCTCTGACAGAGGATGACTGGTCTTTAGTCAAGGGTATATGAGTAGCTGCACTACCCTACCAGAACCTCTAAACAAGCTCTCAAGATAATGGTCAACAATAGAGGGTTGCAAAGTTTGATATATTTGGTATGTTCTTAGCATGTGATC
+str1	(((...((((((((((((((.(((((....)))))(((...........)))......(((((.....))))))))))))...))))))).))).(((((.((((.......))))((((.((((((((.(((.(((.((((.(((((....)).))).)))).))).)))...)).))))))...))))....((((.((((...........................)))))))).(((....))).......))))).(((.(((...(((((((...)))))))))).))).......
+str2	.(((((...(((......)))...))))).(((((.(((..(((((....((.....))...))))))))((((..((((((..(((((((((..((....((((.......)))).........(((.....))).))..)))))))))..)))))).((((.((((((.....)))))).))))((((((..((........)).)))))).))))..((((((.....(((...........)))......))))))..(((.(((...(((((((...)))))))))).))).))))).
+>ENST00000362686|118	
+seq	ATCTACAGCCATACCATCCTGAACATCCCTATCTCATCTGATCTCAAAAGCTAAGCAGGGTCAAGCCTGATTAGTACTTAGATGGGAGACCTCCTTGGAATACTAAGTGCCGTAGGCT
+str1	.(((((.((......................((((((((((........(((((.((((......)))).)))))..))))))))))......(((((....))))).)).)))))..
+str2	......((((.(((.................((((((((((........(((((.((((......)))).)))))..))))))))))......(((((....)))))....)))))))
+>ENST00000362895|105	
+seq	GTGCTTCCTTCAGCAGCTCATATAATAAAATTGGGATGACAGCGAAGATTAGCATGGCCCCTGCATGAAGATGATATGCAAATTCATGAAATGTTCCATATTTTA
+str1	.((((..((((.((...((((.((((...))))..))))..))))))...)))).((......((((((..((.....))..)))))).......))........
+str2	(((((..((((.((...((((.((((...))))..))))..))))))...)))))........((((((..((.....))..)))))).(((((...)))))...
+>ENST00000362869|119	
+seq	GTGCTCACCTTGGCAGCACAAATGGCAGCATATATACTAAAACTGGAACAATACAGAGAAGATTAGCATGGCCCCTGAACAAGGATGACATACGAATTTGTGAAGTGTTTCATACTTTT
+str1	(((.((((((((.(((.......(((.((..((...((....(((........)))))...))..))...))).)))..))))).))))))..(((..((((((....))))))..)))
+str2	(((.((((((((.(((.......(((.((..((...((....(((........)))))...))..))...))).)))..))))).))))))..........(((((((...))))))).
+>ENST00000357874|393	
+seq	TAGTCTCCGGGCTTTTCAAACTCTGGCACGAGCTAAGAAAAGGAAGGAGAATTTCTGGGATGAGGAAACTGAGGTTTACAGAAACTGAGTAACTTCGCCAAGTCCATATCCTTCATAAATGGTGTAGTTGGGGCTGCAAGCCATGCCTAACTGGCCTTGGAGACCAGATTGCTCTGATGTTTGAAGGAAGCTTCCATGGCTGTTCCGGGGTGTGGCAGGCGACCTCACAAAACTTGTTCTACATGTTGGCCAAAGATCTGCTAATTTCCTACTTAGGCAACATTGTACAATCCAGTTCTAACAATATTCTTCTTTCCTCCTGGCAAAGCTAACCATACGGTCGGAGGACTTGAATGCCCAGTGACGTTTGGTGACAATCTGAAGCCACCAAGG
+str1	..(((...((((..(((((.(((((((.((((((......((((((((((((....((((((.(((...(((((((..(((...)))...))))))).....))).)))))).(((.....)))..((.((((.(((..((((((((((((.((((.((((...((((....))))..((((.....)))).)))).)))))))...)))))))))..))).))))))..((((.(((.(((((((((.((.(((................))).))))))).)))).)))..))))........)))).))))))))........)))).......)))))))))...))))).))))...))).(((((((............))))))).
+str2	..(((...((((..(((((.(((((((.((............((((((......((.((.(((((..(((.((...........)).)))..))))))).))......))))))....(((((.(((.(((((.(((..((((((((((((.((((.((((...((((....))))..((((.....)))).)))).)))))))...)))))))))..))).)))))...((((.(((.(((((((((.((.(((................))).))))))).)))).)))..))))..............((((((....)).)))))))))))).)))))))))...))))).))))...))).(((((((............))))))).
+>ENST00000363281|277	
+seq	GGATGTGAGGGCGATCTGGCTGCAACATGTGTCACCCCATTGATTGCCAGGGTTGATTCATCTGATCCGGCTGACTAGGCGAGTGTCCCCTTCCTACCTCACTGCTCCATGTGTCTCCCTCCTGAAGCTGCACACTTGGTCGAAGAGGACGACCATCCTGATAGAGGAGGACCGGTGTTCTGTCAAGGGTATACGAGTAGCTGCACTCCCCTGCTAGAACCTCCAAACAAGCTCTCAAAAAATTGGCAGGGGGCTCAGCCTCATGACTGGGTTCCAG
+str1	...(((((((..((....((.((.((.(((((.((((..((((..(((.(((((((....)).)))))))).(((((((...((((...((((......(((........)))..........))))..)))).)))))))....(((((.(((.((((........))))..)))))))).))))))))))))).)).)).))..((((((((((...........................)))))))))).))..))))))).((((...))))
+str2	...((((((((((((((((.((((.....)).))..)))..))))))).(((((((....)).))))).(((.....)))..((((.(((((.......(((((.(((.((((((((......).))..)))))...(((((.......))))).((((.....))))))).))))).......))))).)))).....((((..(.(((((((((...........................))))))))))..)))))))))).((((...))))
+>ENST00000362367|110	
+seq	GTGCTCACTTCGGTAGCACATATACTAAAGTTGGAATAATACAGAGAAGACTACTAGCATGGCCTCTGTGCAAGGATGACACACAAATTCATGAAGTGTTCCAGTAAATA
+str1	(((((.((....)))))))...........((((((((.(((((((.................)))))))((.((((.........)))).))...))))))))......
+str2	(((((.((....)))))))...........((((((((...((..(((.....((.((((((...)))))).)).............))).))...))))))))......
+>ENST00000364314|141	
+seq	AGCTTTGCACAGCGGCAGTATTGTAGCCAATGAGATTTATCTGAGGTGTGATTATTGATAATTGAAAACTTTTCCCAATACCCTGCCGTGATGACTTGCAATATAGTCAGCACTGGCAATTTTTGACAGTCTCTACAGAGA
+str1	.(((((((...)))).))).((((((.((((((....((((...))))...))))))......((((...)))).(((.....(((((((.(((((........))))).))).))))....))).......))))))...
+str2	..(((((...((.(((.((((((....((((((....((((...))))...))))))......((((...)))).))))))..(((((((.(((((........))))).))).))))..........))).)).))))).
+>ENST00000363926|107	
+seq	GTGCTTACTTTGGCAGCACATATACTAAAATTGAAATGACACAGGGAAGATTAGCATGGCCCCTGCACAAGAATGACATGCAAATTTGTGAAGTATTTTGTATTTTA
+str1	(((((.........)))))......(((((((((((((.((((.....((((.(((((....((.....)).....))))).))))))))...))))))).))))))
+str2	(((((.........)))))............................(((((.(((((....((.....)).....))))).))))).((((((((...))))))))
+>ENST00000365230|109	
+seq	AGCTGGTCTGAAGGTAATGAGTAATCTCGATTGTTCACAGTCAGTTACAGATTGAGCTCCTGATCTACTCTTTCCCTGCTTCTCACTACTGCACTTTGACTAGTCTTAA
+str1	.(((((((....((.((.((((((((..((..(((((..(((.......))))))))))..))).))))).)))).(((...........)))....))))))).....
+str2	.(((((((.(((((((....((((.((.(((((....))))))))))).((..(((...........)))..))...............))).))))))))))).....
+>ENST00000365015|102	
+seq	GGCTGGTCAAAGTGCAACGGTCTTTACAACTAATTGATCACAACCAGTTACAGATTTTTTTGTTCCTTCTCCACTCCAACTGCTTCACTTGACTAGTGTAAG
+str1	.(((((((((.(((...((((.......(((..(((....)))..))).(((((....)))))...............))))...)))))))))))).....
+str2	.(((((((.(((((.((.((((.............)))).....((((((((((....)))))..............))))).)))))))))))))).....
+>ENST00000391087|107	
+seq	GTGCTTGCTTTGGCAGCACATATACTAATATCGGAATAATAGAGAAAACATTAGCATGGCCCCTGGTCAAGGATGCCATACAAATTCATGAAGAACATAAGCAAAGA
+str1	(((((.((....))))))).....(((((....................))))).(((((.(((.....)))..)))))............................
+str2	(((((.((....))))))).....(((.(((....))).))).............(((((.(((.....)))..)))))............................
