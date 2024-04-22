@@ -6,7 +6,13 @@ library(plotly)
 library(shinyWidgets)
 library(shinyjs)
 library(future)
-plan(multiprocess)
 library(promises)
 library(shinycssloaders)
 library(DT)
+
+
+if (future::supportsMulticore()) {
+  future::plan(future::multicore)
+} else {
+  future::plan(future::multisession)
+}
