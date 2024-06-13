@@ -35,23 +35,29 @@ shinyUI(
                                                      textAreaInput("str1", h6(strong("STRUCTURE 1"), class = 'text-primary'), "(((((.....(((((((((((...((((.......)))).........))))))))))).((((((.....))))))...((((......)))).(((((((((((..((((((..((.......))..)))))).......((((...........))))......((..((((.(((((.((((((.(((......((((....)))).(((((.((((......)))).....))))).....(((....)))((((.((((....)))).))))(((......)))..........((((.....((((....))))..)))).))).)))))))))))))))..)).(((((......(((.(((((.....((((......)))).(((......)))....(((....))).((((...))))....))))).)))......)))))))))))))))).......(((((.....))))).)))))....((((....(((.(((.....))).))).....))))((((.((...)).)))).", resize = "vertical"),
                                                      textAreaInput("str2", h6(strong("STRUCTURE 2"), class = 'text-primary'), "(((((.....(((((((((((...((((.......)))).........))))))))))).((((((.....))))))..................(((((((((((..((((((..((.......))..)))))).......((((...........))))......((..((((.(((((.((((((.(((......((((....)))).(((((.((((......)))).....))))).....(((....)))((((.((((....)))).))))(((......)))..........((((.....((((....))))..)))).))).)))))))))))))))..)).(((((......(((.(((((..(((((((((((........))).)))).)))).((((....))))...............))))).)))......)))))))))))))))).......(((((.....))))).)))))....((((....(((.(((.....))).))).....))))((((.((...)).)))).", resize = "vertical")
                                                    ),
-                                                   actionButton("submit", label = "Submit",  class = "btn-primary")
+                                                   #actionButton("submit", label = "Submit",  class = "btn-primary")
                                                ),
                                                # file input
                                                div(style = "margin: 30px; background-color: #ffffff; border-width: 0px; border-color: #ffffff;",
                                                    h5(strong("Or upload input file")),
                                                    br(),
-                                                   fileInput("file1", "", multiple = FALSE),
-                                                   actionButton("submit_file", label = "Submit",  class = "btn-primary")
-                                               )
+                                                   fileInput("file2", "",
+                                                             multiple = FALSE)                                               )
+                                             ),
+                                             fluidRow(
+                                               column(5,""),
+                                               column(2,actionButton("submit", label = "Submit",  class = "btn-primary", style = "width: 200px;")),
+                                               #column(1,actionButton("load_example", label = "Example",  class = "btn-link")),
+                                               column(3,"")
                                              )
                             ), #rnaCARD input panel end
                             
                             #rnaCARD results panel
-                            conditionalPanel(condition = "input.submit == '1'",
+                            conditionalPanel(condition = ("input.submit == '1'"),
                                              h5(strong('What are you looking for?'), class = "text-muted"),
                                              radioGroupButtons(inputId = "mode", 
                                                                label = " ",
+                                                               selected = "similar motifs",
                                                                choices = c("similar motifs", "differential motifs"), 
                                                                status = "primary", 
                                                                checkIcon = list(yes = icon("ok", lib = "glyphicon"),
@@ -61,48 +67,41 @@ shinyUI(
                                              br(),
                                              h5(strong('LIST of MOTIFS'), class = "text-primary"),
                                              br(),
-                                             DTOutput('table_motifs'),
-                                             br(),
-                                             #Forna overview
-                                             h5(strong(textOutput('mot_num')), class = "text-primary"),
-                                             br(),
-                                             #div(class = 'alert', style = "display: block; max-height: 600px; border-width: 6px; border-color: #823329; border-radius: 15px;",
-                                             #    p("SEQUENCE"),
-                                             #    p(textOutput("mot_seq")),
-                                             #    br(),
-                                             #    p("STRUCTURE 1"),
-                                             #    p(textOutput("mot_str1")),
-                                             #    br(),
-                                             #    p("STRUCTURE 2"),
-                                             #    textOutput("mot_str2")
-                                             #),
-                                             bsCollapse(id = "collapseExample", multiple = TRUE, open = "sequence & structures",
-                                                        bsCollapsePanel(h5("sequence & structures"),
-                                                                        #fluidRow(column(width = 1, p("SEQUENCE")), column(width = 10, p(textOutput("mot_seq")))),
-                                                                        h6("SEQUENCE"),
-                                                                        h6(textOutput("mot_seq")),
-                                                                        br(),
-                                                                        #fluidRow(column(width = 1, p("STRUCTURE 1")), column(width = 10, p(textOutput("mot_str1")))),
-                                                                        h6("STRUCTURE 1"),
-                                                                        h6(textOutput("mot_str1")),
-                                                                        br(),
-                                                                        #fluidRow(column(width = 1, p("STRUCTURE 2")), column(width = 10, p(textOutput("mot_str2"))))
-                                                                        h6("STRUCTURE 2"),
-                                                                        h6(textOutput("mot_str2"))
-                                                        )
-                                             ),
-                                             splitLayout(h5("#structure1"), h5("#structure2")),
-                                             splitLayout(
-                                               div(class = "breadcrumb",id = "rna_m", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;"),
-                                               div(class = "breadcrumb",id = "rna_m2", style = "max-height: 600px;border-radius: 5px; background-color: white; border-width: 4px;")
-                                             ),          
-                                             br(),
-                                             h5(strong("STRUCTURES OVERVIEW", class = "text-primary")),
-                                             br(),
-                                             splitLayout(
-                                                div(class = "breadcrumb",id = "rna1", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;"),
-                                                div(class = "breadcrumb",id = "rna2", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;")
-                                             )
+                                             conditionalPanel(condition = ("input.mode == 'similar motifs'"),
+                                               DTOutput('table_motifs'),
+                                               br(),
+                                               #Forna overview
+                                               h5(strong(textOutput('mot_num')), class = "text-primary"),
+                                               br(),
+                    
+                                               splitLayout(h5("#structure1"), h5("#structure2")),
+                                               splitLayout(
+                                                 div(class = "breadcrumb",id = "rna_m", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;"),
+                                                 div(class = "breadcrumb",id = "rna_m2", style = "max-height: 600px;border-radius: 5px; background-color: white; border-width: 4px;")
+                                               ),          
+                                               br(),
+                                               h5(strong("STRUCTURES OVERVIEW", class = "text-primary")),
+                                               br(),
+                                               splitLayout(
+                                                  div(class = "breadcrumb",id = "rna1", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;"),
+                                                  div(class = "breadcrumb",id = "rna2", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;")
+                                               )
+                                          ),
+                                        
+                                          conditionalPanel(condition = ("input.mode != 'similar motifs'"),
+                                                           DTOutput('table_motifs_mis'),
+                                                           br(),
+                                                           #Forna overview
+                                                           h5(strong("STRUCTURES OVERVIEW", class = "text-primary")),
+                                                           br(),
+                                                           splitLayout(
+                                                             div(class = "breadcrumb",id = "rna3", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;"),
+                                                             div(class = "breadcrumb",id = "rna4", style = "max-height: 600px; border-radius: 5px; background-color: white; border-width: 4px;")
+                                                           )
+                                          )
+                                             
+                                             
+                                             
                             )
                         ) #results panel view end
                ), #tab rnaCARD end
