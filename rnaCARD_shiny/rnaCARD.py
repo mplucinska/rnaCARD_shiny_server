@@ -1,6 +1,4 @@
-
-# wersja 10.01.2018
-# funkcje: wyszukiwanie pasujacych spinek, zamykajacych motywy stemow oraz nakladajacch sie stemow
+#!/usr/bin/env python
 
 import math
 import argparse
@@ -22,13 +20,13 @@ class Arguments:
 
 	def parse(self):
 		parser = argparse.ArgumentParser()
-		parser.add_argument("-i", help = "input file", required = True, type = str)
-		parser.add_argument("--mo", help = "minimum overlap", type = str, default = 0.6)
+		parser.add_argument("-i", help = "Input file", required = True, type = str)
+		parser.add_argument("--mo", help = "Minimum overlap", type = str, default = 0.6)
 		#parser.add_argument("--cs", help = "closing stems", action='store_true', required = False)
 		parser.add_argument("--prefix", help = "output", default='output', required = False)
 		parser.add_argument("--os", help = "overlaping stems", action='store_true', required = False)
-		parser.add_argument("--match", help = "find matching motifs", action='store_true', required = False)
-		parser.add_argument("--mismatch", help = "find mismatching motifs", action='store_true', required = False)
+		parser.add_argument("--match", help = "Find matching motifs", action='store_true', required = False)
+		parser.add_argument("--mismatch", help = "Find mismatching motifs", action='store_true', required = False)
 
 		args = parser.parse_args()
 		self.i = args.i
@@ -350,13 +348,13 @@ class Transcript:
 			shape = " ".join(self.matched_motifs[i][1])
 			#print shape
 			if len(pos) == 2:
-				line_out = self.id + "\t" + str(i) + "\t" + str(pos[0]) + "\t" + str(pos[1]) + '\t' + shape + "\t" + self.sequence[pos[0] : pos[1] + 1] + "\t" + s1.bracket[pos[0] : pos[1] + 1] + "\t" + s2.bracket[pos[0] : pos[1] + 1] + "\t" + str(s1.domains_position[shape_pos[0]][0]) + "\t" + str(s1.domains_position[shape_pos[1]][1]) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif][0]) + "\t" + str(s2.domains_position[shape_pos[1] + shape_dif][1]) + "\t" + "\n"
+				line_out = self.id + "\t" + str(i) + "\t" + str(pos[0]) + "\t" + str(pos[1]) + '\t' + shape + "\t" + self.sequence[pos[0] : pos[1] + 1] + "\t" + s1.bracket[pos[0] : pos[1] + 1] + "\t" + s2.bracket[pos[0] : pos[1] + 1] + "\t" + str(s1.domains_position[shape_pos[0]][0] + 1) + "\t" + str(s1.domains_position[shape_pos[1]][1] + 1) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif][0] + 1) + "\t" + str(s2.domains_position[shape_pos[1] + shape_dif][1] + 1) + "\n"
 				for k in range(pos[0], pos[1] + 1):
 					self.match_string[int(k)] = str(i)
 			else:
 				#print shape_pos, shape_dif
 				#print s2.domains_position
-				line_out = self.id + "\t" + str(i) + "\t" + str(pos[0]) + " " + str(pos[2]) + "\t" + str(pos[1]) + " " + str(pos[3])  + '\t' + shape + "\t" + self.sequence[pos[0] : pos[1] + 1] + "&" + self.sequence[pos[2] : pos[3] + 1] + "\t" + s1.bracket[pos[0] : pos[1] + 1] + "&" + s1.bracket[pos[2] : pos[3] + 1] + "\t" + s2.bracket[pos[0] : pos[1] + 1] + "&" + s2.bracket[pos[2] : pos[3] + 1] + "\t" + str(s1.domains_position[shape_pos[0]][0]) + " " + str(s1.domains_position[shape_pos[2]][0]) + "\t" + str(s1.domains_position[shape_pos[0]][1]) + " " + str(s1.domains_position[shape_pos[2]][1]) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif[0]][0]) + " " + str(s2.domains_position[shape_pos[2] + shape_dif[1]][0]) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif[0]][1]) + " " +  str(s2.domains_position[shape_pos[2] + shape_dif[1]][1]) + "\n"
+				line_out = self.id + "\t" + str(i) + "\t" + str(pos[0]) + " " + str(pos[2]) + "\t" + str(pos[1]) + " " + str(pos[3])  + '\t' + shape + "\t" + self.sequence[pos[0] : pos[1] + 1] + "&" + self.sequence[pos[2] : pos[3] + 1] + "\t" + s1.bracket[pos[0] : pos[1] + 1] + "&" + s1.bracket[pos[2] : pos[3] + 1] + "\t" + s2.bracket[pos[0] : pos[1] + 1] + "&" + s2.bracket[pos[2] : pos[3] + 1] + "\t" + str(s1.domains_position[shape_pos[0]][0] + 1) + " " + str(s1.domains_position[shape_pos[2]][0] + 1) + "\t" + str(s1.domains_position[shape_pos[0]][1] + 1) + " " + str(s1.domains_position[shape_pos[2]][1] + 1) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif[0]][0] + 1) + " " + str(s2.domains_position[shape_pos[2] + shape_dif[1]][0] + 1) + "\t" + str(s2.domains_position[shape_pos[0] + shape_dif[0]][1] + 1) + " " +  str(s2.domains_position[shape_pos[2] + shape_dif[1]][1] + 1) + "\n"
 				for k in range(pos[0], pos[1] + 1):
 					self.match_string[int(k)] = str(i)
 				for k in range(pos[2], pos[3] + 1):
@@ -500,6 +498,7 @@ class Transcript:
 		start = False
 		self.mismatch_positions = []
 		motifs_count = 0 
+		print(s1.pairs)
 		if s1.pairs[0] != 0 and s2.pairs[0] != 0:
 			prev_match_1 = -1
 			prev_match_2 = -1
@@ -532,7 +531,7 @@ class Transcript:
 						self.mismatch_positions.append([pos_start, pos_end])
 						for k in range(pos_start, pos_end + 1):
 							mismatch_string[int(k)] = str(motifs_count)
-					elif n > prev_match_2 + 1 and i > prev_match_1 + 1:
+					elif n > prev_match_2 + 1 and i > prev_match_1 + 1 and prev_match_1 > -1 and prev_match_2 > -1:
 						pos_start = s1.domains_position[prev_match_1 + 1][0] if s1.domains_position[prev_match_1 + 1][0] < s2.domains_position[prev_match_2 + 1][0] else s2.domains_position[prev_match_2 + 1][0]
 						pos_end = s1.domains_position[i - 1][1] if s1.domains_position[i - 1][1] > s2.domains_position[n - 1][1] else s2.domains_position[n - 1][1]
 						shape_start = prev_match_1 + 1 if s1.domains_position[prev_match_1 + 1][0] < s2.domains_position[prev_match_2 + 1][0] else prev_match_2 + 1
@@ -542,6 +541,7 @@ class Transcript:
 						self.mismatch_positions.append([pos_start, pos_end])
 						for k in range(pos_start, pos_end + 1):
 							mismatch_string[int(k)] = str(motifs_count)
+
 					prev_match_2 = n
 					prev_match_1 = i
 		if n == 'x':

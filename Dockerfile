@@ -18,6 +18,9 @@ RUN Rscript -e "install.packages(c('ggthemes', 'plotly'), repos='http://cran.us.
 
 RUN Rscript -e "install.packages(c('future'), repos='http://cran.us.r-project.org/')"
 
+RUN Rscript -e "install.packages(c('shinyalert'), repos='http://cran.us.r-project.org/')"
+
+
 RUN set -xe \
     && apt-get update -y \
     && apt-get install -y python3-pip
