@@ -20,6 +20,8 @@ RUN Rscript -e "install.packages(c('future'), repos='http://cran.us.r-project.or
 
 RUN Rscript -e "install.packages(c('shinyalert'), repos='http://cran.us.r-project.org/')"
 
+RUN Rscript -e "install.packages(c('zip'), repos='http://cran.us.r-project.org/')"
+
 
 RUN set -xe \
     && apt-get update -y \

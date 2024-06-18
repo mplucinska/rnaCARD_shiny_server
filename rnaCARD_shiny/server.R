@@ -120,7 +120,7 @@ shinyServer(function(input, output, session) {
       
       
       list_files <- list.files("./www/working_dir/", full.names = T)
-      selected <- list_files[grep(session_id, list_files)]
+      selected <- list_files[grep(sessions_id, list_files)]
       
       dir.create(tmp <- tempfile())
       
@@ -128,10 +128,10 @@ shinyServer(function(input, output, session) {
                 overwrite = TRUE, recursive = FALSE, 
                 copy.mode = TRUE)
       
-      zip_name <- paste0(tmp, "/", session_id, "_", "rnaCARD_outputs", ".zip")
+      zip_name <- paste0(tmp, "/", sessions_id, "_", "rnaCARD_outputs", ".zip")
       zip::zip(zipfile = zip_name, files = tmp, include_directories = FALSE)
       
-      out_name <-  paste0(session_id, "_", "rnaCARD_outputs", ".zip")
+      out_name <-  paste0(sessions_id, "_", "rnaCARD_outputs", ".zip")
       output$downloadData <- downloadHandler(
         filename <- function() {
           paste(out_name)
@@ -444,8 +444,5 @@ shinyServer(function(input, output, session) {
     )
   }
   
-  download_all_button <- function(session_id) {
-
-  }
   
 })
