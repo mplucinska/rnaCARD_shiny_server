@@ -52,27 +52,27 @@ $(document).ready(function() {
 
     
         Shiny.addCustomMessageHandler("mymessage3", function(message) {
-        var container4 = new fornac.FornaContainer("#rna3", { 'friction': 0 ,'layout':'naview','applyForce': true, 'allowPanningAndZooming': true});
+        var container = new fornac.FornaContainer("#rna3", { 'friction': 0 ,'layout':'naview','applyForce': true, 'allowPanningAndZooming': true});
     
         var options = {'structure': message.str1,
                        'sequence':  message.sequence,
                        'avoidOthers': true,
         };
         
-        container4.addRNA(options.structure, options);
-        container4.addCustomColorsText(message.color);
-        container4.setSize();
+        container.addRNA(options.structure, options);
+        container.addCustomColorsText(message.color);
+        container.setSize();
     });
 
     Shiny.addCustomMessageHandler("mymessage4", function(message) {
-        var container3 = new fornac.FornaContainer("#rna4", { 'friction': 0 ,'layout':'naview','applyForce': true, 'allowPanningAndZooming': true});
+        var container = new fornac.FornaContainer("#rna4", { 'friction': 0 ,'layout':'naview','applyForce': true, 'allowPanningAndZooming': true});
     
        var options2 = {'structure': message.str2,
                        'sequence':  message.sequence,
                      'avoidOthers': true};
-        container3.addRNA(options2.structure, options2);
-        container3.addCustomColorsText(message.color);
-        container3.setSize();
+        container.addRNA(options2.structure, options2);
+        container.addCustomColorsText(message.color);
+        container.setSize();
     });
   });
 });

@@ -23,7 +23,7 @@ shinyServer(function(input, output, session) {
       
       fileConn<-file(input_file_card)
       writeLines(c(
-        ">structure",
+        ">sequence1",
         paste0("seq\t", input$sequence),
         paste0("str1\t", input$str1),
         paste0("seq\t", input$str2)
@@ -31,7 +31,6 @@ shinyServer(function(input, output, session) {
       close(fileConn)
       
     }
-    
     a <- system(
         paste0('python3 rnaCARD.py -i ', input_file_card, ' --match --os --prefix www/working_dir/', sessions_id)
     )
@@ -41,7 +40,7 @@ shinyServer(function(input, output, session) {
     )
     
     if (a == "1" || b == "1"){
-      shinyalert("Error", "Incorrect input format. Correct format described in Help section", type = "error", callbackR = function(x) { session$reload() })
+      shinyalert("Error", "Incorrect input format. Correct format described in Help section", type = "warning", callbackR = function(x) { session$reload() })
     } else {
       output_card_out_match <- paste0("www/working_dir/", sessions_id, "_matched_whole_transcripts.txt")
       output_card_out_mis <- paste0("www/working_dir/" ,  sessions_id , "_mismatched_whole_transcripts.txt")
@@ -49,181 +48,185 @@ shinyServer(function(input, output, session) {
       output_card_motifs_match <- paste0("www/working_dir/", sessions_id, "_matched_motifs_out.txt")
       output_card_motifs_mis <- paste0("www/working_dir/", sessions_id, "_mismatched_motifs_out.txt")
       
-      
-      card_out <-
-        read_delim(
-          output_card_out_match,
-          "\t",
-          escape_double = FALSE,
-          col_names = FALSE,
-          trim_ws = TRUE
-        )
-      
-      card_motifs <-
-        read_delim(
-          output_card_motifs_match,
-          "\t",
-          escape_double = FALSE,
-          col_names = FALSE,
-          trim_ws = TRUE
-        )
-      
-      colnames(card_motifs) <-
-        c(
-          "ID",
-          "motif_number",
-          "start position(s)",
-          "end position(s)" ,
-          "shape",
-          "sequence",
-          "structure 1",
-          "structure 2",
-          "s1",
-          "e1",
-          "s2",
-          "e2"
-        )
-      
-      
-      card_out_mis <-
-        read_delim(
-          output_card_out_mis,
-          "\t",
-          escape_double = FALSE,
-          col_names = FALSE,
-          trim_ws = TRUE
-        )
-      
-      card_motifs_mis <-
-        read_delim(
-          output_card_motifs_mis,
-          "\t",
-          escape_double = FALSE,
-          col_names = FALSE,
-          trim_ws = TRUE
-        )
-      
-      colnames(card_motifs_mis) <-
-        c(
-          "ID",
-          "motif_number",
-          "start position(s)",
-          "end position(s)" ,
-          "structure 1",
-          "structure 2"
-        )
-      
-      state = reactiveValues(choice = unique(card_out$X1))
-      output$selectID_card <- renderUI({
-        selectInput("selected_tr", strong(h5("Select transcript ID:")), state$choice, selected = 1)
-      })
-      
-      
-      list_files <- list.files("./www/working_dir/", full.names = T)
-      selected <- list_files[grep(sessions_id, list_files)]
-      
-      dir.create(tmp <- tempfile())
-      
-      file.copy(from=selected, to=tmp, 
-                overwrite = TRUE, recursive = FALSE, 
-                copy.mode = TRUE)
-      
-      zip_name <- paste0(tmp, "/", sessions_id, "_", "rnaCARD_outputs", ".zip")
-      zip::zip(zipfile = zip_name, files = tmp, include_directories = FALSE)
-      
-      out_name <-  paste0(sessions_id, "_", "rnaCARD_outputs", ".zip")
-      output$downloadData <- downloadHandler(
-        filename <- function() {
-          paste(out_name)
-        },
-        content <- function(file) {
-          output_file_name <- paste(zip_name)
-          file.copy(output_file_name, file)
-        }
-      )
-      
-      
-      observeEvent(input$selected_tr, {
-        state$val <- input$selected_tr
-        selected_transcript <-
-          subset(card_out, card_out$X1 == state$val)
+      if(file.info(output_card_out_match)$size == 0){
+        shinyalert("Error", "Incorrect input format. Correct format described in Help section", type = "warning", callbackR = function(x) { session$reload() })
+      } else {
+        card_out <-
+          read_delim(
+            output_card_out_match,
+            "\t",
+            escape_double = FALSE,
+            col_names = FALSE,
+            trim_ws = TRUE
+          )
         
-        selected_transcript_mismatch <-
-          subset(card_out_mis, card_out$X1 == state$val)
+        card_motifs <-
+          read_delim(
+            output_card_motifs_match,
+            "\t",
+            escape_double = FALSE,
+            col_names = FALSE,
+            trim_ws = TRUE
+          )
         
-        draw_overview_structure(
-          selected_transcript$X3,
-          selected_transcript$X4,
-          selected_transcript$X5,
-          selected_transcript$X2
-        )
+        colnames(card_motifs) <-
+          c(
+            "ID",
+            "motif_number",
+            "start position(s)",
+            "end position(s)" ,
+            "shape",
+            "sequence",
+            "structure 1",
+            "structure 2",
+            "s1",
+            "e1",
+            "s2",
+            "e2"
+          )
         
-        draw_overview_structure_mismatch(
-          selected_transcript_mismatch$X3,
-          selected_transcript_mismatch$X4,
-          selected_transcript_mismatch$X5,
-          selected_transcript_mismatch$X2
+        
+        card_out_mis <-
+          read_delim(
+            output_card_out_mis,
+            "\t",
+            escape_double = FALSE,
+            col_names = FALSE,
+            trim_ws = TRUE
+          )
+        
+        card_motifs_mis <-
+          read_delim(
+            output_card_motifs_mis,
+            "\t",
+            escape_double = FALSE,
+            col_names = FALSE,
+            trim_ws = TRUE
+          )
+        
+        colnames(card_motifs_mis) <-
+          c(
+            "ID",
+            "motif_number",
+            "start position(s)",
+            "end position(s)" ,
+            "structure 1",
+            "structure 2"
+          )
+        
+        state = reactiveValues(choice = unique(card_out$X1))
+        output$selectID_card <- renderUI({
+          selectInput("selected_tr", strong(h5("Select transcript ID:")), state$choice, selected = 1)
+        })
+        
+        
+        list_files <- list.files("./www/working_dir/", full.names = T)
+        selected <- list_files[grep(sessions_id, list_files)]
+        
+        dir.create(tmp <- tempfile())
+        
+        file.copy(from=selected, to=tmp, 
+                  overwrite = TRUE, recursive = FALSE, 
+                  copy.mode = TRUE)
+        
+        zip_name <- paste0(tmp, "/", sessions_id, "_", "rnaCARD_outputs", ".zip")
+        zip::zip(zipfile = zip_name, files = tmp, include_directories = FALSE)
+        
+        out_name <-  paste0(sessions_id, "_", "rnaCARD_outputs", ".zip")
+        output$downloadData <- downloadHandler(
+          filename <- function() {
+            paste(out_name)
+          },
+          content <- function(file) {
+            output_file_name <- paste(zip_name)
+            file.copy(output_file_name, file)
+          }
         )
         
         
-        selected_motifs <-
-          subset(card_motifs, card_motifs$ID == state$val)
-        selected_motifs_mis <-
-          subset(card_motifs_mis, card_motifs_mis$ID == state$val)
+        observeEvent(input$selected_tr, {
+          state$val <- input$selected_tr
+          selected_transcript <-
+            subset(card_out, card_out$X1 == state$val)
+          
+          selected_transcript_mismatch <-
+            subset(card_out_mis, card_out$X1 == state$val)
+          
+          draw_overview_structure(
+            selected_transcript$X3,
+            selected_transcript$X4,
+            selected_transcript$X5,
+            selected_transcript$X2
+          )
+          
+          draw_overview_structure_mismatch(
+            selected_transcript_mismatch$X3,
+            selected_transcript_mismatch$X4,
+            selected_transcript_mismatch$X5,
+            selected_transcript_mismatch$X2
+          )
+          
+          
+          selected_motifs <-
+            subset(card_motifs, card_motifs$ID == state$val)
+          selected_motifs_mis <-
+            subset(card_motifs_mis, card_motifs_mis$ID == state$val)
+          
+          create_table(selected_motifs)
+          create_table_mis(selected_motifs_mis)
+          
+          observeEvent(input$table_motifs_rows_selected, {
+            if (!is.null(input$table_motifs_rows_selected)) {
+              draw_motif(selected_motifs[input$table_motifs_rows_selected, ], selected_transcript)
+            }
+          })
+        })
         
-        create_table(selected_motifs)
-        create_table_mis(selected_motifs_mis)
-        
-        observeEvent(input$table_motifs_rows_selected, {
-          if (!is.null(input$table_motifs_rows_selected)) {
-            draw_motif(selected_motifs[input$table_motifs_rows_selected, ], selected_transcript)
+        output$mot_seq = renderPrint({
+          s = subset(card_out, card_out$X1 == state$val)$X2
+          if (length(s)) {
+            cat(s, sep = ', ')
           }
         })
-      })
-      
-      output$mot_seq = renderPrint({
-        s = subset(card_out, card_out$X1 == state$val)$X2
-        if (length(s)) {
-          cat(s, sep = ', ')
-        }
-      })
-      
-      output$mot_str1 = renderPrint({
-        s = subset(card_out, card_out$X1 == state$val)$X3
-        if (length(s)) {
-          cat(s, sep = ', ')
-        }
-      })
-      
-      output$mot_str2 = renderPrint({
-        s = subset(card_out, card_out$X1 == state$val)$X3
-        if (length(s)) {
-          cat(s, sep = ', ')
-        }
-      })
-      
-      output$mot_s = renderPrint({
-        s = subset(card_out, card_out$X1 == state$val)$X4
-        if (length(s)) {
-          cat(s, sep = ', ')
-        }
-      })
-      
-      output$id_tr = renderPrint({
-        s = input$selected_tr
-        if (length(s)) {
-          cat(s, sep = ', ')
-        }
-      })
-      
-      output$mot_num = renderPrint({
-        s = input$table_motifs_rows_selected
-        if (length(s)) {
-          cat('MOTIF #')
-          cat(s, sep = ', ')
-        }
-      })
-    }
+        
+        output$mot_str1 = renderPrint({
+          s = subset(card_out, card_out$X1 == state$val)$X3
+          if (length(s)) {
+            cat(s, sep = ', ')
+          }
+        })
+        
+        output$mot_str2 = renderPrint({
+          s = subset(card_out, card_out$X1 == state$val)$X3
+          if (length(s)) {
+            cat(s, sep = ', ')
+          }
+        })
+        
+        output$mot_s = renderPrint({
+          s = subset(card_out, card_out$X1 == state$val)$X4
+          if (length(s)) {
+            cat(s, sep = ', ')
+          }
+        })
+        
+        output$id_tr = renderPrint({
+          s = input$selected_tr
+          if (length(s)) {
+            cat(s, sep = ', ')
+          }
+        })
+        
+        output$mot_num = renderPrint({
+          s = input$table_motifs_rows_selected
+          if (length(s)) {
+            cat('MOTIF #')
+            cat(s, sep = ', ')
+          }
+        })
+      }
+      }
+
     
 
   }, ignoreInit = TRUE)
@@ -369,7 +372,7 @@ shinyServer(function(input, output, session) {
           as.data.frame(selected_motifs_mis),
           class = 'table-light',
           options = list(pageLength = 15) ,
-          selection = list(mode = 'single', selected = c(1)),
+          selection = 'none',
           filter = 'none',
           rownames = FALSE
         ) %>% formatStyle('motif_number', backgroundColor = styleEqual(
@@ -420,6 +423,7 @@ shinyServer(function(input, output, session) {
   
   draw_overview_structure_mismatch <- function(str3_, str4_, col2, seq2)
   {
+    
     #FORNA view
     new_colors <- changeColors(col2)
     session$sendCustomMessage(
