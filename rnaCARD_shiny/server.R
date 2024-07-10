@@ -35,19 +35,12 @@ shinyServer(function(input, output, session) {
         paste0('python3 rnaCARD.py -i ', input_file_card, ' --match --os --prefix www/working_dir/', sessions_id)
     )
           
-    b <- system(
-            paste0('python3 rnaCARD.py -i ', input_file_card, ' --mismatch --os --prefix www/working_dir/', sessions_id)
-    )
-    
-    if (a == "1" || b == "1"){
+    if (a == "1"){
       shinyalert("Error", "Incorrect input format. Correct format described in Help section", type = "warning", callbackR = function(x) { session$reload() })
     } else {
       output_card_out_match <- paste0("www/working_dir/", sessions_id, "_matched_whole_transcripts.txt")
-      output_card_out_mis <- paste0("www/working_dir/" ,  sessions_id , "_mismatched_whole_transcripts.txt")
-      
       output_card_motifs_match <- paste0("www/working_dir/", sessions_id, "_matched_motifs_out.txt")
-      output_card_motifs_mis <- paste0("www/working_dir/", sessions_id, "_mismatched_motifs_out.txt")
-      
+
       if(file.info(output_card_out_match)$size == 0){
         shinyalert("Error", "Incorrect input format. Correct format described in Help section", type = "warning", callbackR = function(x) { session$reload() })
       } else {
@@ -85,35 +78,6 @@ shinyServer(function(input, output, session) {
             "e2"
           )
         
-        
-        card_out_mis <-
-          read_delim(
-            output_card_out_mis,
-            "\t",
-            escape_double = FALSE,
-            col_names = FALSE,
-            trim_ws = TRUE
-          )
-        
-        card_motifs_mis <-
-          read_delim(
-            output_card_motifs_mis,
-            "\t",
-            escape_double = FALSE,
-            col_names = FALSE,
-            trim_ws = TRUE
-          )
-        
-        colnames(card_motifs_mis) <-
-          c(
-            "ID",
-            "motif_number",
-            "start position(s)",
-            "end position(s)" ,
-            "structure 1",
-            "structure 2"
-          )
-        
         state = reactiveValues(choice = unique(card_out$X1))
         output$selectID_card <- renderUI({
           selectInput("selected_tr", strong(h5("Select transcript ID:")), state$choice, selected = 1)
@@ -149,8 +113,7 @@ shinyServer(function(input, output, session) {
           selected_transcript <-
             subset(card_out, card_out$X1 == state$val)
           
-          selected_transcript_mismatch <-
-            subset(card_out_mis, card_out$X1 == state$val)
+
           
           draw_overview_structure(
             selected_transcript$X3,
@@ -159,25 +122,19 @@ shinyServer(function(input, output, session) {
             selected_transcript$X2
           )
           
-          draw_overview_structure_mismatch(
-            selected_transcript_mismatch$X3,
-            selected_transcript_mismatch$X4,
-            selected_transcript_mismatch$X5,
-            selected_transcript_mismatch$X2
-          )
-          
-          
           selected_motifs <-
             subset(card_motifs, card_motifs$ID == state$val)
-          selected_motifs_mis <-
-            subset(card_motifs_mis, card_motifs_mis$ID == state$val)
-          
+          print(selected_motifs)
           create_table(selected_motifs)
-          create_table_mis(selected_motifs_mis)
-          
+
           observeEvent(input$table_motifs_rows_selected, {
+            if(input$table_motifs_rows_selected > nrow(selected_transcript)){
+              sel <- 1
+            } else {
+              sel <- input$table_motifs_rows_selected 
+            }
             if (!is.null(input$table_motifs_rows_selected)) {
-              draw_motif(selected_motifs[input$table_motifs_rows_selected, ], selected_transcript)
+              draw_motif(selected_motifs[sel, ], selected_transcript)
             }
           })
         })
@@ -256,6 +213,7 @@ shinyServer(function(input, output, session) {
       "#BCAAA4",
       "#B0BEC5"
     )
+  
   
   draw_motif <- function(motif, transcript) {
 
@@ -365,22 +323,6 @@ shinyServer(function(input, output, session) {
       )
   }
   
-  create_table_mis <- function(selected_motifs_mis) {
-    output$table_motifs_mis <-
-      renderDT(
-        datatable(
-          as.data.frame(selected_motifs_mis),
-          class = 'table-light',
-          options = list(pageLength = 15) ,
-          selection = 'none',
-          filter = 'none',
-          rownames = FALSE
-        ) %>% formatStyle('motif_number', backgroundColor = styleEqual(
-          unique(selected_motifs_mis$motif_number), colors[1:nrow(selected_motifs_mis)]
-        ))
-      )
-  }
-  
   changeColors <- function(string_col) {
     list_col <- as.list(strsplit(string_col, " ")[[1]])
     string_new_colors <- ""
@@ -421,32 +363,5 @@ shinyServer(function(input, output, session) {
     )
   }
   
-  draw_overview_structure_mismatch <- function(str3_, str4_, col2, seq2)
-  {
-    
-    #FORNA view
-    new_colors <- changeColors(col2)
-    session$sendCustomMessage(
-      "mymessage3",
-      list(
-        sequence = seq2,
-        str1 = str3_,
-        str2 = str4_,
-        size = input$char_num,
-        color = new_colors
-      )
-    )
-    session$sendCustomMessage(
-      "mymessage4",
-      list(
-        sequence = seq2,
-        str1 = str3_,
-        str2 = str4_,
-        size = input$char_num,
-        color = new_colors
-      )
-    )
-  }
-  
-  
+  traceback()
 })
