@@ -29,9 +29,57 @@ shinyUI(fluidPage(
       "rnaCARD",
       div(
         class = "container-fluid main-container",
+        
         # rnaCARD input panel
         conditionalPanel(
-          condition = "input.submit == '0'",
+          condition = "input.submit == '0' && input.start == '0'",
+          style = "background-image: url(g38710.png); background-size: cover;",
+          
+          br(),
+          br(),
+          br(),
+          br(),
+          br(),
+          br(),
+          br(),
+
+          
+          fluidRow(
+            column(6, align="center", offset =  3,
+                   h1(strong("rnaCARD"), class = "text-muted")
+            )
+          ),
+          br(),
+          br(),
+          fluidRow(
+            column(6, align="center", offset =  3,
+                   h3("Welcome in rnaCARD webserver!")
+            )
+          ),
+          
+          fluidRow(
+            column(6, align="center", offset =  3,
+                   h4("Click below to start comparative analysis of RNA secondary structures.")
+            )
+          ),
+
+          br(),
+          br(),
+          fluidRow(
+            column(6, align="center", offset =  3,
+                   actionButton(
+                     "start",
+                     label = "Start analysis",
+                     class = "btn-success  btn-lg",
+                     style = "width: 200px;"
+                   )
+            )
+          ),
+        div(style="height: 400px;")
+        ),
+        
+        conditionalPanel(
+          condition = "input.submit == '0' && input.start == '1'",
           h3(strong("rnaCARD"), class = "text-muted"),
           hr(),
           splitLayout(
@@ -84,7 +132,7 @@ shinyUI(fluidPage(
         
         #rnaCARD results panel
         conditionalPanel(
-          condition = "input.submit == '1'",
+          condition = "input.submit == '1' && input.start == '1'",
         fluidRow(
           column(
             7,
@@ -93,7 +141,7 @@ shinyUI(fluidPage(
           ),
           column(
             2,
-            actionButton("new_analysis", "New analysis", class = "btn-warning")
+            actionButton("new_analysis", "New analysis", class = "btn-success")
           ),
           
           column(

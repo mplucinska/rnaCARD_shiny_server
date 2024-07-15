@@ -113,8 +113,6 @@ shinyServer(function(input, output, session) {
           selected_transcript <-
             subset(card_out, card_out$X1 == state$val)
           
-
-          
           draw_overview_structure(
             selected_transcript$X3,
             selected_transcript$X4,
@@ -124,11 +122,10 @@ shinyServer(function(input, output, session) {
           
           selected_motifs <-
             subset(card_motifs, card_motifs$ID == state$val)
-          print(selected_motifs)
           create_table(selected_motifs)
 
           observeEvent(input$table_motifs_rows_selected, {
-            if(input$table_motifs_rows_selected > nrow(selected_transcript)){
+            if(input$table_motifs_rows_selected > nrow(selected_motifs)){
               sel <- 1
             } else {
               sel <- input$table_motifs_rows_selected 
